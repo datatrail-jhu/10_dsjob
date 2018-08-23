@@ -3,7 +3,7 @@
 02_coverletter.md
 # 03_website.md
 # 04_projects.md
-# 05_github.md
+05_github.md
 # 06_linkedin.md
 # 07_twitter.md
 # 08_jobs.md
