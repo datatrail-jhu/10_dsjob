@@ -98,7 +98,7 @@ In this lesson, we've reviewed the goals, format and content of a cover letter t
 
 ### Additional Resources
 
-* Cover Letters Templates (from this lesson) - [[skeleton](https://docs.google.com/document/d/13CQ_9Zj_UKk6mlZ3CqMbtp41bKJRnxyjGvW-eOohqJE/edit?usp=sharing)] [[content](https://docs.google.com/document/d/1ns-wnUfeA5fwr1LTmOe-AXAaX44sjNu2BPz5LAZLxbo/edit?usp=sharing)]
+* Cover Letters Templates (from this lesson) - [skeleton](https://docs.google.com/document/d/13CQ_9Zj_UKk6mlZ3CqMbtp41bKJRnxyjGvW-eOohqJE/edit?usp=sharing);  [content](https://docs.google.com/document/d/1ns-wnUfeA5fwr1LTmOe-AXAaX44sjNu2BPz5LAZLxbo/edit?usp=sharing)
 * [Data Science Cover Letters](https://towardsdatascience.com/covers-letters-data-science-what-you-need-to-know-2421ed6ec0c), by Jordan Goldmeier
 * [Even for Data and Tech Jobs, a Cover Letter is the Best Way to Sell Your Human Skills](https://towardsdatascience.com/even-for-data-and-tech-jobs-a-cover-letter-is-the-best-way-to-sell-your-human-skills-252687df9fa7), by Stephen Goldmeier
 

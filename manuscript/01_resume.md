@@ -2,7 +2,7 @@
 
 When applying to jobs, you'll almost certainly be asked to submit a resume. Anyone can write a resume, but it's *critical* that you submit a good resume when applying to jobs. We'll discuss how to generate a good data science resume in this lesson.
 
-### What is a Resume
+### What is a Resume?
 
 First and foremost a **resume is a short document that describes one's qualifications for a job**. More specifically, this document will **include your contact information, a brief summary of your qualifications, your experience, and education**. And, importantly, this **document will be short** (usually, no more than one page) and easy to read. This means that the document *must* be **organized, well-formatted, and clearly written**.
 
@@ -146,7 +146,7 @@ In this lesson we've reviewed the general guidelines for resume writing, the imp
 ### Additional Resources
 
 * [Data Science Resume Examples](https://zety.com/blog/data-scientist-resume-example)
-* Example Resume Templates - [[Classic ](https://docs.google.com/document/d/12uD_ERvEO6vonibOTOh7Lg4T5O8_QiVQ3dWCoyuUWh8/edit?usp=sharing)] [[Creative](https://docs.google.com/presentation/d/1qyTLb_NOKet_WWIrahyZFbl-JGz0_LU8zv9JyjZXoso/edit?usp=sharing)]
+* Example Resume Templates - [Classic ](https://docs.google.com/document/d/12uD_ERvEO6vonibOTOh7Lg4T5O8_QiVQ3dWCoyuUWh8/edit?usp=sharing) ; [Creative](https://docs.google.com/presentation/d/1qyTLb_NOKet_WWIrahyZFbl-JGz0_LU8zv9JyjZXoso/edit?usp=sharing)
 
 
 ### Slides and Video
