@@ -18,7 +18,7 @@
 
 ![Where To Look for Data Science Jobs](YouTube Link)
 
-* [Slides](https://drive.google.com/open?id=1bOnA2S_dXQypd4CaGeFux-yQLwS9EzY9fPOqutPZJQg)
+* [Slides](https://docs.google.com/presentation/d/1bOnA2S_dXQypd4CaGeFux-yQLwS9EzY9fPOqutPZJQg/edit?usp=sharing)
 
 
 {quiz, id: quiz_09_where_to_look}

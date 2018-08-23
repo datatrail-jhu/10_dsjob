@@ -21,7 +21,7 @@
 
 ![Using Twitter For Data Science](YouTube Link)
 
-* [Slides](https://drive.google.com/open?id=1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q)
+* [Slides](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/edit?usp=sharing)
 
 
 {quiz, id: quiz_07_twitter}

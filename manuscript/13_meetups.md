@@ -12,7 +12,7 @@
 
 ![Data Science Meetups](YouTube Link)
 
-* [Slides](https://drive.google.com/open?id=10vEVkFVYiMKK6XP3NBzfed_PocaLc0sJigmJJKVNzHw)
+* [Slides](https://docs.google.com/presentation/d/10vEVkFVYiMKK6XP3NBzfed_PocaLc0sJigmJJKVNzHw/edit?usp=sharing)
 
 
 {quiz, id: quiz_13_meetups}

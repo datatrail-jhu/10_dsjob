@@ -19,7 +19,7 @@ use this: http://hookedondata.org/Red-Flags-in-Data-Science-Interviews/
 
 ![Data Science Interviews](YouTube Link)
 
-* [Slides](https://drive.google.com/open?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI)
+* [Slides](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/edit?usp=sharing)
 
 
 {quiz, id: quiz_00_filename}

@@ -15,7 +15,7 @@ A few examples of:
 
 ![Project Gallery](YouTube Link)
 
-* [Slides](https://drive.google.com/open?id=1iE2IIefyB93TZkQWCZN5FORTj02SvCHZPMoqv6A8ngI)
+* [Slides](https://docs.google.com/presentation/d/1iE2IIefyB93TZkQWCZN5FORTj02SvCHZPMoqv6A8ngI/edit?usp=sharing)
 
 
 {quiz, id: quiz_04_projects}

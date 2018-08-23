@@ -15,7 +15,7 @@ upwork, elance, other platforms
 
 ![Where To Find Remote Data Science Jobs](YouTube Link)
 
-* [Slides](https://drive.google.com/open?id=1SvY2cwJil-8JkBw1H_aj5NJmoIXmABY4RU0UrqzWtZ8)
+* [Slides](https://docs.google.com/presentation/d/1SvY2cwJil-8JkBw1H_aj5NJmoIXmABY4RU0UrqzWtZ8/edit?usp=sharing)
 
 
 {quiz, id: quiz_12_remote_jobs}

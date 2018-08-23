@@ -19,7 +19,7 @@ what you should produce:
 
 ![Practice Take-Home Data Analysis](YouTube Link)
 
-* [Slides](https://drive.google.com/open?id=1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w)
+* [Slides](https://docs.google.com/presentation/d/1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w/edit?usp=sharing)
 
 
 {quiz, id: quiz_11_take_home}

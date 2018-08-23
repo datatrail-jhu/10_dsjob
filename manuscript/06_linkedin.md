@@ -20,7 +20,7 @@
 
 ![Improving Your LinkedIn Profile](YouTube Link)
 
-* [Slides](https://drive.google.com/open?id=1_W66RAFguebMCK2UC44lwrdPmlBmzLMBcorknC-kLsM)
+* [Slides](https://docs.google.com/presentation/d/1_W66RAFguebMCK2UC44lwrdPmlBmzLMBcorknC-kLsM/edit?usp=sharing)
 
 
 {quiz, id: quiz_06_linkedin}

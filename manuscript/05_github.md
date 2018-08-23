@@ -18,7 +18,7 @@
 
 ![Improving Your GitHub Profile](YouTube Link)
 
-* [Slides](https://drive.google.com/open?id=10VRTUHsYh8hdYBily8cexSdP-sviYCIo_gzh1y8PsRs)
+* [Slides](https://docs.google.com/presentation/d/10VRTUHsYh8hdYBily8cexSdP-sviYCIo_gzh1y8PsRs/edit?usp=sharing)
 
 
 {quiz, id: quiz_05_github}

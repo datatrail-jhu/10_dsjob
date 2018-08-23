@@ -18,7 +18,7 @@ consider this link: https://hbr.org/2018/08/what-data-scientists-really-do-accor
 
 ![Data Science Job Descriptions](YouTube Link)
 
-* [Slides](https://drive.google.com/open?id=1VOu82HOB5ngB-Mmc0Y2s__QIs0U5nSM4P7kniiQVBCw)
+* [Slides](https://docs.google.com/presentation/d/1VOu82HOB5ngB-Mmc0Y2s__QIs0U5nSM4P7kniiQVBCw/edit?usp=sharing)
 
 
 {quiz, id: quiz_08_jobs}
