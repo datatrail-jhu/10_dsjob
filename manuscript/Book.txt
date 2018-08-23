@@ -1,5 +1,5 @@
-# 00_basics.md
-# 01_resume.md
+00_basics.md
+01_resume.md
 # 02_coverletter.md
 # 03_website.md
 # 04_projects.md

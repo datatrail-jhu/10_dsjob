@@ -153,7 +153,7 @@ In this lesson we've reviewed the general guidelines for resume writing, the imp
 
 ![Resumes](YouTube Link)
 
-* [Slides](https://drive.google.com/open?id=163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc)
+* [Slides](https://docs.google.com/presentation/d/163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc/edit?usp=sharing)
 
 
 {quiz, id: quiz_01_resume}
