@@ -49,6 +49,9 @@ In addition to a personal website it will be important to have your GitHub, Link
 
 It's important that each of these profiles are up-to-date, contain all the information hiring managers would want to see, and are easy to find. We'll make sure you're all set with this throughout this course!
 
+### Additional Resources
+
+* [How to be a modern scientist](https://leanpub.com/modernscientist), by Jeff Leek
 
 ### Slides and Video
 

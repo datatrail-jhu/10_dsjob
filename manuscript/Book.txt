@@ -5,7 +5,7 @@
 # 04_projects.md
 05_github.md
 06_linkedin.md
-# 07_twitter.md
+07_twitter.md
 # 08_jobs.md
 # 09_where_to_look.md
 # 10_interviews.md
