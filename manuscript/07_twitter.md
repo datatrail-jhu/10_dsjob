@@ -105,7 +105,7 @@ In this lesson we discussed why Twitter can be a great place to learn more about
 ### Additional Resources
 
 * [How to be a modern scientist](https://leanpub.com/modernscientist), by Jeff Leek
-* _Phrasing: Communicating data science through tweets, gifs, and classic misdirection_, by [Mara Averick](https://maraaverick.rbind.io/about/) [video](https://www.rstudio.com/resources/videos/phrasing-communicating-data-science-through-tweets-gifs-and-classic-misdirection/)
+* _Phrasing: Communicating data science through tweets, gifs, and classic misdirection_ [video](https://rud.is/b/2018/08/27/simplifying-world-tile-grid-creation-with-geom_wtg/), by [Mara Averick]
 
 ### Slides and Video
 
