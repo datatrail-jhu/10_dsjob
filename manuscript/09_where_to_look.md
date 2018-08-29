@@ -24,15 +24,15 @@ In the rest of this lesson we'll focus in on where to search for positions and t
 
 One great place to search for positions is at [StackOverflow Jobs](https://stackoverflow.com/jobs). StackOverflow posts jobs for developers. There are many different types of job listings on this site; however, all jobs listed here require some programming/developer skills. Thus, among these will be data scientist positions.
 
-![StackOverflow Jobs]()
+![StackOverflow Jobs](images/09_where_to_look/09_dsjob_where_to_look-3.png)
 
 On this site, you can search jobs by tags. For example if you type `r AND data science` into the search bar, data scientist positions looking for programmers who know R will show up.
 
-![`r AND data science`]()
+![`r AND data science`](images/09_where_to_look/09_dsjob_where_to_look-4.png)
 
 You can further narrow your search by entering a location where you want to find a job. For example, if you enter "Baltimore, MD" into the "Located anywhere" box, positions within a 20 mile radius will be listed. 
 
-![Baltimore, MD data science jobs]()
+![Baltimore, MD data science jobs](images/09_where_to_look/09_dsjob_where_to_look-5.png)
 
 Additionally, you can click "Create alert" to send yourself alerts when jobs of interest to you are listed in the future, helping to keep you updated with the latest applicable postings as you search for positions!
 
@@ -40,15 +40,15 @@ Additionally, you can click "Create alert" to send yourself alerts when jobs of 
 
 Jobs are also [posted on LinkedIn](https://www.linkedin.com/jobs/). Similar to StackOverflow's jobs, positions can be searched by title and Location. However, the jobs posted on LinkedIn will span many more fields, so there will be a larger pool of total jobs to go through. 
 
-![LinkedIn Jobs]()
+![LinkedIn Jobs](images/09_where_to_look/09_dsjob_where_to_look-6.png)
 
 One advantage of jobs on LinkedIn is that your full LinkedIn profile will help LinkedIn identify jobs that may be of interest to you. You can search through their suggestions to see if any of them are a good fit!
 
-[Jobs you may be interested in]()
+[Jobs you may be interested in](images/09_where_to_look/09_dsjob_where_to_look-7.png)
 
 If you carry out a search, the results can be further filtered by "Location", "Date Posted", "Job Type", "Industry", and "Company" to help hone in on the best position for you. As with StackOverflow, it's possible to create an alert that will update you whenever applicable positions are posted in the future!
 
-![LinkedIn search results]()
+![LinkedIn search results](images/09_where_to_look/09_dsjob_where_to_look-8.png)
 
 ### Job Boards
 
@@ -62,7 +62,7 @@ In addition to searching on these websites where jobs are posted, if there is a 
 
 The last suggestion we have for hearing about new positions is to keep an eye out on [Twitter](www.twitter.com). There isn't an official platform; however, data scientists and companies that hire data scientists will often tweet about open positions. By following data scientists on Twitter, being active on Twitter, and checking Twitter, you may hear about a position that you would have missed otherwise.
 
-![Twitter for positions]()
+![Twitter for positions](images/09_where_to_look/09_dsjob_where_to_look-11.png)
 
 ### Applying
 
@@ -72,7 +72,7 @@ Once you've identified a number of positions to which you'll apply, you'll need 
 * Materials (resume + cover letter) 
 * Additional information about the job + posting
 
-![General Application]()
+![General Application](images/09_where_to_look/09_dsjob_where_to_look-12.png)
 
 #### Contact Information
 
