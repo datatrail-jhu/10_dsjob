@@ -64,6 +64,8 @@ The last suggestion we have for hearing about new positions is to keep an eye ou
 
 ![Twitter for positions](images/09_where_to_look/09_dsjob_where_to_look-11.png)
 
+### Remote Work
+
 ### Applying
 
 Once you've identified a number of positions to which you'll apply, you'll need to actually apply. The platform may look different from one site to the next but you'll generally have to provide:
