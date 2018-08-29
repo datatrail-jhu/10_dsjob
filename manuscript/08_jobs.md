@@ -49,7 +49,7 @@ It's expected that data scientists be able to talk with others to help hone the 
 
 These qualities can also come through on your resume, website, and cover letter through examples. Additionally, in an interview (which we'll discuss in a later lesson), it's important that those interviewing you see that you possess these qualities.
 
-![Data Science Skills]()
+![Data Science Skills](images/08_jobs/08_dsjob_jobs-6.png)
 
 ### Job Descriptions
 
@@ -67,7 +67,7 @@ In the following lesson, we'll discuss where to find open jobs, but for now we'l
 * __Job Qualifications__ - this section will bullet point out the educational, knowledge, abilities, skills, and experience requirements they're looking for in the individual who fills this position
 * __Preferred Qualifications__ - Sometimes, a company will choose to include some optional skills or abilities they'd *like* from a candidate, but that aren't required.
 
-![General Job Description]()
+![General Job Description](images/08_jobs/08_dsjob_jobs-7.png)
 
 Now that we have a general understanding of what information is included in a job description, let's walk through five actual job postings from Airbnb, Claire's, and Allstate to see what information each company is looking for in a "Data Scientist"
 
@@ -90,19 +90,19 @@ At Airbnb, data scientists on the analytics team have a number of responsibiliti
 
 Here we have an excerpt from a job posting at Airbnb for a data science - analytics position:
 
-![Analytics]()
+![Analytics](images/08_jobs/08_dsjob_jobs-9.png)
 
 As mentioned earlier, data scientist positions will always require technical skills of the applicant. In this job posting we see a number of technical skill requirements, including programming, statistics, and data visualization skills. 
 
-![Technical Skills - Analytics]()
+![Technical Skills - Analytics](images/08_jobs/08_dsjob_jobs-10.png)
 
 Additionally, Airbnb expects that the individuals they hire will be good employees. As such, they have to take ownership of their work, be able to strategize with others, and be open to learning new things.
 
-![Work Principles - Analytics]()
+![Work Principles - Analytics](images/08_jobs/08_dsjob_jobs-11.png)
 
 Finally, there are a number of business skills that a data scientist must possess. In this job description we see that Airbnb's data science analytics team *really* prioritizes the ability to communicate their findings effectively. 
 
-![Business skills - Analytics]()
+![Business skills - Analytics](images/08_jobs/08_dsjob_jobs-12.png)
 
 #### Airbnb: Algorithms
 
@@ -112,15 +112,15 @@ In their job description they explain a bit about the position and then include 
 
 Among these are a number of technical skills. For this position, applicants are expected to have a deep understanding of machine learning, statistics, and programming at scale. The strongest candidates will also have experience in natural language processing (NLP). 
 
-![Technical Skills - Algorithms]()
+![Technical Skills - Algorithms](images/08_jobs/08_dsjob_jobs-14.png)
 
 This particular job description explicitly states fewer work principles than the analyst job description, but does state that the ideal candidates will be team players and open to leadership roles. That said, while not explicitly stated, it's still implied that anyone they hire will be dedicated, dependable, and interested in their work.
 
-![Work Principles - Algorithms]()
+![Work Principles - Algorithms](images/08_jobs/08_dsjob_jobs-15.png)
 
 Finally, the successful applicant will be able to take a project, manage it, and move it from start to finish. This is an important quality and expected skill of data scientist on the algorithm track at Airbnb.
 
-![Business Skills - Algorithms]()
+![Business Skills - Algorithms](images/08_jobs/08_dsjob_jobs-16.png)
 
 #### Airbnb: Inference
 
@@ -128,15 +128,15 @@ Data scientists on the inference track are responsible for generating hypotheses
 
 For this position (as with the last two positions), the job description states a number of desired technical skills, including programming, data wrangling and statistical knowledge.
 
-![Technical Skills - Inference]()
+![Technical Skills - Inference](images/08_jobs/08_dsjob_jobs-18.png)
 
 Additionally, this job description states that successful applicants will be focused, detail-oriented, team players who are passionate about their work.
 
-![Work Principles - Inference]()
+![Work Principles - Inference](images/08_jobs/08_dsjob_jobs-19.png)
 
 Finally, the job description explicitly states that written and verbal communication skills are valued for individuals in this position.
 
-![Business Skills - Inference]()
+![Business Skills - Inference](images/08_jobs/08_dsjob_jobs-20.png)
 
 #### Airbnb job descriptions
 
@@ -153,15 +153,15 @@ For this position, the job description starts by explaining that the person in t
 
 The description then lists "Responsibilities", "Qualifications + Experience", and "Preferred Qualifications." Among these are a number of required technical skills, including programming, statistics, and data visualization.
 
-![Technical Skills - Claire's]()
+![Technical Skills - Claire's](images/08_jobs/08_dsjob_jobs-23.png)
 
 Beyond technical skills, this position is looking for an individual who is a strong team member and who is willing to teach others.
 
-![Work Principles - Claire's]()
+![Work Principles - Claire's](images/08_jobs/08_dsjob_jobs-24.png)
 
 Finally, this data scientist would be able to communicate their findings via reports that could be understood by parters and business users.
 
-![Business Skills - Claire's]()
+![Business Skills - Claire's](images/08_jobs/08_dsjob_jobs-25.png)
 
 Here, while a different company than Airbnb, in this data scientist job posting at Claire's, we can see that technical skills, work principles, and business skills are all still required for this position.
 
@@ -171,15 +171,15 @@ For one final example, we'll look at a job posting from Allstate. The job postin
 
 After this, the key responsibilities and job qualifications are listed. Among these, *many* technical skills are required, including statistical and machine learning knowledge and experience, programming skills, and the ability to work with large datasets. 
 
-![Technical Skills - Allstate]()
+![Technical Skills - Allstate](images/08_jobs/08_dsjob_jobs-27.png)
 
 For work principles, this job description is looking for an individual will to teach others, to be flexible in and capable of learning new technologies, and to be dependable. 
 
-![Work Principles - Allstate]()
+![Work Principles - Allstate](images/08_jobs/08_dsjob_jobs-28.png)
 
 Finally, Allstate is looking for someone who is able to communicate written and oral data-centric information effectively *and* to present well to others.
 
-![Business Skills - Allstate]()
+![Business Skills - Allstate](images/08_jobs/08_dsjob_jobs-29.png)
 
 ### Which Job is Right For You?
 
@@ -193,7 +193,7 @@ Thus, looking for jobs now (which we'll discuss in detail in the next lesson!) t
 
 In this lesson we've discussed the basic parts of job descriptions and walked through five actual data science job descriptions. We've demonstrated that having technical skills, adhering to important work principles, and having solid business skills (such as being an effective communicator) are required for every position. The details of which technical skills are required differs from one position to the next, so it's ideal to apply to positions that best fit your current skill set. Then, with experience and more training, you'll increase your skills and open the doors to additional positions.
 
-![Summary]()
+![Summary](images/08_jobs/08_dsjob_jobs-30.png)
 
 ### Additional Resources
 
@@ -214,10 +214,27 @@ In this lesson we've discussed the basic parts of job descriptions and walked th
 ### Data Science Job Descriptions quiz
 
 {choose-answers: 4}
-? 
+? Read the "Data Scienctist - Analytics" Airbnb job description included in this lesson. Which of the following technical skills is not explicitly stated in the job description?
 
-C) 
-o)
+C) machine learning
+C) web scraping
+C) data wrangling
+o) dashboards
+o) Python or R
+o) SQL
+o) Tableau
+
+{choose-answers: 4}
+? Given the training in this Course set, for what job would you likely be *most* qualified? 
+
+C) Junior Data Scientist
+C) Data Analyst
+C) Data Scientist - Analyst
+o) Machine Learning Specialist
+o) Data Scientist - Algorithms
+o) Data Scientist - Inference
+o) Dashboard Engineer
+o) Data Journalist
 
 {/quiz}
 
