@@ -11,4 +11,4 @@
 10_remote_jobs.md
 11_interviews.md
 # 12_take_home.md
-# 13_meetups.md
+13_meetups.md

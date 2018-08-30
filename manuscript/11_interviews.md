@@ -132,7 +132,7 @@ In this lesson, we've covered a lot about interviewing for a data science positi
 
 ### Additional Resources
 
-*[Advice for Applying to Data Science Jobs](http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/)
+* [Advice for Applying to Data Science Jobs](http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/)
 * [Red Flags in Data Science Interviews](http://hookedondata.org/Red-Flags-in-Data-Science-Interviews/)
 * [Twitter Thread about what questions to ask](https://twitter.com/jensenharris/status/988967889330819072)
 * [Questions I'm Asking in Interview](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/)
@@ -140,6 +140,8 @@ In this lesson, we've covered a lot about interviewing for a data science positi
 * [15 Rules for Negotiating a Job Offer](https://hbr.org/2014/04/15-rules-for-negotiating-a-job-offer)
 * One person's experience on the data science job market -[Part 1](https://haseebq.com/farewell-app-academy-hello-airbnb-part-i/) and [Part 2](https://haseebq.com/farewell-app-academy-hello-airbnb-part-ii/)
 * [Two Sides of Getting a Job as a Data Scientist](https://towardsdatascience.com/the-two-sides-of-getting-a-job-as-a-data-scientist-a4571acc58bc)
+
+
 
 ### Slides and Video
 
