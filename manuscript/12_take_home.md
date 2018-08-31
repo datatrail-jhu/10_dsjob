@@ -101,7 +101,11 @@ Include clear explanations of what you did, the code, and all necessary graphs a
 
 Last but not least, you'll likely be tired at this point in the process but *don't skip proofreading*. Take the last few minutes to read what you've written, to check for typos, and to make sure it all makes sense. Attention to detail is important for data scientists, so be sure to hand over an analysis that has been proofread and is clear. 
 
-### Take-Home Assignment Example:
+### Take-Home Assignment Example(s):
+
+- https://github.com/wikimedia-research/Discovery-Hiring-Analyst-2016
+- GovEx? 
+- Kyle Scot Shank
 
 ### Summary
 
