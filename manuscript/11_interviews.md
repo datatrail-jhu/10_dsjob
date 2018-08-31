@@ -47,7 +47,7 @@ Sometimes HR or others will ask you what salary you're looking for. Never volunt
 
 #### Get Knowledge
 
-In addition to practicing your responses and practicing how to avoid giving a salary number if asked, you also need to gain even more **knowledge about the company** with which you're interviewing. You probably learned a bit when deciding to apply to the job, but now is the time to go much deeper. Learn as much as you can about what the company does from their website. Search other websites (such as [Glassdoor](https://www.glassdoor.com/index.htm)) to see what others have to say about the company and about working at the company. 
+In addition to practicing your responses and practicing how to avoid giving a salary number if asked, you also need to gain even more **knowledge about the company** with which you're interviewing. You probably learned a bit when deciding to apply to the job, but now is the time to go much deeper. Learn as much as you can about what the company does from their website. Search other websites (such as [Glassdoor](https://www.glassdoor.com/index.htm)) to see what others have to say about the company and about working at the company (For example, information from hundreds of individuals who have interviewed for data science positions at Airbnb can be found [here](https://www.glassdoor.com/Interview/Airbnb-Data-Scientist-Interview-Questions-EI_IE391850.0,6_KO7,21.htm).) 
 
 In addition to company knowledge about the company, you also want to **know as much about the people you'll be meeting with as possible.** Check out their profiles on the company website, look at their Twitters, check their GitHub accounts, look for presentations they've given. Learn as much as you can about what each person does and have different questions ready for each individual. These questions can be about their experience at the company *or* about that individual's work -- if you listen to a presentation someone gave and have a question, you can ask that question!
 
@@ -140,6 +140,7 @@ In this lesson, we've covered a lot about interviewing for a data science positi
 * [15 Rules for Negotiating a Job Offer](https://hbr.org/2014/04/15-rules-for-negotiating-a-job-offer)
 * One person's experience on the data science job market -[Part 1](https://haseebq.com/farewell-app-academy-hello-airbnb-part-i/) and [Part 2](https://haseebq.com/farewell-app-academy-hello-airbnb-part-ii/)
 * [Two Sides of Getting a Job as a Data Scientist](https://towardsdatascience.com/the-two-sides-of-getting-a-job-as-a-data-scientist-a4571acc58bc)
+* [What We Learned Analyzing Hundreds of Data Science Interviews](https://www.springboard.com/blog/data-science-interviews-lessons/)
 
 
 
