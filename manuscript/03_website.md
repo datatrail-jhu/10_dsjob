@@ -99,7 +99,7 @@ In this lesson, we've discussed the basics of what information should be on your
 ### Additional Resources
 
 * [GitHub Pages](https://pages.github.com/)
-* [Emily Zabor'??s great tutorial](http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html)
+* [Emily Zabor's great tutorial](http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html)
 * [GitHub for Chromebook Data Science website](https://github.com/jhudsl/chromebookdatascience) 
 
 ### Slides and Video
