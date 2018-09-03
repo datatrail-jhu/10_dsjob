@@ -116,7 +116,7 @@ Last but not least, you'll likely be tired at this point in the process but *don
 
 ### Slides and Video
 
-![Practice Take-Home Data Analysis](YouTube Link)
+![Practice Take-Home Data Analysis](https://www.youtube.com/watch?v=DXKRZ5hOJ_A)
 
 * [Slides](https://docs.google.com/presentation/d/1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w/edit?usp=sharing)
 

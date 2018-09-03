@@ -146,7 +146,7 @@ In this lesson, we've covered a lot about interviewing for a data science positi
 
 ### Slides and Video
 
-![Data Science Interviews](YouTube Link)
+![Data Science Interviews](https://www.youtube.com/watch?v=Fi4e8xR4WOo)
 
 * [Slides](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/edit?usp=sharing)
 

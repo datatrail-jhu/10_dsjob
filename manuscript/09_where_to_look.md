@@ -104,7 +104,7 @@ In this lesson we covered what types of terms to use for job searches, where to 
 
 ### Slides and Video
 
-![Where To Look for Data Science Jobs](YouTube Link)
+![Where To Look for Data Science Jobs](https://www.youtube.com/watch?v=tFIbtomWodc)
 
 * [Slides](https://docs.google.com/presentation/d/1bOnA2S_dXQypd4CaGeFux-yQLwS9EzY9fPOqutPZJQg/edit?usp=sharing)
 

@@ -55,7 +55,7 @@ It's important that each of these profiles are up-to-date, contain all the infor
 
 ### Slides and Video
 
-![What You Need to Find a Data Science Job](YouTube Link)
+![What You Need to Find a Data Science Job](https://www.youtube.com/watch?v=jXlYxAFGm3c)
 
 * [Slides](https://docs.google.com/presentation/d/1nXZfBoWEKMCz5hUVdlE-V4B1eVCSOOlS2FVByiQlZ2c/edit?usp=sharing)
 

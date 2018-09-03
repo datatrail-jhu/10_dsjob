@@ -104,7 +104,7 @@ In this lesson, we've discussed the basics of what information should be on your
 
 ### Slides and Video
 
-![Making Your Website More Professional](YouTube Link)
+![Making Your Website More Professional](https://www.youtube.com/watch?v=rxCH0qrbahw)
 
 * [Slides](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/edit?usp=sharing)
 

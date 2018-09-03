@@ -105,7 +105,7 @@ In this lesson, we've reviewed the goals, format and content of a cover letter t
 
 ### Slides and Video
 
-![Cover Letters](YouTube Link)
+![Cover Letters](https://www.youtube.com/watch?v=7awh1e826fQ)
 
 * [Slides](https://docs.google.com/presentation/d/1esbRABufXCTU2hqEkSgWSHL4xDEJVUQkPuNujwWgLeg/edit?usp=sharing)
 

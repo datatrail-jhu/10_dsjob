@@ -219,7 +219,7 @@ You'll want to create a blog post-like document for each of the projects you've 
 
 ### Slides and Video
 
-![Project Gallery](YouTube Link)
+![Project Gallery](https://www.youtube.com/watch?v=Uj-34NNjC-w)
 
 * [Slides](https://docs.google.com/presentation/d/1iE2IIefyB93TZkQWCZN5FORTj02SvCHZPMoqv6A8ngI/edit?usp=sharing)
 

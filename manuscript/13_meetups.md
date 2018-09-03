@@ -38,7 +38,7 @@ In this brief lesson we discussed the benefits of building your network, attendi
 
 ### Slides and Video
 
-![Data Science Meetups](YouTube Link)
+![Data Science Meetups](https://www.youtube.com/watch?v=y2eck_wlq0s)
 
 * [Slides](https://docs.google.com/presentation/d/10vEVkFVYiMKK6XP3NBzfed_PocaLc0sJigmJJKVNzHw/edit?usp=sharing)
 
