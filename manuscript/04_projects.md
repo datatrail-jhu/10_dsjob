@@ -253,8 +253,8 @@ o) Help others make their own website
 {points: 3}
 ? Throughout this lesson, you should have updated your website with a link to a blog post describing the analysis you did in the Final Project of this Course Set. **Paste the URL to the project on your website below**.
 
-
-! /(.+github.io.+)/i
+! test
+# ! /(.+github.io.+)/i
 
 {/quiz}
 
