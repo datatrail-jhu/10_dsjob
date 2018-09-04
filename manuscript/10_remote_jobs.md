@@ -71,7 +71,7 @@ o) The applicant must be willing to move to the city where the company's headqua
 o) The applicant must explain why they want to work from the city where they live.
 
 {choose-answers: 4}
-?1 Which of the following statements is TRUE?
+?2 Which of the following statements is TRUE?
 
 C) StackOverflow allows users to search for remote positions
 C) LinkedIn allows users to search for remote positions
@@ -83,12 +83,12 @@ o) remoteok.io posts remote and in-office positions
 o) StackOverflow does not allow users to filter on remote positions
 o) LinkedIn does not allow users to filter on remote positions
 
-?1 TRUE or FALSE: StackOverflow allows you to search for remote positions
+?3 TRUE or FALSE: StackOverflow allows you to search for remote positions
 
 A) TRUE
 b) FALSE
 
-?2 TRUE or FALSE: LinkedIn allows you to search for remote positions
+?3 TRUE or FALSE: LinkedIn allows you to search for remote positions
 
 A) TRUE
 b) FALSE
@@ -98,7 +98,7 @@ b) FALSE
 a) TRUE
 B) FALSE
 
-?4 TRUE or FALSE: LinkedIn does *not* allow you to search for remote positions
+?3 TRUE or FALSE: LinkedIn does *not* allow you to search for remote positions
 
 a) TRUE
 B) FALSE

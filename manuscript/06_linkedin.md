@@ -160,7 +160,7 @@ o) GitHub
 o) Instagram
 
 {choose-answers: 4}
-?1 Which of the following is *NOT* a benefit of having a LinkedIn profile?
+?2 Which of the following is *NOT* a benefit of having a LinkedIn profile?
 
 C) Automatically applies to positions for you
 C) Provides a platform for updating your most recent vacation photos
@@ -169,18 +169,18 @@ o) Allows you to find open positions
 o) Provides a platform where you can share information from your resume 
 o) Helps connect you with a professional network
 
-?1 TRUE or FALSE : Your LinkedIn profile should contain *less* information than your resume.
+?3 TRUE or FALSE : Your LinkedIn profile should contain *less* information than your resume.
 
 a) TRUE
 B) FALSE
 
-?2 TRUE or FALSE : Your LinkedIn profile should contain *more* information than your resume.
+?3 TRUE or FALSE : Your LinkedIn profile should contain *more* information than your resume.
 
 A) TRUE
 b) FALSE
 
 {choose-answers: 4}
-?1 Which of the following statements is TRUE?
+?4 Which of the following statements is TRUE?
 
 C) LinkedIn allows you to connect with anyone on its platform, but in the beginning it may be best to stick to connecting with people you know.
 C) LinkeIn allows you to connect with others in your field using its platform.

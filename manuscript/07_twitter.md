@@ -131,7 +131,7 @@ o) Include a link to their work
 
 
 {choose-answers: 4}
-?1 Which of the follwoing is a benefit of Twitter?
+?2 Which of the follwoing is a benefit of Twitter?
 
 C) It allows you to learn new things
 C) Twitter allows you to virtually meet people you wouldn't otherwise
@@ -143,18 +143,18 @@ o) It ensures that every tweet is factual and accurate
 o) It only allows good people to have an account
 o) Twitter allows you to tweet as much or as little information in a single tweet as you want
 
-?1 TRUE or FALSE: For your professional Twitter account, it's best to keep your tweets generally focused on data science
+?3 TRUE or FALSE: For your professional Twitter account, it's best to keep your tweets generally focused on data science
 
 A) TRUE
 b) FALSE
 
-?2 TRUE or FALSE: For your professional Twitter account, it's best to tweet not only about data science but also trashy TV and other guilty pleasures as you're looking for a job.
+?3 TRUE or FALSE: For your professional Twitter account, it's best to tweet not only about data science but also trashy TV and other guilty pleasures as you're looking for a job.
 
 a) TRUE
 B) FALSE
 
 {choose-answers: 4}
-?1 If someone tweets something supporting your work, what should you do?
+?4 If someone tweets something supporting your work, what should you do?
 
 C) Retweet it.
 C) Respond to it.
