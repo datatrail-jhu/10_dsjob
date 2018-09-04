@@ -119,7 +119,7 @@ In this lesson we discussed why Twitter can be a great place to learn more about
 ### Using Twitter For Data Science quiz
 
 {choose-answers: 4}
-? When tweeting about others' work what should you **NOT** do?
+?1 When tweeting about others' work what should you **NOT** do?
 
 C) Forget to include a link to their work
 C) Forget to include their Twitter handle in your tweet
@@ -131,7 +131,7 @@ o) Include a link to their work
 
 
 {choose-answers: 4}
-? Which of the follwoing is a benefit of Twitter?
+?1 Which of the follwoing is a benefit of Twitter?
 
 C) It allows you to learn new things
 C) Twitter allows you to virtually meet people you wouldn't otherwise
@@ -154,7 +154,7 @@ a) TRUE
 B) FALSE
 
 {choose-answers: 4}
-? If someone tweets something supporting your work, what should you do?
+?1 If someone tweets something supporting your work, what should you do?
 
 C) Retweet it.
 C) Respond to it.

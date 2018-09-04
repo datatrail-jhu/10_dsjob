@@ -149,7 +149,7 @@ In this lesson we've discussed how to use LinkedIn to expand your professional n
 ### Improving Your LinkedIn Profile quiz
 
 {choose-answers: 4}
-? To which of the following is your LinkedIn profile is *most* similar?
+?1 To which of the following is your LinkedIn profile is *most* similar?
 
 C) Resume
 o) Cover Letter
@@ -160,7 +160,7 @@ o) GitHub
 o) Instagram
 
 {choose-answers: 4}
-? Which of the following is *NOT* a benefit of having a LinkedIn profile?
+?1 Which of the following is *NOT* a benefit of having a LinkedIn profile?
 
 C) Automatically applies to positions for you
 C) Provides a platform for updating your most recent vacation photos
@@ -180,7 +180,7 @@ A) TRUE
 b) FALSE
 
 {choose-answers: 4}
-? Which of the following statements is TRUE?
+?1 Which of the following statements is TRUE?
 
 C) LinkedIn allows you to connect with anyone on its platform, but in the beginning it may be best to stick to connecting with people you know.
 C) LinkeIn allows you to connect with others in your field using its platform.

@@ -60,7 +60,7 @@ In this lesson we discuss how and where to look for remote positions, should you
 ### Where To Find Remote Data Science Jobs quiz
 
 {choose-answers: 4}
-? What does it mean when a job description says that whoever they hire can work remotely?
+?1 What does it mean when a job description says that whoever they hire can work remotely?
 
 C) There's no requirement to live in a specific city in order to do the job.
 C) The position allows you to work from home.
@@ -71,7 +71,7 @@ o) The applicant must be willing to move to the city where the company's headqua
 o) The applicant must explain why they want to work from the city where they live.
 
 {choose-answers: 4}
-? Which of the following statements is TRUE?
+?1 Which of the following statements is TRUE?
 
 C) StackOverflow allows users to search for remote positions
 C) LinkedIn allows users to search for remote positions
