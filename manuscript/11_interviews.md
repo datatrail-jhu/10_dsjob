@@ -177,6 +177,16 @@ o) Details about health insurance, stock options, and benefits
 o) Information about promotions
 
 {choose-answers: 4}
+? When asked if you have any questions on an interview...
+
+C) Always ask a question. 
+C) Ask a question. Failing to do so indicates that you don't care or haven't thought very hard about this position.
+o) do not ask a question.
+o) only ask a question if you think of a really good one.
+o) ask the interviewer to ask you another question.
+o) Ask a question about something unrelated to the job for which you're interviewing
+
+{choose-answers: 4}
 ? It's the end of your interview day. What information should you be sure you have before leaving?
 
 C) What the next steps are

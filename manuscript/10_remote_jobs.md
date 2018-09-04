@@ -60,6 +60,17 @@ In this lesson we discuss how and where to look for remote positions, should you
 ### Where To Find Remote Data Science Jobs quiz
 
 {choose-answers: 4}
+? What does it mean when a job description says that whoever they hire can work remotely?
+
+C) There's no requirement to live in a specific city in order to do the job.
+C) The position allows you to work from home.
+C) The position can be completed somewhere other than the company's office.
+o) The applicant must be willing to move anywhere.
+o) The applicant must be willing to move abroad.
+o) The applicant must be willing to move to the city where the company's headquarters are
+o) The applicant must explain why they want to work from the city where they live.
+
+{choose-answers: 4}
 ? Which of the following statements is TRUE?
 
 C) StackOverflow allows users to search for remote positions
@@ -72,6 +83,25 @@ o) remoteok.io posts remote and in-office positions
 o) StackOverflow does not allow users to filter on remote positions
 o) LinkedIn does not allow users to filter on remote positions
 
+?1 TRUE or FALSE: StackOverflow allows you to search for remote positions
+
+A) TRUE
+b) FALSE
+
+?2 TRUE or FALSE: LinkedIn allows you to search for remote positions
+
+A) TRUE
+b) FALSE
+
+?3 TRUE or FALSE: StackOverflow does *not* allow you to search for remote positions
+
+a) TRUE
+B) FALSE
+
+?4 TRUE or FALSE: LinkedIn does *not* allow you to search for remote positions
+
+a) TRUE
+B) FALSE
 
 {/quiz}
 

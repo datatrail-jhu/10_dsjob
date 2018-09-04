@@ -138,5 +138,16 @@ o) save the document
 o) write HTML code
 o) knit to a PDF ; push to GitHub
 
+{choose-answers: 4}
+? Which of the following statements is TRUE?
+
+C) It's ok to include personal interests (like reading, sports, and cooking) on your professional website, as long as you include your professional skills and interests first.
+C) It's ok to include professional and personal (such as jogging or painting) interests on your professional website
+o) Professional websites should be strictly professional, and your interests should adhere to this rule
+o) Professional websites must follow a strict format - your personal website should not stray from this
+o) Professional websites should use no color and should not reflect the personality of the individual
+o) Professional websites are not looked at by hiring managers so it doesn't matter what you put on your website
+
+
 {/quiz}
 

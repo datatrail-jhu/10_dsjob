@@ -214,7 +214,7 @@ In this lesson we've discussed the basic parts of job descriptions and walked th
 ### Data Science Job Descriptions quiz
 
 {choose-answers: 4}
-? Read the "Data Scienctist - Analytics" Airbnb job description included in this lesson. Which of the following technical skills is not explicitly stated in the job description?
+? Read the "Data Scienctist - Analytics" Airbnb job description included in this lesson. Which of the following technical skills is *not* explicitly stated in the job description?
 
 C) machine learning
 C) web scraping
@@ -235,6 +235,17 @@ o) Data Scientist - Algorithms
 o) Data Scientist - Inference
 o) Dashboard Engineer
 o) Data Journalist
+
+{choose-answers: 4}
+? Which of the following is *not* an important part of a data science job description
+
+C) outside hobbies
+C) favorite food
+C) favorite TV show
+o) technical skills
+o) education
+o) work principles
+o) business skills
 
 {/quiz}
 

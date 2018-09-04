@@ -143,5 +143,27 @@ o) It ensures that every tweet is factual and accurate
 o) It only allows good people to have an account
 o) Twitter allows you to tweet as much or as little information in a single tweet as you want
 
+?1 TRUE or FALSE: For your professional Twitter account, it's best to keep your tweets generally focused on data science
+
+A) TRUE
+b) FALSE
+
+?2 TRUE or FALSE: For your professional Twitter account, it's best to tweet not only about data science but also trashy TV and other guilty pleasures as you're looking for a job.
+
+a) TRUE
+B) FALSE
+
+{choose-answers: 4}
+? If someone tweets something supporting your work, what should you do?
+
+C) Retweet it.
+C) Respond to it.
+o) Ignore it.
+o) Criticize the tweet.
+o) Block that person.
+o) Report the tweet.
+o) Tweet negative things about that person.
+
+
 {/quiz}
 

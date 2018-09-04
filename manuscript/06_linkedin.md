@@ -169,5 +169,25 @@ o) Allows you to find open positions
 o) Provides a platform where you can share information from your resume 
 o) Helps connect you with a professional network
 
+?1 TRUE or FALSE : Your LinkedIn profile should contain *less* information than your resume.
+
+a) TRUE
+B) FALSE
+
+?2 TRUE or FALSE : Your LinkedIn profile should contain *more* information than your resume.
+
+A) TRUE
+b) FALSE
+
+{choose-answers: 4}
+? Which of the following statements is TRUE?
+
+C) LinkedIn allows you to connect with anyone on its platform, but in the beginning it may be best to stick to connecting with people you know.
+C) LinkeIn allows you to connect with others in your field using its platform.
+o) LinkedIn only allows connections to be made between people who have met in real life.
+o) LinkedIn only allows connections to be made with famous pepole.
+o) LinkedIn is a free for all and you should connect with anyone and everyone, regardless of their field.
+o) LinkedIn is a place where you should only connect with individuals outside your field of interest.
+
 {/quiz}
 

@@ -150,6 +150,16 @@ o) Apply even though you're never going to move there
 o) Email the company telling them they should move their operations
 o) Move to the city for the job anyway
 
+{choose-answers: 4}
+? What's the last thing you should do before submitting your application?
+
+C) proofread
+C) check to make sure everything is accurate
+o) email the hiring manager to let them know you're applying
+o) Tweet that you're applying for a position
+o) Delete your resume and cover letter
+o) Request an interview
+o) Demand an interview
 
 {/quiz}
 
