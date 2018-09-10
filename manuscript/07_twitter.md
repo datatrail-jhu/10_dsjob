@@ -48,7 +48,14 @@ As you search for individuals to follow, you come across someone you think you'd
 
 ![Follow](images/07_twitter/07_dsjob_twitter-10.png)
 
-You can also search for people to follow using common hashtags, such as [#rstats](https://twitter.com/search?q=%23rstats&src=typd) or [#r4ds](https://twitter.com/search?q=%23r4ds&src=typd). These two will put you in contact with a crowd that codes primarily in R. However, [#datascience](https://twitter.com/search?q=%23datascience&src=typd) and [#dataviz](https://twitter.com/search?q=%23dataviz&src=typd) will connect you with individuals interested in data science and data visualization generally. You can follow and unfollow people as you find helpful, so you aren't locked into following anyone forever.
+While you are *not* required to follow anyone,  as someone new to the field of data science and who uses R, we're providing a list of people you may want to follow:
+
+![Suggested people to follow on Twitter](images/07_twitter/07_dsjob_twitter-11.png)
+
+It can also be helpful to look through who these people follow to find other people you may be interested in following.
+
+Finally, you can also search for people to follow using common hashtags, such as
+[#rstats](https://twitter.com/search?q=%23rstats&src=typd) or [#r4ds](https://twitter.com/search?q=%23r4ds&src=typd). These two will put you in contact with a crowd that codes primarily in R. However, [#datascience](https://twitter.com/search?q=%23datascience&src=typd) and [#dataviz](https://twitter.com/search?q=%23dataviz&src=typd) will connect you with individuals interested in data science and data visualization generally. You can follow and unfollow people as you find helpful, so you aren't locked into following anyone forever.
 
 ### Tweeting
 
@@ -71,7 +78,7 @@ When tweeting from your professional account, it is a *great* idea to tweet abou
 
 One example of this is shown here. Jeff Leek wrote a book about [How to be a Modern Scientist](https://leanpub.com/modernscientist). This book includes information about how to use Twitter as a professional, so feel free to check it out for more details. But, as for the tweet, Jeff included an image, linked to where the content is, and stated that he released the book. What a [great and informative tweet](https://twitter.com/jtleek/status/718494461672734721) about his work!
 
-![Self-promotion](images/07_twitter/07_dsjob_twitter-13.png)
+![Self-promotion](images/07_twitter/07_dsjob_twitter-14.png)
 
 #### Tweeting to Promote Others
 
@@ -81,7 +88,7 @@ By tweeting about others' work, you'll have a record of all the things you find 
 
 For example, here we see a case where Jeff tweets about a talk that [@CMU_Stats](https://twitter.com/CMU_Stats) was giving at a conference. He explains what was being discussed, includes [@CMU_Stats](https://twitter.com/CMU_Stats)' Twitter handle, and includes a picture! 
 
-![Promoting others](images/07_twitter/07_dsjob_twitter-14.png)
+![Promoting others](images/07_twitter/07_dsjob_twitter-15.png)
 
 Additionally, Jeff uses the hashtag #JSM2018. This allows individuals following this hashtag on Twitter to easily find the tweet. **Using helpful hashtags are another great way for others to find your twitter and follow you, even when they don't know you personally!**
 
@@ -90,10 +97,10 @@ Additionally, Jeff uses the hashtag #JSM2018. This allows individuals following 
 
 When you're ready to start tweeting, you'll want to click the blue "Tweet" button from your profile. 
 
-![Tweet](images/07_twitter/07_dsjob_twitter-15.png)
+![Tweet](images/07_twitter/07_dsjob_twitter-16.png)
 
 In the box that appears, you'll compose your tweet. You can add emojis, photos, GIFs, polls, and location to your tweets. The character limit on tweets is now 280 characters. This limit forces you to ensure your tweets are concise. It's good practice to convey a message clearly in a few short words. 
-![Compose new Tweet](images/07_twitter/07_dsjob_twitter-16.png)
+![Compose new Tweet](images/07_twitter/07_dsjob_twitter-17.png)
 
 As you generate tweets, you may have individuals comment on your tweets. Twitter can be a great place for quick discussions! However, here, we'll leave you with a reminder to keep your tweets professional from this account. Use your data science Twitter account as a professional social media account, which means that you never want to tweet anything inappropriate, rude, or unprofessional. 
 

@@ -1,68 +1,215 @@
 # Making Your Website More Professional
 
-In an earlier lesson of this course, we generated a basic website where you could write about yourself, your interests, and the projects you've worked on. However, this was created before you were looking for jobs! In this lesson, we'll review how to add more information to your website to make it more professional and provide examples from others' websites. We hope that by the end of this lesson you'll have a website is helpful to those interested in hiring you!
+In an earlier lesson of this course, we generated a basic website where you could write about yourself, your interests, and the projects you've worked on. However, this was created before you were looking for jobs and before you were comfortable working with R and RStudio Cloud! In this lesson, now that you have these skills and are more comfortable, we'll update the look of your website using the `blogdown` package. In this lesson, we'll cover both how to add more information to your website and how to make it more professional. In doing this, we'll provide examples from others' websites. We hope that by the end of this lesson you'll have a website is helpful to those interested in hiring you!
 
-Note: If you weren't able to successfully create a website previously, this was covered in the [Introduction to R](https://leanpub.com/universities/courses/jhu/introduction-to-r) course, so feel free to return to the "Creating Websites with R" lesson now to see if you have more success now that you have more experience!
+This will be a long lesson, but it will be worth it. Go through each step in RStudio Cloud as you read through the lesson to update your professional website!
+
+### Blogdown 
+
+`blogdown` is an R package that helps create websites with R Markdown. There is a [whole book](https://bookdown.org/yihui/blogdown/) dedicated to helping users use this package, so if you want to learn more about `blogdown` beyond what is covered in this lesson, that book is a great place to start. 
+
+![blogdown](images/03_website/03_dsjob_website-1.png)
+
+Simply though, `blogdown` allows users to generate **static websites**. This means that you will generate HTML files within blogdown that visitors to your website will be able to view. The content will appear the same to the viewer no matter who it is visiting your site. This is perfect for a personal website!
 
 
 ### Getting Started
 
-To follow along with this lesson, be sure to navigate to the RStudio Cloud space where you created your website. (If you can't find that space, you can use `git clone https://github.com/username.github.com.git` to cone your website repository into a new space. Note that you'll need to change "username" to your GitHub username). 
+In an earlier course in this Course Set, you developed a basic website within RStudio Cloud. At the end of that lesson, you had a website that looked something like this:
 
-Navigate to the directory of your repository. You should be in `/cloud/project/username.github.com` at this point. Then, in the Terminal use `git pull` to be sure that you have the most updated version from GitHub.
+![basic personal website](images/03_website/03_dsjob_website-2.png)
 
-### A Picture
+It contained some basic information about you and had information about where to contact you; however, it was *pretty* basic and not very visually appealing. In this lesson, we'll improve both the content and look of your personal website.
 
-In the last lesson where we generated your basic website, we reviewed how to include a picture of yourself. However, maybe at that point you hadn't yet decided on what picture you would use across all your professional accounts. We'll discuss at this point again how to include a picture of yourself on your website before moving onto further customizations. If you've already added an image of yourself and are happy with it, move onto the next section, "About."
+To get started, create a new project in RStudio Cloud! Once you've got a new project, you'll want to run the following code **in the R Console** to install blogdown and start a new wite. (Note: it may take a few minutes for this code to run and for all the dependencies to install.)
 
-If you don't have one already, you'll want to create a `img` directory within your repository. You can use `mkdir` (make directory) in the terminal to do so:
+```r
+## install packages
+install.packages("blogdown")
+blogdown::install_hugo()
 
-```
-mkdir img
-```
-
-In that directory, you'll want upload a picture. You can Upload the image into this directory using the "Upload" icon in the Files tab of RStudio Cloud. For our example, we have uploaded a file called `Jane.png`. If you don't have an image, take a screenshot of your GitHub profile and rename it accordingly. You can verify your upload worked using `ls`. 
-
-```
-$ ls img
-Jane.png
+## create a new site
+## use the academic theme
+blogdown::new_site(theme = "gcushen/hugo-academic")
 ```
 
-If `ls img` returns the name of the file you uploaded, you're ready to go! (If it doesn't, go ahead and make sure that the picture was successfully uploaded *and* that it is in the `img` directory.)
+For this site, we're using the Hugo theme "Academic", specified as an argument within the `blogdown::new_site()` function. At the end of this lesson, you'll have a website that looks something like what you see here!
 
-Now that we have the image, you'll have to add the following code to your `index.Rmd` file to have the image display on your website:
+![Hugo Academic](images/03_website/03_dsjob_website-4.png)
+
+There are *many* other themes that can be used within the `blogdown` package. We've chosen to use this one because it does a good job displaying information about your skills and qualifications *as well as* your projects, which will be important when you are looking for jobs. 
+
+Once you run this code, an "Edit" window will pop up.
+
+![Edit Window](images/03_website/03_dsjob_website-5.png)
+
+Replace the text you see in this document, with a brief introduction about yourself, something similar to what you see here. Click Save. Note that nothing here is permanent. You'll be able to edit all of this later!
+
+![Welcome text](images/03_website/03_dsjob_website-6.png)
+
+A new tab will open up with a preview of your website. 
+
+![First website preview](images/03_website/03_dsjob_website-7.png)
+
+But, this doesn't exactly look like that website we were looking at before...what's going on?
+
+Well, in order for the preview to appear correctly, we have to make a slight change to how the website looks for links on the website.
+
+To do this, open up the `config.toml` file within the project directory.
+
+![open config.toml](images/03_website/03_dsjob_website-8.png)
+
+Search for the line `baseurl = "/"`. After this line, add the following two lines of code:
 
 ```
-![](img/Jane.png){width=100px}
+relativeurls = true
+canonifyurls = false
 ```
 
-This code introduces the image and specifies the width of the image in pixels. We want a small image, so we are setting it to 100 pixels (`100px`).
+![config.toml edits](images/03_website/03_dsjob_website-9.png)
 
-![website with image](images/03_website/03_dsjob_website-3.png)
+Save these changes. The preview of your website should update automatically in that tab that appeared. However, if it doesn't, you'll want to run:
 
-After knitting and pushing to GitHub, you will now have a website with an image! This is about where we left off in the last lesson.
+```
+## continually show updates to site
+blogdown::serve_site()
+```
 
-You should have a website that looks very similar to what you see here:
+When `blogdown::serve_site()` is run, every time you save a change to the files of your website, the preview will update and you'll be able to see what changes have been made and how they'll appear on your website!
 
-![Website at this point](images/03_website/03_dsjob_website-4.png)
+Now that you've edited those two lines of code in `config.toml`, your preview should look something like this:
 
-### About 
+![relURL edit preview](images/03_website/03_dsjob_website-11.png)
 
-That's about where we left off in the last lesson. We had you add some About text, but now you really want to make sure this is up-to-date and complete. Your about section should be a line or two briefly describing your current positions and data science interests.
+### Website Content
 
-To see exactly what we mean, let's look at a few examples from the websites from people currently working in data science.
+Now that we have the skeleton of the webiste ready and our theme preview looks as we expected, we're ready to start editing the content of the website. This is where you should edit the text to match your information. Thus, where it says "Jane Doe" in this lesson, put your name in your files. When a description is included, make sure you're writing information about yourself, and not word for word what's in this lesson. You really want employers to know about *you*!
+
+#### General Details
+
+We'll continue to make edits to the `config.toml` file. You'll want to edit the name that appears on your website. To do this, edit the `name` field by placing your name within the quotes. Then, in the `role` field, delete the text between the quotes, but leave the quotes there. This way, in the future, you'll be able to edit this text and include a role once you have a job!
+
+Note that the line numbers within the `config.toml` file are shown. For example, the `name` field is at line 60. You can use these line numbers to help guide you to the approximate spot within each file where edits will need to be made, but note that if you add extra lines, the numbers may not be exact, and that's ok!  The correct
+
+At this time, you should also edit the `organizations` field by adding "Chromebook Data Science" and adding the URL for this program's website (http://jhudatascience.org/chromebookdatascience/index.html) in the `url` field. Note that all of this text *should* be within quotes.
+
+![name, role, and organization edits](images/03_website/03_dsjob_website-12.png)
+
+Once you save this file, the changes should be visible on your website preview!
+
+![name and organization preview](images/03_website/03_dsjob_website-3.png)
+
+
+#### Picture
+
+On this preview, you may notice that there's a big blank space above your name. There should be a picture there! Because of the way things are set up on RStudio Cloud, a change has to be made before this image can be visible. 
+
+To make this edit, you'll want to navigate to `/cloud/project/themes/hugo-academic/layouts/partials/widgets` within the "Files" tab of RStudio Cloud. There, you'll click on `about.html`.
+
+![open `about.html`](images/03_website/03_dsjob_website-14.png)
+
+Within this file, go to line 13. Here you'll see some unfamiliar code. It's ok not to fully understand this at this point -- we're just going to make two small changes. First, add `./` right after `url('`. Then, edit `relURL` to be `absURL` in that same line. The code should look like this:
+
+![`about.html` edits](images/03_website/03_dsjob_website-15.png)
+
+Once you save this file, the avatar image should now be visible! 
+
+![image preview](images/03_website/03_dsjob_website-16.png)
+
+That's great, but you want this to be a picture of yourself! To do this, you'll want to navigate to `/cloud/project/static/img` within the "Files" tab on RStudio Cloud. This is where images you want to display on your website should be stored. 
+
+![Upload image](images/03_website/03_dsjob_website-17.png)
+
+Upload a image file of yourself to this directory! 
+
+Then return to the `config.toml` file we were editing previously and search for the line that says `avatar = "portrait.jpg"`. Change `"portrait.jpg"` to the name of your image file. Here, we're going to specify that we want to use the `"female.png"` image. 
+
+![config.toml image edits](images/03_website/03_dsjob_website-18.png)
+
+Once these changes are saved, the preview of your website should have your image on it!
+
+![*your* image preview](images/03_website/03_dsjob_website-19.png)
+
+#### Contact Information
+
+With the basic information for our website edited and a picture of ourselves now visible on the preview, it's time to edit all our contact information. To do this, we'll continue to make edits within the `config.toml` file. 
+
+Find the lines of code shown here, and delete the highlighted text
+
+![delete google-scholar](images/03_website/03_dsjob_website-20.png)
+
+By deleting this text, you're removing the icon from below your name that links to your Google Scholar profile, since this won't be necessary for a data scientist.
+
+With that deleted, you'll want to include *your* information for the other three contact pieces. You should include your email address after `mailto:`, your twitter handle after `twitter.com/` and your GitHub username after `github.com`
+
+![contact information edits](images/03_website/03_dsjob_website-21.png)
+
+This is important, since you'll want potential employers to be able to easily jump from one of your professional social media accounts to another *and* because they should be able to contact you easily!
+
+Once these changes are saved, your preview will be edited. There will now be three icons underneath your name (Google Scholar has been removed) and they will, if clicked, go to your profiles!
+
+![contact information preview](images/03_website/03_dsjob_website-22.png)
+
+#### Website Tabs
+
+On the last preview, you see that there are currently six tabs at the top of the preview. However, we won't need all of those tabs. We're going to pare down these tabs to only include the most important information. *But*, in the future, should you want to add any of these back in, you'll know how to do so.
+
+To start customizing these tabs, we'll want to be sure that your most up-to-date resume is available on your website! To get started on this, you'll need to upload your resume into the `cloud/project/static/files` directory. Here, our resume is saved as `resume.pdf`.
+
+![resume.pdf in Files](images/03_website/03_dsjob_website-23.png)
+
+Now, we're ready to start tweaking the tabs available on our website! To do this, we'll still be making edits to `config.toml`.
+
+Navigate to the portion of the file shown here. Delete the four lines related to "Publications" and the four lines related to "Teaching". The lines you shoudl delete are highlighted here:
+
+![tabs to delete](images/03_website/03_dsjob_website-24.png)
+
+Then, make the following changes:
+
+1. __Flip Projects and Posts__ (so that Projects is listed second)
+2. __Change the "weight" for each tab so that they match what you see in the image below__ (This specifies the order in which the tabs will appear on your website)
+3. __remove the comments from the four lines related to your "Resume"__
+4. __Specify the filename of the resume you updated.__ Be sure the text in the `url` argument still starts with `"files/"` with *your* filename coming after the `/`.
+
+![`config.toml` tab edits](images/03_website/03_dsjob_website-25.png)
+
+Now, once these changes are saved, you'll have five tabs on your website preview. Publications and Talks will have been removed, but Resume will have been added!
+
+![tabs preview](images/03_website/03_dsjob_website-26.png)
+
+#### About 
+
+We're making progress, but information in our Biography, Interests, and Education all have to be edited!
+
+We'll start by editing our interests and education. To do so, we'll have to move from making edits in `config.toml` and will start editing a different file. 
+
+Navigate to `cloud/project/content/home` in the "Files" tab of RStudio Cloud. Click on `about.md` to open that file.
+
+![open `about.md`](images/03_website/03_dsjob_website-27.png)
+
+In this directory, change the text within interests to match your interests. You can include more than three interests, but be sure that each interest is in quotes and separated by a comma, as you see here. Be sure to include professional interests here, but it is ok to include a personal interest that you have, such as reading, writing, or a sport you're passionate about!
+
+You'll also want to edit your education section. You'll at the very least want to include this program on your website. You can do so using the edits you see here. If you have other educational information to add, you can edit the information included to include your information. Otherwise, delete the second two following sets of code for `[[education.courses]]`, as you see here:
+
+![`about.md` edits](images/03_website/03_dsjob_website-28.png)
+
+Upon saving these changes, the following edits will be viewable on the preview:
+
+![`about.md` preview](images/03_website/03_dsjob_website-29.png)
+
+Now it's time to edit your biography! Your biography section should a little bit of information briefly describing your current positions and data science interests! To see exactly what we mean, let's look at a few examples from the websites from people currently working in data science.
 
 Here we're looking at the about section from [Nathan Yau's website](https://flowingdata.com/about-nathan/). In his about me section, Nathan briefly explains what he does followed by where to find some of his work. He finishes with some of his interests outside of work. If you want to see more of Nathan's work, check out [flowingdata.com](https://flowingdata.com/).
 
-![Nathan Yau](images/03_website/03_dsjob_website-5.png)
+![Nathan Yau](images/03_website/03_dsjob_website-20.png)
 
 Here we have another example from [Mona Chalabi](https://monachalabi.com/), a journalist who generates illustrations from data. Mona introduces what she does, describes where to find her work, and then provides some background information about her professional work.
 
-![Mona Chalabi](images/03_website/03_dsjob_website-6.png)
+![Mona Chalabi](images/03_website/03_dsjob_website-31.png)
 
 Our final example comes from someone whose work you've seen throughout this course, [David Robinson](http://varianceexplained.org/about/). In his about me, he mentions his current position and interests, describes briefly some of his work, and provides a bit of background.
 
-![David Robinson](images/03_website/03_dsjob_website-7.png)
+![David Robinson](images/03_website/03_dsjob_website-32.png)
 
 These three examples should give you an idea of what to include in the "About Me" section of your website. Generally, consider including:
 
@@ -70,37 +217,244 @@ These three examples should give you an idea of what to include in the "About Me
 - background information
 - where to find projects you've worked on
 
-You'll additionally want to add a few interests in the "Interests" section. This should include at least a few data science-centric interests, but if you would like, you can also include a few additional interests here, as you saw some people did in the previous examples. 
+Having looked at a few other individuals' websites, write your biography text in the # Biography section of the `about.md` document. 
 
-To edit this on your website, you would edit the text in the "About" and "Interests" section of your `index.Rmd` file. Once you are done editing, click on the "Knit" button to update the index.html. 
+![biography edits in `about.md`](images/03_website/03_dsjob_website-34.png)
 
-![Edits to About section](images/03_website/03_dsjob_website-9.png)
+Once these changes are saved, your website preview will reflect these edits:
 
-### Links Elsewhere
+![biography preview](images/03_website/03_dsjob_website-35.png)
 
-If someone looking to hire you found your website, they should be able to easily navigate to your other professional social media platforms from your website. Thus, if you haven't already, you'll want to be sure that you include links to your GitHub, your LinkedIn, and your Twitter in the "Profiles" section of your `index.Rmd` file. 
+### Website Appearance
 
-Additionally, in the Projects section, you'll want to include links to (and images from if possible!) any complete projects. We'll discuss this more in the next lesson!
+Things are really coming along! We have all of our contact and necessary information included on our homepage now! But, there are lots of changes we will still want to make before our website is ready. Now, we'll focus on how to improve the overall appearance of our website!
 
-![Links elsewhere](images/03_website/03_dsjob_website-10.png)
+#### Hero Widget
 
-After you've updated your links and projects, be sure to "Knit" your file before pushing your changes to GitHub. You'll get to see a preview of your updates before you put them on the Internet.
+While the contact information looks great, there's information at the top of our website that doesn't need to be there. 
 
-![HTML preview](images/03_website/03_dsjob_website-11.png)
+![Unecessary information](images/03_website/03_dsjob_website-36.png)
 
-Once you've pushed to GitHub, the changes should be visible on your website! (Note: you may have to wait a minute or two after pushing to GitHub to see them).
+We'll remove this text by opening up `hero.md` within `/cloud/project/content/home`. 
 
-![Updates to website](images/03_website/03_dsjob_website-12.png)
+![open `hero.md`](images/03_website/03_dsjob_website-37.png)
 
-### Summary
+In this file, we'll first remove the text between the quotes in the `title` field.
 
-In this lesson, we've discussed the basics of what information should be on your professional website. However, there are lots of ways to customize your website beyond what was covered in this lesson. There are [tutorials](http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html) you can use to learn more. In fact, the [website for this program](http://jhudatascience.org/chromebookdatascience/index.html) was created with R Markdown. Feel free to use the tutorial and to check out the [GitHub](https://github.com/jhudsl/chromebookdatascience) for the website to see what changes you would need to make to add additional pages to or to change the formatting of your website.
+Then, we're going to turn off any image that may display in this portion of the website. (You can come back in later and change this.) Do this by adding a comment (`#`) before the `overlay-img` variable. 
+
+We'll aslo comment out the call to action button by adding comments for the `[cta]` line of code and following two lines of code.
+
+The last thing you'll want to do is delete everything after the final `+++` in that file.
+
+![`hero.md` edits](images/03_website/03_dsjob_website-38.png)
+
+Once the file looks as you see above, you're ready to save your changes and preview! The information about the theme will no longer be there!
+
+![`hero.md` preview](images/03_website/03_dsjob_website-39.png)
+ 
+#### Skills
+
+With those changes, let's edit the skills section of the website. Navigate to `/cloud/project/content/home` and open `skills.md`
+
+This is where you highlight all of your job-pertinent skills! Here, we're suggesting you highlight your "R", "data visualization", and "Data Wrangling" skills. But, you could highlight more than three skills or three different skills! Think about what skills you want employers to know you have and include them here.
+
+![`skills.md` edits](images/03_website/03_dsjob_website-40.png)
+
+To add the three skills you see here, edit the text in the `[[feature]]` section of the document to include the following:
+
+```
+[[feature]]
+  icon = "r-project"
+  icon_pack = "fab"
+  name = "R"
+  description = ""
+  
+[[feature]]
+  icon = "chart-line"
+  icon_pack = "fas"
+  name = "Data Visualization"
+  description = ""  
+  
+[[feature]]
+  icon = "table"
+  icon_pack = "fas"
+  name = "Data Wrangling"
+  description = ""
+```
+
+Note that the text that will be displayed on your website underneat each icon is specified in `name`. We've removed the text from the description variable for each skill, but you could shoose to include text here explaining the skill. 
+
+Then, the icons displayed are specified in `icon` and `icon_pack`. Which icon to display on the website is defined in the `icon` argument and refers to the names of the icons found at [Font Awesome Brand](https://fontawesome.com/icons), [Font Awesome Standard](https://fontawesome.com/icons), and [Academic Icons](https://jpswalsh.github.io/academicons/). You can search here for other icons you'd like to use to highlight your skills. If you use an icon from [Font Awesome Brand](https://fontawesome.com/icons), you would then specify `fab` in the `icon_pack` variable. From [Font Awesome Standard](https://fontawesome.com/icons), you'd specify `fas`. And, from [Academic Icons](https://jpswalsh.github.io/academicons/), you'd specify `ai`. 
+
+Once these changes are saved, you'll be able to see the edits on your website preview:
+
+![`skills.md` preview](images/03_website/03_dsjob_website-41.png)
+
+#### Removing Content
+
+While demonstrating your skills and interests are important on your website, at this point, it's not important to include *all* of the sections included by default on this theme. So, at this point, we're going to go in and turn a bunch of these sections "off." We won't delete the content. This way, in the future, if you're interested in adding any of this information back in, you'll be able to do so!
+
+We'll remove the "Publications," "Selected Publications", "Talks," and "Teaching" sections from your website in this section. The process will be the same for each.
+
+First, navigate to `/cloud/project/content/home` and open `publications.md`. In this document, where you see `active = true`, set that to be `active = false`. This will remove this section from your homepage. Save these changes.
+
+![Turn off Publications](images/03_website/03_dsjob_website-42.png)
+
+In that same directory, open `publications_selected.md`. Set `active = false` and save your changes.
+
+![Turn off Selected Publications](images/03_website/03_dsjob_website-43.png)
+
+In that same directory, open `talks.md`. Set `active = false` and save your changes.
+
+![Turn off Talks](images/03_website/03_dsjob_website-44.png)
+
+In that same directory, open `teaching.md`. Set `active = false` and save your changes.
+
+![Turn off Teaching](images/03_website/03_dsjob_website-45.png)
+
+Now, when you preview your website and scroll through your homepage, these sections will have been removed.
+
+### Posts
+
+We opted not to turn off the posts section of your website. Now, we won't specify in this course what to specifically include in this section, but we will *encourage* you to write blog posts and include them in this section. For now, we'll delete the posts that are already in there, since they're not your blog posts and show you how to write blog posts in the future. 
+
+![Posts section](images/03_website/03_dsjob_website-46.png)
+
+Navigate to `/cloud/project/content/post`. In this directory, you'll se a few files. One of them will be `getting-started.md` If you were to open this file, you'd see all the contents used to write that "Getting Started" post currently on your website. 
+
+![`getting-started.md`](images/03_website/03_dsjob_website-47.png)
+
+While there's lots of helpful information in this post, you didn't write it, so you'll want to delete this file. 
+
+![delete `getting-started.md`](images/03_website/03_dsjob_website-48.png)
+
+Another file in there will be `2015-07-23-r-markdown.Rmd`. This will contain the text we included at the beginning of the lesson in the "Edit" box. You can leave this file for now. There will be time to edit and write new posts later!
+
+After these changes are saved, your Recent Posts section of your website should look like this:
+
+![Welcome post preview](images/03_website/03_dsjob_website-49.png)
+
+The last thing we'll note is the following. When you *are* ready to write a blog post, you'll want to use the "New Post" Add-in. To find this, click on "Addins" in RStudio Cloud. Then select "New Post" from the drop-down menu.
+
+![New Post](images/03_website/03_dsjob_website-50.png)
+
+This will open up a box where you'll enter the title, author, date, and other information about your post. You can specify whether or not you want this file to be an `.Rmd` or a Markdown file (if you want it to include R code, choose `.Rmd`). After entering all the necessary information and clicking "Done," the Add-in will create the file for you to edit it within the `/cloud/project/content/post` directory and name it in a consistent manner. This is where you will write your blog post!
+
+![New Post Information](images/03_website/03_dsjob_website-51.png)
+
+### Projects
+
+Aside from including blog posts, you'll also want to include information on projects you've worked on and completed in the projects section. By default, there are two projects included in `/cloud/project/content/post`: `deep-learning.md` and `example-external-project.md`. 
+
+Navigate to `/cloud/project/content/post` and click on `deep-learning.md` to open that file. 
+
+We're going to edit the information in that file to include information about your findl project for this Course Set. Edit the `date` to today's date. Change the `title` to the title of your final project. Edit the `summary` to include a short description of the findings from your project. And, change the tags to match what you did in your analysis. Each tag should be in quotes and separated by a comma. 
+
+![edit `deep-learning.md`](images/03_website/03_dsjob_website-52.png)
+
+Safe this file as `atus-survey.md`. This file will now be visible in `/cloud/project/content/project`. Now, you can delete the other two projects there, as they are not your projects.
+
+![Save `atus-survey.md` and delete other two projects](images/03_website/03_dsjob_website-54.png)
+
+The skeleton for your project will then be visible on the preview of your website in the Projects section!
+
+![Projects preview](images/03_website/03_dsjob_website-55.png)
+
+But, what are those tags above your project? We'll want to customize those as well!
+
+To do so, navigate to `/cloud/project/content/home` and open `projects.md`. Find the section of this file where you see `[[filter]]`. Leave the first filter alone, but edit the second filter to look for the tag "R" in your prjects. The last one can be "Other" for now. Use the syntax you see here:
+
+![Tags edit](images/03_website/03_dsjob_website-56.png)
+
+Note that these tags correspond to the tags specified in the YAML of your post. These filters will search for any projects with the specified tag. You can have more than three tags as you include more projects over time! 
+
+Once these changes are saved, the new tags will be visible on your preview!
+
+![Tags preview](images/03_website/03_dsjob_website-57.png)
+
+#### Website Tailoring
+
+Okay, we've done a lot, but there's one last thing we want to do. At this point, it's more important that future employers see the projects you've worked on than the blog posts you've written. Thus, we want projects to show up before posts. 
+
+To do this we'll edit the `weight` argument. Return to `projects.md` within `/cloud/project/content/home`. Toward the top, change `weight = 50` to `weight = 40`. Save these changes.
+
+![Projects `weight`](images/03_website/03_dsjob_website-58.png)
+
+Then, within `posts.md` within `/cloud/project/content/home`, change `weight = 40` to `weight = 50`. Save these changes. 
+
+![Posts `weight`](images/03_website/03_dsjob_website-59.png)
+
+Recent posts will now be displayed *after* projects on your preview:
+
+![website preview](images/03_website/03_dsjob_website-60.png)
+
+
+### Deployment
+
+Your website is now ready for prime time. The only problem is it's only visible on *your* RStudio Cloud project. So, we have to **deploy** your website. There are a number of different ways to do this, but we're going to use the workflow with which we're most familiar: GitHub Pages. This is how your website is currently deployed. Your current website is hosted on GitHub at `username.github.com` and the file structure should look something like what you see here:
+
+![old website GitHub repo](images/03_website/03_dsjob_website-61.png)
+
+We're going to delete the current website and replace it with this updated website! To do so, within your current project on RStudio Cloud (where your new blogdown website files are), **go to the Terminal** and run the following...but replace `username` with *your* GitHub username:
+
+```
+git clone https://github.com/username/username.github.com.git
+```
+
+This will clone your current website repo into the RStudio Cloud project where your new webiste files are.
+
+![cloned repo](images/03_website/03_dsjob_website-62.png)
+
+Click on the directory of the repo where your old website contents are.
+
+Then, click on More and select "Show Hidden Files"
+
+![Show Hidden Files](images/03_website/03_dsjob_website-63.png)
+
+Within this directory, you'll see two hidden files `.git` and `.nojekyll`. Do *NOT* delete these files, but select everything else, and delete the files from your old website.
+
+![Delete most of your old website files](images/03_website/03_dsjob_website-64.png)
+
+Now, we'll need to add all the *new* files! But, you should *NOT* add every file you just generated. You only want to add the contents of `/cloud/projects/public`. What's great about `blogdown` is that everytime `blogdown::serve_site()` runs and generates a new preview of your website, all the files needed to deploy your website are updated and added to `/cloud/projects/public`. Thus, everything you need to deploy your website is right there. 
+
+![Move new website files from `public`](images/03_website/03_dsjob_website-65.png)
+
+Move all the files from `/cloud/projects/public` to the repository you just cloned (`username.github.com`) by selecting "Move..." from the "More" drop-down menu.
+
+![Select destination directory](images/03_website/03_dsjob_website-66.png)
+
+All of your new website files should be within the `username.github.com` directory.
+
+![new files within `username.github.com`](images/03_website/03_dsjob_website-67.png)
+
+We're ready to push these changes to GitHub. To do so, change `username` in the code below to your GitHub username:
+
+```
+cd username.github.com
+git add -A
+git commit -m “Rmd to blogdown website”
+git push
+```
+
+In this code, you're changing your directory to the version controlled directory you just cloned. You're then staging the files using `git add -A`, which will stage all new, modified *and* deleted files. You're then committing these changes and pushing to GitHub.
+
+On GitHub, these changes will all be visible! 
+
+![GitHub changes](images/03_website/03_dsjob_website-70.png)
+
+And, when you go to `username.github.io`, you will be able to see all the changes you've made to make your website more professional! Awesome!
+
+
+![`blogdown` website!](images/03_website/03_dsjob_website-71.png)
+
 
 ### Additional Resources
 
-* [GitHub Pages](https://pages.github.com/)
-* [Emily Zabor's great tutorial](http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html)
-* [GitHub for Chromebook Data Science website](https://github.com/jhudsl/chromebookdatascience) 
+* [Blogdown Book](https://bookdown.org/yihui/blogdown), by Yihui Xie, Amber Thomas, Alison Presmanes Hill
+* [List of blogdown websites](https://awesome-blogdown.com/)
+* [JaneEverydayDoe GitHub commit - end of this lesson](https://github.com/JaneEverydayDoe/janeeverydaydoe.github.com/commit/46d1df51d3ea9542e84677b70655a454852b7f65)
+
 
 ### Slides and Video
 
@@ -114,10 +468,12 @@ In this lesson, we've discussed the basics of what information should be on your
 ###Making Your Website More Professional quiz
 
 {choose-answers: 4}
-? Which of the following should NOT be included on your professional website?
+?1 Which of the following should NOT be included on your professional website?
 
 C) home address
 C) link to Facebook 
+C) parent's home address
+C) others' projects
 o) professional interests
 o) appropriate personal interests
 o) background
@@ -128,18 +484,21 @@ o) link to GitHub
 o) link to LinkedIn
 o) an image
 
-{choose-answers: 4}
-? After making changes to your R Markdown document, what do you have to do before the changes will be visible on your website?
+{choose-answers: 4, points:2}
+?2 To deploy your blogdown website, what do you have to do?
 
-C) knit and push to GitHub
-C) knit the document ; push to GitHub
-o) push and pull to GitHub
-o) save the document
-o) write HTML code
-o) knit to a PDF ; push to GitHub
+C) Move all files in `/cloud/project/content/public` to version controlled `username.github.com` repo and push the changes
+C) Ensure that all files within `/cloud/project/public` directory have been included in my website repo on GitHub
+o) Move all files in `/cloud/project` to version controlled `username.github.com` repo and push the changes
+o) Ensure that all files within `project` directory have been included in my website repo on GitHub
+o) Include the link to my RStudio project in the CNAME field on GitHub Pages
+o) Ensure that there are no typos in any of the posts or projects on my website
+o) Move all files in `/cloud/project/content/public` to version controlled `username.github.com` repo and pull the changes
+o) Move all files in `/cloud/project` to version controlled `username.github.com` repo and pull the changes
+
 
 {choose-answers: 4}
-? Which of the following statements is TRUE?
+?3 Which of the following statements is TRUE?
 
 C) It's ok to include personal interests (like reading, sports, and cooking) on your professional website, as long as you include your professional skills and interests first.
 C) It's ok to include professional and personal (such as jogging or painting) interests on your professional website
@@ -147,7 +506,95 @@ o) Professional websites should be strictly professional, and your interests sho
 o) Professional websites must follow a strict format - your personal website should not stray from this
 o) Professional websites should use no color and should not reflect the personality of the individual
 o) Professional websites are not looked at by hiring managers so it doesn't matter what you put on your website
+o) Professional websites should only include your personal interests in the interests section. Your professional interests are on your resume.
+o) Professional websites should only include your personal interests in the interests section. Your professional interests can be found on your GitHub.
 
+{choose-answers: 4}
+?4 What would you run in the R Console to preview changes to your website in RStudio Cloud?
+
+C) `blogdown::serve_site()`
+o) `blogdown::install_hugo()`
+m) `blogdown::new_site()`
+o) `blogdown::hugo_version()`
+o) `blogdown::find_tags()`
+o) `blogdown::find_yaml()`
+o) `blogdown::new_post()`
+o) `blogdown::new_content()`
+o) `blogdown::install_theme()`
+
+{choose-answers: 4}
+?4 What function would you use to generate a new `blogdown` site in RStudio Cloud?
+
+C) `blogdown::new_site()`
+m) `blogdown::serve_site()`
+o) `blogdown::install_hugo()`
+o) `blogdown::hugo_version()`
+o) `blogdown::find_tags()`
+o) `blogdown::find_yaml()`
+o) `blogdown::new_post()`
+o) `blogdown::new_content()`
+o) `blogdown::install_theme()`
+
+{choose-answers:4}
+?5 If you were to include a logo from [Font Awesome Standard](https://fontawesome.com/icons), what would you include in the `icon_pack` variable?
+
+C) `icon_pack = fas`
+o) `icon_pack = FAS`
+m) `icon_pack = fab`
+o) `icon_pack = FAB`
+m) `icon_pack = ai`
+o) `icon_pack = AI`
+o) `icon_pack = standard`
+o) `icon_pack = brand`
+o) `icon_pack = academic`
+
+{choose-answers:4}
+?5 If you were to include a logo from [Font Awesome Brand](https://fontawesome.com/icons), what would you include in the `icon_pack` variable?
+
+C) `icon_pack = fab`
+m) `icon_pack = fas`
+o) `icon_pack = FAS`
+o) `icon_pack = FAB`
+m) `icon_pack = ai`
+o) `icon_pack = AI`
+o) `icon_pack = standard`
+o) `icon_pack = brand`
+o) `icon_pack = academic`
+
+{choose-answers:4}
+?5 If you were to include a logo from [Academic Icons](https://jpswalsh.github.io/academicons/), what would you include in the `icon_pack` variable?
+
+C) `icon_pack = ai`
+m) `icon_pack = fas`
+o) `icon_pack = FAS`
+m) `icon_pack = fab`
+o) `icon_pack = FAB`
+o) `icon_pack = AI`
+o) `icon_pack = standard`
+o) `icon_pack = brand`
+o) `icon_pack = academic`
+
+{choose-answers:4}
+?6 To what part of your website does the `[[menu.main]]` tag refer?
+
+C) Menu at top of website
+C) Tabs included along the top of the website
+o) Icons included below your name
+o) Link to where you're taken when you click on your picture
+o) Link to where you're taken when you click on your name 
+m) Programs and schools listed under "Education"
+o) what's listed under "Eduation" on home page
+
+{choose-answers:4}
+?6 To what part of your website does the `[[education.courses]]` tag refer?
+
+C) Programs and schools listed under "Education"
+C) what's listed under "Eduation" on home page
+m) Menu at top of website
+o) Tabs included along the top of the website
+o) Icons included below your name
+o) Link to where you're taken when you click on your picture
+o) Link to where you're taken when you click on your name 
 
 {/quiz}
 

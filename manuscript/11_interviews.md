@@ -33,11 +33,27 @@ For personality questions, practice by **answering questions out loud**. It's al
 
 As for technical questions, there are *many* different ways companies assess technical skills. They may explain a technical issue out loud and ask how you would solve it. They may give you a take-home analysis (we'll discuss these in detail in the next lesson). They may have you live-code, meaning they may ask you to code in front of them. They may ask you to explain a concept (such as regression) to them. These are all fair game. Hopefully, with some idea as to the structure of the interview, you'll have some idea as to what to expect.
 
+Many people have written and spoken about the types of data science questions they've asked and been asked in data science interviews previously. 
+
+Here we list a few types of questions you *could* be asked: 
+
+  * "Talk to me about [fill in the bank]..."
+  * "Write an algorithm that does [fill in the blank]."
+  * "What problems should you solve with [fill in the blank]?"
+  * "How would you approach this problem given this dataset?"
+
+Thus, it's a really good idea to look at resources that are already out there. These are included again at the end of the lesson, but we're including them directly in the lesson because they're *really* important to read over and use when you're preparing for interviews. Read and listen through these resources - there will be a few quiz questions from these resources at the end of the lesson.
+
+* [Twitter Thread about what questions to ask](https://twitter.com/jensenharris/status/988967889330819072), from [Jensen Harris](https://www.linkedin.com/in/jensenharris/)
+* [Questions I'm Asking in Interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/), by [Julia Evans](https://jvns.ca/about/)
+* [VIDEO: Live Breakdown of Common Data Science Interview Questions](https://www.youtube.com/watch?v=aXUsrKPTBvY&index=6&list=PLqFaTIg4myu-dNobDHQZPrD2wH27PthCG%29) <- This one is almost an hour. Give yourself time to listen to this video.
+
 When you're asked a question to which you don't know the answer, *don't make one up*. Rather, acknowledge that you don't know the answer, but think critically about how you may go about solving the issue raised or question asked. Being able to think through a problem is an important skill for a data scientist, so don't panic if there's a question with which you're less familiar.
 
 Finally, remember that it's **fair game for your interviewers to ask about anything on your resume**. So, if there's a project you worked on a while ago that's listed, be sure you're prepared to answer questions about or discuss it.
 
 Practice answering questions out loud. Practice coding. Practice explaining technical topics out loud. Be prepared to say "I don't know." This will all make the actual interview *much* easier.
+
 
 #### Avoid Giving a Salary Number
 
@@ -79,6 +95,7 @@ At the end of the day, you want to be comfortable and look professional in whate
 #### One-on-one Interviews
 
 After the initial phone call(s) and once you're interviewing in person, you'll likely have one or more one-on-one interviews. In these interviews, the person interviewing you will likely explain a little about the company, the position, and/or themselves before trying to gauge your background, your technical capabilities, and fit for the position. They'll ask you questions and should give you time to ask them questions as well. In your questions, you should demonstrate that you have knowledge of the company and have done your homework, but should also get answers to everything you still want to know about the company and position. 
+
 
 #### Technical Assessment
 
@@ -135,13 +152,13 @@ In this lesson, we've covered a lot about interviewing for a data science positi
 * [Advice for Applying to Data Science Jobs](http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/)
 * [Red Flags in Data Science Interviews](http://hookedondata.org/Red-Flags-in-Data-Science-Interviews/)
 * [Twitter Thread about what questions to ask](https://twitter.com/jensenharris/status/988967889330819072)
-* [Questions I'm Asking in Interview](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/)
+* [Questions I'm Asking in Interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/)
 * [Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
 * [15 Rules for Negotiating a Job Offer](https://hbr.org/2014/04/15-rules-for-negotiating-a-job-offer)
 * One person's experience on the data science job market -[Part 1](https://haseebq.com/farewell-app-academy-hello-airbnb-part-i/) and [Part 2](https://haseebq.com/farewell-app-academy-hello-airbnb-part-ii/)
 * [Two Sides of Getting a Job as a Data Scientist](https://towardsdatascience.com/the-two-sides-of-getting-a-job-as-a-data-scientist-a4571acc58bc)
 * [What We Learned Analyzing Hundreds of Data Science Interviews](https://www.springboard.com/blog/data-science-interviews-lessons/)
-
+* [VIDEO: Live Breakdown of Common Data Science Interview Questions](https://www.youtube.com/watch?v=aXUsrKPTBvY&index=6&list=PLqFaTIg4myu-dNobDHQZPrD2wH27PthCG%29)
 
 
 ### Slides and Video
@@ -155,8 +172,15 @@ In this lesson, we've covered a lot about interviewing for a data science positi
 
 ### Data Science Interviews quiz
 
+A reminder that a few of the questions may ask about material in the resources included here. Be sure to read over them and watch the video before attempting the quiz:
+
+* [Twitter Thread about what questions to ask](https://twitter.com/jensenharris/status/988967889330819072), from [Jensen Harris](https://www.linkedin.com/in/jensenharris/)
+* [Questions I'm Asking in Interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/), by [Julia Evans](https://jvns.ca/about/)
+* [VIDEO: Live Breakdown of Common Data Science Interview Questions](https://www.youtube.com/watch?v=aXUsrKPTBvY&index=6&list=PLqFaTIg4myu-dNobDHQZPrD2wH27PthCG%29) <- There are multiple questions from this. It's best to watch the whole thing now!
+* [Advice for Applying to Data Science Jobs](http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/), by [Emily Robinson](http://hookedondata.org/about/s)
+
 {choose-answers: 4, points: 2}
-? Read [Advice for Applying to Data Science Jobs](http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/). At one point the author mentions a time she was interviewing someone. What does she say impressed her? 
+?1 Read [Advice for Applying to Data Science Jobs](http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/). At one point the author mentions a time she was interviewing someone. What does she say impressed her? 
 
 C) The interviewee asked a technical question about a presentation the interviewer had given previously.
 C) The interviewee demonstrated that she had done her research about the interviewer by asking a great question about a presentation.
@@ -166,7 +190,7 @@ o) The interviewee wore a nice suit to the interview.
 o) The interviewee asked important and interesting questions of everyone she met with that day demonstrating interest and preparation
 
 {choose-answers: 4}
-? On the first call before your in-person interview, what information do you want to be sure to get?
+?2 On the first call before your in-person interview, what information do you want to be sure to get?
 
 C) The structure of the interview and an understanding of their interview process
 o) The salary for the position
@@ -177,7 +201,7 @@ o) Details about health insurance, stock options, and benefits
 o) Information about promotions
 
 {choose-answers: 4}
-? When asked if you have any questions on an interview...
+?3 When asked if you have any questions on an interview...
 
 C) Always ask a question. 
 C) Ask a question. Failing to do so indicates that you don't care or haven't thought very hard about this position.
@@ -187,7 +211,7 @@ o) ask the interviewer to ask you another question.
 o) Ask a question about something unrelated to the job for which you're interviewing
 
 {choose-answers: 4}
-? It's the end of your interview day. What information should you be sure you have before leaving?
+?4 It's the end of your interview day. What information should you be sure you have before leaving?
 
 C) What the next steps are
 C) A general idea of the process going forward and when you can expect to hear
@@ -198,7 +222,7 @@ o) Your start date
 o) How much everyone else makes in salary
 
 {choose-answers: 4}
-? You've interviewed for a position and received a job offer! The salary is much higher than your current position and you're happy with it. What should you do?
+?5 You've interviewed for a position and received a job offer! The salary is much higher than your current position and you're happy with it. What should you do?
 
 C) Negotiate anyway.
 C) Negotiate before accepting.
@@ -206,6 +230,91 @@ o) Accept!
 o) Get it in writing then accept.
 o) Negotiate for every possible thing you can think of through many rounds of negotiation before ever considering acepting.
 o) Turn the position down.
+
+{choose-answers: 4, points: 3}
+?6 Use the resources and information in the lesson and re-mentioned at the beginning of this quiz to answer the following question: Rachel and Walter are doing a mock interview. In the practice question about colinearity, what was a mistake that Walter made in his first attempt to answer the question?
+
+C) His response did not use a specific example.
+C) He discussed co-linearity at a level that was too high for the audience.
+C) He used jargon that was not at the right level for his audience.
+o) He was technically incorrect in what he stated.
+o) He explained linearity rather than co-linearity in his response.
+o) He said colinearity and multicolinearity were synonyms.
+o) He told the interviewer that he didn't like the question. 
+
+{choose-answers: 4, points: 3}
+?7 Use the resources and information in the lesson and re-mentioned at the beginning of this quiz to answer the following question: When Walter improved his response on colinearity, what *example* did he use to explain colinearity?
+
+C) height of the building & number of stories in a building
+C) stories number & building height
+C) building height & number of stories in building
+o) height & weight
+o) temperature & popsicle sales
+o) snow boots sales & temperature
+o) arm length & number of home runs hit
+o) rainfall & lake depth
+o) hill height & hill width
+o) time of day food truck arrives & hunger level
+o) time of day & number of fireworks going off
+o) number of models run & question asked
+o) number of concussions & time in the NFL
+
+{choose-answers: 4, points: 3}
+?8 Use the resources and information in the lesson and re-mentioned at the beginning of this quiz to answer the following question: Throughout the mock interview, Walter and Rachel return to which common theme about what is difficult in data science interviews?
+
+C) Answering interviewer's questions at the right level is difficult but important
+C) It's important not to assume your audience has the same background knowledge you do
+C) It's essential to answer questions you're asked at the right level and not use too much jargon
+o) Predicting what you'll be asked in an interview is essential.
+o) Small data cannot be used to do data science.
+o) Colinearity thwarts the ability of data scientists to do predictive analyses.
+o) You'll always be asked to explain linear regression, so be sure to know how to do this.
+o) It's best to refrain from from using examples to answer the interviewer's questions.
+o) Minimize the time you think about your response to a question.
+o) If asked to clarify, it's best to stick to your original answer.
+o) Follow-up questions mean you're doing a bad job.
+
+{choose-answers: 4, points: 3}
+?9 Use the resources and information in the lesson and re-mentioned at the beginning of this quiz to answer the following question: What function was Rachel asked to write in the "live coding" demo portion of the mock interviewing?
+
+C) Determine which rows in a column contain an oultlier
+C) Ientify the rows in each column containing an oultlier
+o) Determine the mean for each column in a data frame
+o) Remove outliers from a data frame
+o) Detect how many NAs are in each column of a data frame
+o) Test how many distinct values there are in each column
+o) Scrape google.com for datasets
+o) Send a mass e-mail to all employees
+
+{choose-answers: 4, points: 2}
+?9 Use the resources and information in the lesson and re-mentioned at the beginning of this quiz to answer the following question: When Rachel was asked to live code during the mock interview, what language did she choose to use and why?
+
+C) R, because the data are in a data frame format
+m) Python, because the data are in a data frame format
+o) C, because the data are in a data frame format
+o) R, because the data can only be read in in R
+o) Python, because the data can only be read in in Python
+o) C, because the data can only be read in in C
+o) R, because the data are in the CSV format
+o) Python, because the data are in the CSV format
+o) C, because the data are in the CSV format
+o) R, because it's the best language
+o) Python, because it's the best language
+o) C, because it's the best language
+
+{choose-answers: 4, points: 3}
+?10 Which of the following is *not* one of the question categories Julia Evans is asking at interviews?
+
+C) Disciplinary actions
+C) Consequences for being late
+C) Bank employees use
+o) Engineering practices
+o) Management style
+o) Quality of life
+o) Community involvement
+o) Career development
+o) Culture
+o) Financial/business model/growth
 
 {/quiz}
 

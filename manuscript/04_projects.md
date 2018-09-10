@@ -255,5 +255,10 @@ o) Help others make their own website
 
 ! /(.+github.io.+)/i
 
+{points: 3}
+? You'll also need to have projects that you've completed on your own on your website. **Paste the URL to the a project you've completed and put on your website below.** This project must include at least four of the following: **getting data**, **cleaning data**, **exploratory data analysis**, **data analysis**, and **data visualization**.
+
+! /(.+github.io.+)/i
+
 {/quiz}
 
