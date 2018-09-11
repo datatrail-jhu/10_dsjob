@@ -4,7 +4,7 @@ blog down is an R package that helps create websites with R Markdown. There is a
 
 In an earlier course in this Course Set, you developed a basic website within R Studio Cloud. At the end of that lesson, you had a website that looked something like this. It contained some basic information about you and had information about where to contact you; however, it was pretty basic and not very visually appealing. In this lesson, we'll improve both the content and look of your personal website.
 
-To get started, create a new project in R Studio Cloud! Once you've got a new project, you'll want to run the following code in the R Console to install blog down and start a new wite. Note: it may take a few minutes for this code to run and for all the dependencies to install. 
+To get started, create a new project in R Studio Cloud! Once you've got a new project, you'll want to run the following code in the R Console to install blog down and start a new site. Note: it may take a few minutes for this code to run and for all the dependencies to install. 
 
 For this site, we're using the Hugo theme "Academic", specified as an argument within the blog down new underscore site function. At the end of this lesson, you'll have a website that looks something like what you see here!There are many other themes that can be used within the blog down package. We've chosen to use this one because it does a good job displaying information about your skills and qualifications as well as your projects, which will be important when you are looking for jobs. 
 
@@ -22,13 +22,13 @@ However, if it doesn't, you'll want to run the function you see here. When blog 
 
 Now that you've edited those two lines of code in config dot toml, your preview should look something like this! 
 
-Now that we have the skeleton of the webiste ready and our theme preview looks as we expected, we're ready to start editing the content of the website. This is where you should edit the text to match your information. Thus, where it says "Jane Doe" in this lesson, put your name in your files. When a description is included, make sure you're writing information about yourself, and not word for word what's in this lesson. You really want employers to know about you! We'll continue to make edits to the config dot toml file. You'll want to edit the name that appears on your website. To do this, edit the name field by placing your name within the quotes. Then, in the role field, delete the text between the quotes, but leave the quotes there. This way, in the future, you'll be able to edit this text and include a role once you have a job! Note that the line numbers within the config dot toml file are shown. For example, the name field is at line 60. You can use these line numbers to help guide you to the approximate spot within each file where edits will need to be made, but note that if you add extra lines, the numbers may not be exact, and that's ok!  The correct At this time, you should also edit the organizations field by adding "Chromebook Data Science" and adding the URL for this program's website in the u r l field. Note that all of this text should be within quotes.
+Now that we have the skeleton of the website ready and our theme preview looks as we expected, we're ready to start editing the content of the website. This is where you should edit the text to match your information. Thus, where it says "Jane Doe" in this lesson, put your name in your files. When a description is included, make sure you're writing information about yourself, and not word for word what's in this lesson. You really want employers to know about you! We'll continue to make edits to the config dot toml file. You'll want to edit the name that appears on your website. To do this, edit the name field by placing your name within the quotes. Then, in the role field, delete the text between the quotes, but leave the quotes there. This way, in the future, you'll be able to edit this text and include a role once you have a job! Note that the line numbers within the config dot toml file are shown. For example, the name field is at line 60. You can use these line numbers to help guide you to the approximate spot within each file where edits will need to be made, but note that if you add extra lines, the numbers may not be exact, and that's ok!  The correct At this time, you should also edit the organizations field by adding "Chromebook Data Science" and adding the URL for this program's website in the u r l field. Note that all of this text should be within quotes.
 
 Once you save this file, the changes should be visible on your website preview! On this preview, you may notice that there's a big blank space above your name. There should be a picture there! Because of the way things are set up on R Studio Cloud, a change has to be made before this image can be visible. 
 
 To make this edit, you'll want to navigate to the directory highlighted here within the "Files" tab of R Studio Cloud. There, you'll click on about dot html. Within this file, go to line 13. Here you'll see some unfamiliar code. It's ok not to fully understand this at this point -- we're just going to make two small changes. 
 
-First, add dot slash, as highlighed on the video. Then, edit rel U R L to be abs U R L in that same line. The code should look just as you see here.
+First, add dot slash, as highlighted on the video. Then, edit rel U R L to be abs U R L in that same line. The code should look just as you see here.
 
 Once you save this file, the avatar image should now be visible! 
 
@@ -40,13 +40,13 @@ Once these changes are saved, the preview of your website should have your image
 
 With the basic information for our website edited and a picture of ourselves now visible on the preview, it's time to edit all our contact information. To do this, we'll continue to make edits within the config dot toml file. Find the lines of code shown here, and delete the highlighted text. By deleting this text, you're removing the icon from below your name that links to your Google Scholar profile, since this won't be necessary for a data scientist.
 
-With that deleted, you'll want to include your information for the other three contact pieces. You should include your email address after mail to colon, your twitter handle after twitter dot com slash and your Git Hub username after github dot com. This is important, since you'll want potential employers to be able to easily jump from one of your professional social media accounts to another and because they should be able to contact you easily!
+With that deleted, you'll want to include your information for the other three contact pieces. You should include your email address after mail to colon, your twitter handle after twitter dot com slash and your Git Hub username after git hub dot com. This is important, since you'll want potential employers to be able to easily jump from one of your professional social media accounts to another and because they should be able to contact you easily!
 
 Once these changes are saved, your preview will be edited. There will now be three icons underneath your name (Google Scholar has been removed) and they will, if clicked, go to your profiles! Here, you see that there are currently six tabs at the top of the preview. However, we won't need all of those tabs. We're going to pare down these tabs to only include the most important information. But, in the future, should you want to add any of these back in, you'll know how to do so.
 
 To start customizing these tabs, we'll want to be sure that your most-recent resume is available on our website! To get started on this, you'll need to upload your resume into the directory highlighted here. Here, our resume is saved as resume dot p d f.
 
-Now, we're ready to start tweaking the tabs available on our website! To do this, we'll still be making edits to config dot toml. Navigate to the portion of the file shown here. Delete the four lines related to "Publications" and the four lines related to "Teaching". The lines you shoudl delete are highlighted here. 
+Now, we're ready to start tweaking the tabs available on our website! To do this, we'll still be making edits to config dot toml. Navigate to the portion of the file shown here. Delete the four lines related to "Publications" and the four lines related to "Teaching". The lines you should delete are highlighted here. 
 
 Then, make the following changes. Flip the order of Projects and Post. Then, Change the "weight" for each tab so that they match what you see in the video here. Then, remove the comments from the four lines related to your "Resume", And last, specify the filename of the resume you updated.
 
@@ -78,7 +78,7 @@ In this file, we'll first remove the text between the quotes in the title field.
 
 Once the file looks as you see above, you're ready to save your changes and preview! The information about the theme will no longer be there!
 
-With those changes, let's edit the skills section of the website. Navigate to direcotry highlighted here and open skills dot m d. This is where you highlight all of your job-pertinent skills! Here, we're suggesting you highlight your "R", "data visualization", and "Data Wrangling" skills. But, you could highlight more than three skills or three different skills! Think about what skills you want employers to know you have and include them here. To add the three skills you see here, edit this document to include the code shown here. Note that the text that will be displayed on your website underneat each icon is specified in name. We've removed the text from the description variable for each skill, but you could shoose to include text here explaining the skill. Then, the icons displayed are specified in icon and icon_pack. Which icon to display on the website is defined in the icon argument and refers to the names of the icons found at Font Awesome Brand, Font Awesome Standard, and Academic Icons. You can search for other icons you'd like to use to highlight your skills throughout these icon packs . If you use an icon from Font Awesome Brand, you would then specify f a b in the icon underscore pack variable. From Font Awesome Standard, you'd specify f a s. And, from Academic Icons, you'd specify a i. 
+With those changes, let's edit the skills section of the website. Navigate to directory highlighted here and open skills dot m d. This is where you highlight all of your job-pertinent skills! Here, we're suggesting you highlight your "R", "data visualization", and "Data Wrangling" skills. But, you could highlight more than three skills or three different skills! Think about what skills you want employers to know you have and include them here. To add the three skills you see here, edit this document to include the code shown here. Note that the text that will be displayed on your website underneath each icon is specified in name. We've removed the text from the description variable for each skill, but you could choose to include text here explaining the skill. Then, the icons displayed are specified in icon and icon_pack. Which icon to display on the website is defined in the icon argument and refers to the names of the icons found at Font Awesome Brand, Font Awesome Standard, and Academic Icons. You can search for other icons you'd like to use to highlight your skills throughout these icon packs . If you use an icon from Font Awesome Brand, you would then specify f a b in the icon underscore pack variable. From Font Awesome Standard, you'd specify f a s. And, from Academic Icons, you'd specify a i. 
 
 Once these changes are saved, you'll be able to see the edits on your website preview.
 
@@ -98,11 +98,11 @@ While there's lots of helpful information in this post, you didn't write it, so 
 
 After these changes are saved, your Recent Posts section of your website should look like this:
 
-The last thing we'll note is the following. When you are ready to write a blog post, you'll want to use the "New Post" Add-in. To find this, click on "Addins" in R Studio Cloud. Then select "New Post" from the drop-down menu.
+The last thing we'll note is the following. When you are ready to write a blog post, you'll want to use the "New Post" Add-in. To find this, click on "Add ins" in R Studio Cloud. Then select "New Post" from the drop-down menu.
 
 This will open up a box where you'll enter the title, author, date, and other information about your post. After entering all the necessary information and clicking "Done," the Add-in will create the file for you to edit it. This is where you will write your blog post!
 
-Aside from including blog posts, you'll also want to include information on projects you've worked on and completed in the projects section. By default, there are two projects included in the highlighted directory: deep dash learning dot m d and example dash external dash project dot m d. Navigate to this direcotry and click on deep dash learning dot m d to open that file. We're going to edit the information in that file to include information about your findl project for this Course Set. Edit the date to today's date. Change the title to the title of your final project. Edit the summary to include a short description of the findings from your project. And, change the tags to match what you did in your analysis. Each tag should be in quotes and separated by a comma. 
+Aside from including blog posts, you'll also want to include information on projects you've worked on and completed in the projects section. By default, there are two projects included in the highlighted directory: deep dash learning dot m d and example dash external dash project dot m d. Navigate to this directory and click on deep dash learning dot m d to open that file. We're going to edit the information in that file to include information about your final project for this Course Set. Edit the date to today's date. Change the title to the title of your final project. Edit the summary to include a short description of the findings from your project. And, change the tags to match what you did in your analysis. Each tag should be in quotes and separated by a comma. 
 
 Safe this file as atus dash survey dot m d. 
 
@@ -116,27 +116,27 @@ Once these changes are saved, the new tags will be visible on your preview!
 
 Okay, we've done a lot, but there's one last thing we want to do. At this point, it's more important that future employers see the projects you've worked on than the blog posts you've written. Thus, we want projects to show up before posts. To do this we'll edit the weight argument. Return to projects dot m d. Toward the top, change weight equals 50 to weight equals 40. Save these changes.
 
-Then, within posts.md within the same diretory, change weight equals 40 to weight equal 50. Save these changes. 
+Then, within posts.md within the same directory, change weight equals 40 to weight equal 50. Save these changes. 
 
 Recent posts will now be displayed after projects on your preview:
 
-Your website is now ready for prime time. The only problem is it's only visible on your R Studio Cloud project. So, we have to deploy your website. There are a number of different ways to do this, but we're going to use the workflow with which we're most familiar: GitHub Pages. This is how your website is currently deployed. Your current website is hosted on GitHub at username dot github dot com and the file structure should look something like what you see here:
+Your website is now ready for prime time. The only problem is it's only visible on your R Studio Cloud project. So, we have to deploy your website. There are a number of different ways to do this, but we're going to use the workflow with which we're most familiar: GitHub Pages. This is how your website is currently deployed. Your current website is hosted on GitHub at username dot git hub dot com and the file structure should look something like what you see here:
 
 
-We're going to delete the current website and replace it with this updated website! To do so, within your current project on R Studio Cloud (where your new blog down website files are), go to the Terminal and run the code  you see here at the top left ...but replace jane everyday doe  with your GitHub username. This will clone your current website repo into the R Studio Cloud project where your new webiste files are.
+We're going to delete the current website and replace it with this updated website! To do so, within your current project on R Studio Cloud (where your new blog down website files are), go to the Terminal and run the code  you see here at the top left ...but replace jane everyday doe  with your GitHub username. This will clone your current website repo into the R Studio Cloud project where your new website files are.
 
 Click on the directory of the repo where your old website contents are. Then, click on More and select "Show Hidden Files"
 
 Within this directory, you'll see two hidden files dot git and dot no jekyll. Do NOT delete these files, but select everything else, and delete the files from your old website.
 
-Now, we'll need to add all the new files! But, you should NOT add every file you just generated. You only want to add the contents of the public directory. The path to this directory is highlighted in the video. What's great about blog down is that everytime the blog down serve underscore site function nis run, a new preview of your website is generated and all the files needed to deploy your website are updated and added to this public directory. Thus, everything you need to deploy your website is right there. 
+Now, we'll need to add all the new files! But, you should NOT add every file you just generated. You only want to add the contents of the public directory. The path to this directory is highlighted in the video. What's great about blog down is that every time the blog down serve underscore site function is run, a new preview of your website is generated and all the files needed to deploy your website are updated and added to this public directory. Thus, everything you need to deploy your website is right there. 
 
 Move all the files from this public directory to the repository you just cloned by selecting "Move..." from the "More" drop-down menu. Then, click Choose.
 
-All of your new website files from public should be within the username dot github dot com directory.
+All of your new website files from public should be within the username dot git hub dot com directory.
 
 We're ready to push these changes to GitHub. To do so, change username in the code here to your GitHub username and run the code in the Terminal. In this code, you're changing your directory to the version controlled directory you just cloned. You're then staging the files using git add  minus A, which will stage all new, modified and deleted files. You're then committing these changes and pushing to GitHub.
 
 On GitHub, these changes will all be visible! 
 
-And, when you go to username dot github dot io, you will be able to see all the changes you've made to make your website more professional! Awesome!
+And, when you go to username dot git hub dot io, you will be able to see all the changes you've made to make your website more professional! Awesome!

@@ -21,7 +21,7 @@ In an earlier course in this Course Set, you developed a basic website within RS
 
 It contained some basic information about you and had information about where to contact you; however, it was *pretty* basic and not very visually appealing. In this lesson, we'll improve both the content and look of your personal website.
 
-To get started, create a new project in RStudio Cloud! Once you've got a new project, you'll want to run the following code **in the R Console** to install blogdown and start a new wite. (Note: it may take a few minutes for this code to run and for all the dependencies to install.)
+To get started, create a new project in RStudio Cloud! Once you've got a new project, you'll want to run the following code **in the R Console** to install blogdown and start a new site. (Note: it may take a few minutes for this code to run and for all the dependencies to install.)
 
 ```r
 ## install packages
@@ -83,7 +83,7 @@ Now that you've edited those two lines of code in `config.toml`, your preview sh
 
 ### Website Content
 
-Now that we have the skeleton of the webiste ready and our theme preview looks as we expected, we're ready to start editing the content of the website. This is where you should edit the text to match your information. Thus, where it says "Jane Doe" in this lesson, put your name in your files. When a description is included, make sure you're writing information about yourself, and not word for word what's in this lesson. You really want employers to know about *you*!
+Now that we have the skeleton of the website ready and our theme preview looks as we expected, we're ready to start editing the content of the website. This is where you should edit the text to match your information. Thus, where it says "Jane Doe" in this lesson, put your name in your files. When a description is included, make sure you're writing information about yourself, and not word for word what's in this lesson. You really want employers to know about *you*!
 
 #### General Details
 
@@ -283,7 +283,7 @@ To add the three skills you see here, edit the text in the `[[feature]]` section
   description = ""
 ```
 
-Note that the text that will be displayed on your website underneat each icon is specified in `name`. We've removed the text from the description variable for each skill, but you could shoose to include text here explaining the skill. 
+Note that the text that will be displayed on your website underneath each icon is specified in `name`. We've removed the text from the description variable for each skill, but you could choose to include text here explaining the skill. 
 
 Then, the icons displayed are specified in `icon` and `icon_pack`. Which icon to display on the website is defined in the `icon` argument and refers to the names of the icons found at [Font Awesome Brand](https://fontawesome.com/icons), [Font Awesome Standard](https://fontawesome.com/icons), and [Academic Icons](https://jpswalsh.github.io/academicons/). You can search here for other icons you'd like to use to highlight your skills. If you use an icon from [Font Awesome Brand](https://fontawesome.com/icons), you would then specify `fab` in the `icon_pack` variable. From [Font Awesome Standard](https://fontawesome.com/icons), you'd specify `fas`. And, from [Academic Icons](https://jpswalsh.github.io/academicons/), you'd specify `ai`. 
 
@@ -349,7 +349,7 @@ Aside from including blog posts, you'll also want to include information on proj
 
 Navigate to `/cloud/project/content/post` and click on `deep-learning.md` to open that file. 
 
-We're going to edit the information in that file to include information about your findl project for this Course Set. Edit the `date` to today's date. Change the `title` to the title of your final project. Edit the `summary` to include a short description of the findings from your project. And, change the tags to match what you did in your analysis. Each tag should be in quotes and separated by a comma. 
+We're going to edit the information in that file to include information about your final project for this Course Set. Edit the `date` to today's date. Change the `title` to the title of your final project. Edit the `summary` to include a short description of the findings from your project. And, change the tags to match what you did in your analysis. Each tag should be in quotes and separated by a comma. 
 
 ![edit `deep-learning.md`](images/03_website/03_dsjob_website-52.png)
 
@@ -363,7 +363,7 @@ The skeleton for your project will then be visible on the preview of your websit
 
 But, what are those tags above your project? We'll want to customize those as well!
 
-To do so, navigate to `/cloud/project/content/home` and open `projects.md`. Find the section of this file where you see `[[filter]]`. Leave the first filter alone, but edit the second filter to look for the tag "R" in your prjects. The last one can be "Other" for now. Use the syntax you see here:
+To do so, navigate to `/cloud/project/content/home` and open `projects.md`. Find the section of this file where you see `[[filter]]`. Leave the first filter alone, but edit the second filter to look for the tag "R" in your projects. The last one can be "Other" for now. Use the syntax you see here:
 
 ![Tags edit](images/03_website/03_dsjob_website-56.png)
 
@@ -402,7 +402,7 @@ We're going to delete the current website and replace it with this updated websi
 git clone https://github.com/username/username.github.com.git
 ```
 
-This will clone your current website repo into the RStudio Cloud project where your new webiste files are.
+This will clone your current website repo into the RStudio Cloud project where your new website files are.
 
 ![cloned repo](images/03_website/03_dsjob_website-62.png)
 
@@ -416,7 +416,7 @@ Within this directory, you'll see two hidden files `.git` and `.nojekyll`. Do *N
 
 ![Delete most of your old website files](images/03_website/03_dsjob_website-64.png)
 
-Now, we'll need to add all the *new* files! But, you should *NOT* add every file you just generated. You only want to add the contents of `/cloud/projects/public`. What's great about `blogdown` is that everytime `blogdown::serve_site()` runs and generates a new preview of your website, all the files needed to deploy your website are updated and added to `/cloud/projects/public`. Thus, everything you need to deploy your website is right there. 
+Now, we'll need to add all the *new* files! But, you should *NOT* add every file you just generated. You only want to add the contents of `/cloud/projects/public`. What's great about `blogdown` is that every time `blogdown::serve_site()` runs and generates a new preview of your website, all the files needed to deploy your website are updated and added to `/cloud/projects/public`. Thus, everything you need to deploy your website is right there. 
 
 ![Move new website files from `public`](images/03_website/03_dsjob_website-65.png)
 
