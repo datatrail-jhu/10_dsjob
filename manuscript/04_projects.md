@@ -50,6 +50,7 @@ As you're preparing your project gallery, you'll want links to a few blog posts 
 * analyze a dataset
 * visualize a dataset
 * tell a story 
+* effective data science communication
 
 You'll want at least a few examples of your work, meaning at least 3 different projects you've worked on. And, you'll want to make sure at least one of these is a project you've come up with and worked on on your own -- you don't want the projects you display to all come from the projects done in this Course Set, although some of them can be!
 
@@ -61,150 +62,148 @@ Additionally, remember this is a blog post. (For details about what to include i
 
 Finally, remember that this should demonstrate your skills and abilities. **Do not take code or work from others without properly citing those individuals**. Giving attribution to others' work when deserved is incredibly important. Be sure that all writing and code portrayed are your own in your project gallery actually are your own work.
 
-### Your Project
+### Your Final Project
 
-Now that we've seen a few examples of others' projects, let's get down to preparing one project you may want to include in your project gallery! In the last course, one of the quiz questions required you to create a presentation on Google Slides taking what you did in your Final project and turning it into a presentation that you'd present to a technical audience. 
+Now that we've seen a few examples of others' projects, let's get down to preparing one project you may want to include in your project gallery! In the last course, one of the quiz questions required you to create a presentation on Google Slides taking what you did in your Final project and turning it into a presentation that you'd present to a technical audience.
 
-Thus, you should have already thought a bit about how you would tell a story about this analysis. We'll use that same project (your Final Project from [Data Analysis](https://leanpub.com/universities/courses/jhu/dataanalysis)) here, but instead of generating a Google Slides presentation, we'll turn this project into a blog post that will be able to be included on your website! 
+Thus, you should have already thought a bit about how you would tell a story about this analysis. We'll use that same project (your Final Project from [Data Analysis](https://leanpub.com/universities/courses/jhu/dataanalysis)) here, but instead of generating a Google Slides presentation, we'll turn this project into a project that you will include on your website! 
 
-The link to this page on your website will be required in the quiz for this lesson, so it's best to follow along, create this blog post, and update your website as you work through this lesson!
+The link to this page on your website will be required in the quiz for this lesson, so it's best to follow along, create this post, and update your website as you work through this lesson!
 
-#### Website Setup
+#### New Post Setup
 
-Since over time you'll have more than a few projects, it's likely best to generate a new tab on your website for your projects, rather than including them on your home page.
+In the last lesson, we set up the skeleton for a project on your website, but we didn't include any content in that project at that time. The goal of this lesson is to fill out that section of your website a little more! We'll start by adding your Final Project analyzing the American Time Use Survey Data for this Course Set as a project on your website here.
 
-To do this, navigate to your website on GitHub. You'll need to first generate a YAML file in the home directory of your website (/cloud/project/github_username.github.io). To do this, first go to File > New File > R Script.
+![Final Project on RStudio Cloud](images/04_projects/04_dsjob_projects-8.png)
 
-![New Script](images/04_projects/04_dsjob_projects-9.png)
+This write up should take what you did in your final project and turn it into a detailed but clear blog post format for inclusion on your website. 
 
-Paste the following contents into this file, but change "Jane Doe" to your name in both the `name` and `title` fields:
+To get started, return to the project on RStudio Cloud for your `blogdown` website. Navigate in the Files tab to `/cloud/project/content/project`. In here you'll see the `atus-survey.md` file we created in the last lesson. 
 
-```
-name: Jane Doe's Website
-output_dir: '.'
-navbar:
-  title: Jane Doe's Website
-  left:
-  - text: Home
-    href: index.html
-  - text: Projects
-    href: projects.html
-```
+![`atus-survey.md`](images/04_projects/04_dsjob_projects-9.png)
 
-![`_site.yml` on RStudio Cloud](images/04_projects/04_dsjob_projects-10.png)
+But, at this point, if you want to take what you did in your final project and turn it into a blog post, you probably want an R Markdown (`.Rmd`) file, not a Markdown (`.md`) file. That's ok! We'll walk through how to create a new post now!
 
-Save this file as `_site.yml`. When asked if you want to change the file extension, click "Yes."
+First, make sure that you are in `/cloud/project` and not your version controlled website directory before attempting to make a new post.
 
-![Yes to change the extension](images/04_projects/04_dsjob_projects-11.png)
+Then, click on the "Addins" button on the menu along the top. Select "New post" from the drop-down menu.
 
-What this file does is specify what tabs you want displayed along the top of your website. "Home" will direct users to your home page, which is all the content in `index.html` (the file Knit from `index.Rmd`). We're additionally going to create a "Projects" tab. The content in this tab will be populated from the `projects.html` file. We'll create this later in this lesson.
+![New Post](images/04_projects/04_dsjob_projects-10.png)
 
-Be sure to double check that you have saved `_site.yml` in the home directory of your website. If you haven't, move the file into the appropriate directory now.
+In the pop-up "New Post" box that appear, enter the "Title" of your final project. For this lesson, we've titled this post "ATUS Survey Data", but as we've discussed in previous lessons, this is *not* a very good title. A better title would concisely convey the findings of the analysis. Be sure that your project title is *better* than "ATUS Survey Data."
 
-![Correct directory](images/04_projects/04_dsjob_projects-12.png)
+After deciding on a good title, include your name in the "Author" box and today's Date in the "Date" box. Then, importantly **change Subdirectory to project**. This ensures that the new post goes in your `project` directory and not your `post` directory.
 
-At this point, if you were to Knit your `index.Rmd file locally (meaning in RStudio Cloud but not on your website online since you haven't yet pushed the changes to GitHub), you would see your new Projects tab in the preview!
+After that, you can choose a few Categories and Tags to include on your website. Leave "Archetype" as is. The name of the file and the slug will fill in automatically. Leave those defaults alone. 
 
-![New Tab Preview](images/04_projects/04_dsjob_projects-14.png)
+Finally **change the format to "R Markdown (.Rmd)". 
 
-However, if you were to click on that tab, there wouldn't be any content. This makes sense. We haven't told your website yet what will be in this document! We'll do that in just a second.
+![New Post Filled In Form](images/04_projects/04_dsjob_projects-11.png)
 
-Before we move on to writing the content that will go in your Projects tab, one note on what we just did. When you Knit your document, a new directory will appear in your website directory called `site_libs`. This directory will be created automatically when you knit and should be in there. There's no need to delete it; however, if you do, when you re-knit, it will re-appear automatically.
+This will generate an R Markdown document where you'll be able to get started! Once this information is all complete, click "Done"
 
-![`site_libs`](images/04_projects/04_dsjob_projects-15.png)
+![New RMarkdown Post](images/04_projects/04_dsjob_projects-12.png)
 
-Now that we have a projects tab, we likely don't want our projects on our home page anymore. So, let's edit our `index.Rmd` file by removing the Projects section. Simply delete the header for that section and the content underneath that header.
+#### Project Content
 
-![Remove Projects from homepage](images/04_projects/04_dsjob_projects-16.png)
+With the file ready, we'll need to determine the general framework for this blog post. This means determining what sections to include in the project and what figures/results you'll present to tell your story. It's a good idea to place possible section headers in the document before you start adding content.
 
-Once that's been removed and the file has been re-knit, there will no longer be a projects section!
+A general framework for this project and most analyses blog posts *could* be the following:
 
-![No Projects section](images/04_projects/04_dsjob_projects-17.png)
+![General Framework](images/04_projects/04_dsjob_projects-13.png)
 
-#### Setup
+You could choose to use this framework or modify it to best tell the story of your analysis. But, regardless of what sections you include, you want to be sure to **explain why you're doing the analysis** and **what question you'll be answering in this post** in the introduction. 
 
-Now that we have the Projects tab set up, let's get to actually generating content for that tab! The goal of this lesson will be to get what you did in your final project into blog post format so that it can be included on your website. After this lesson you can do the same for the other two projects in this course set (Data Tidying and Data Visualization) as well as begin to complete projects on your own to be added to your project gallery.
+Following this, it's often a good idea to explain **where the data came from** and display the code you used to get the data into RStudio Cloud. The Exploratory Data Analysis section should explain **how you wrangled the data** and maybe show an explanatory plot or two. 
 
-To get started, let's create a directory called `projects` in our website directory. This will be the directory where we keep the files containing our projects.
+**How you analyzed the data** should be explained briefly after the data are explained. The Results section is the most important - this should summarize your findings, including figures and tables to guide the reader and help them understand your results. 
 
-Now that we have a directory, let's create a document for this first project and decide how to set up this project. Start a new R Markdown document and save it _within the `projects` directory_.
+The sub-headers within the results section should tell the reader **what your results were**. 
 
-![ATUS Survey Analysis](images/04_projects/04_dsjob_projects-20.png)
-
-For this lesson, we've titled this post "ATUS Survey Analysis", but as we've discussed in previous lessons, this is *not* a very good title. A better title would concisely convey the findings of the analysis. Be sure that your project title is better than "ATUS Survey Analysis."
-
-With the file ready, we'll need to determine the general framework for this blog post. This means determining what sections to include in the project and what figures/results you'll present to tell your story. It's a good idea to open a new R Markdown document for this analysis and place the section headers in the document before you start adding content.
-
-A general framework for this project and most analyses blog posts could be the following:
-
-![General Framework](images/04_projects/04_dsjob_projects-21.png)
-
-You want to be sure to explain why you're doing the analysis and what question you'll be answering in this post in the introduction. Following this, it's often a good idea to explain where the data came from and display the code you used to get the data into RStudio Cloud. The Exploratory Data Analysis section should explain how you wrangled the data and maybe show an explanatory plot or two. How you analyzed the data should be explained briefly after the data are explained. The Results section is the most important - this should summarize your findings, including figures and tables to guide the reader and help them understand your results. The sub-headers within the results section should tell the reader what your result was. Finally, a conclusion should pull everything together.
+Finally, a conclusion should pull everything together.
 
 Within your R Markdown document, this framework would be entered as follows:
 
-![Framework in R Markdown](images/04_projects/04_dsjob_projects-22.png)
+![Framework in R Markdown](images/04_projects/04_dsjob_projects-14.png)
+
+Before we get to adding content, a reminder that you can run `blogdown::serve_site()` at any point in time to preview the changes to your site that you've made. After saving those changes to the R Markdown file, the homepage would look as follows. 
+
+![Post on Homepage](images/04_projects/04_dsjob_projects-15.png)
+
+If you were to click on this post, you would be able to preview the skeleton of your project that you just made!
+
+![Project Preview](images/04_projects/04_dsjob_projects-16.png)
+
+We'll get to filling in the content for the actual post; however, let's take a step back to make the project on the homepage look more like the skeleton post we created before. We want to add a picture to the preview on the homepage, include a caption on the homepage post, and include a picture on the post itself. These changes will all be made in the YAML at the top of your R Markdown document.
+
+![YAML edits](images/04_projects/04_dsjob_projects-18.png)
+
+```
+summary: 'Analysis of 2016 American Time Use Survey (ATUS) Data'
+image_preview: 'bubbles.jpg'
+header:
+  image: 'bubbles.jpg'
+```
+
+We'll explain the YAML edits here:
+* `summary`: the caption text on the post on your homepage
+* `image_preview`: the image included with your post on your homepage
+* `header: image:` the image included in the header of your project post itself.
+
+
+There are a number of other appearance edits you can make in the YAML of your R Markdown document, but these are all we'll cover for now. We're including the default `bubbles.jpg` image for now, but for each project you should **change this to an image that makes sense for that project.** The image you want to include should be stored in `/cloud/project/static/img`.
+
+![where to save images](images/04_projects/04_dsjob_projects-19.png)
+
+Now when you preview your projects on your homepage, the project looks just like the skeleton post we created previously!
+
+![Projects updates preview](images/04_projects/04_dsjob_projects-20.png)
+
+At this point, we can delete the `atus-survey.md` project file because we're going to include just the `.Rmd` file on our website.
+
+![Delete `atus-survey.md`](images/04_projects/04_dsjob_projects-21.png)
 
 #### Content
 
-With the skeleton for your post in your R Markdown document, you would begin to include text and code throughout the post. For example, in the data section you'd explain where the data came from, describe how many observations are in the data and what variables you're most interested in.
+With the skeleton for your post in your R Markdown document ready and the appearance on your website ready to go, it's time to include text and code throughout the post. For example, in the data section you'd explain where the data came from, describe how many observations are in the data and what variables you're most interested in.
 
-You'd also include a code chunk that would read the data into R. Note that you'll need the data in this project in order for this R Markdown document to knit.
+![Data section](images/04_projects/04_dsjob_projects-22.png)
 
-![Data section](images/04_projects/04_dsjob_projects-23.png)
+You'd also include a code chunk that would read the data into R. Note that you'll likely want to include the data in the project website directory   (`/cloud/project/content/project`). You *can* create subdirectories within this directory (for example:    `/cloud/project/content/project/atus_survey`) to help keep things organized.
 
-If we were to knit this file at this point, it would be pretty bare bones.
 
-![Skeleton with data section started](images/04_projects/04_dsjob_projects-24.png)
+If we were to save and preview this file at this point on your website, it would be pretty bare bones, but you would be able to see all the changes you've made. Note that you do *NOT* have to Knit this file, as you would normally. `blogdown` does that automatically for you when you preview the site!
 
-But, as you include more content for what you did in this analysis, it will become a full-fledged post. Be sure that there is text accompanying all code, figures and table, to explain to your readers what is being done throughout the project. Adapt the code from your projects into this document by using the code you've already written but adding text to explain to a reader what you've done.
+![Skeleton with data section started](images/04_projects/04_dsjob_projects-23.png)
+
+And, as you include more content for what you did in this analysis, it will become a full-fledged post. Be sure that there is text accompanying all code, figures and table, to explain to your readers what is being done throughout the project. 
+
+*Adapt* the text and code from your projects into this document by using the code you've already written but adding text to explain to a reader what you've done. You can copy sentences and code chunks, but do *not* simply copy everything currently in your project `.Rmd` document because there is a lot of explanatory text explaining to you what to do in the project. The goal of this post is to tell a story about your analysis. Make sure all text included in this document and every code chunk helps tell that story.
+
+Before finishing **change the picture** included in the header and on your homepage preview to something that matches the project. It could be a figure included in your analysis or a photo of yours (or that is freely-available) that has something to do with your analysis. Make sure that this photo is uploaded into `/cloud/project/static/img`
 
 #### Proofread
 
-After you're happy with your post, it's always a good idea to proofread your writing for typos and errors.
-
-#### Knit 
-
-At this point, you're ready to knit your R Markdown document. Double check to make sure the .Rmd and the .html files are both within the `projects` directory you created.
-
-
-### Projects
-
-You now have a post and a website with a "Projects" tab, but you're missing the link telling the Projects tab where to find your projects! We'll fix that now. 
-
-To tell the projects tab where to look for your Projects, you'll need to open a new R Markdown document. The title of this document will be "Projects." 
-
-![projects.Rmd](images/04_projects/04_dsjob_projects-25.png)
-
-Save this document as `projects.Rmd` in the main directory for your website - the name of this file should correspond to the file you stated in `_site.yml` (`projects.html`). Knit this document. `projects.html` will be generated and saved in the main directory for your website.
-
-Within this document, you'll need to create a link that directs website to the .html document with this analysis.
-
-![point to file](images/04_projects/04_dsjob_projects-26.png)
-
-Note that you've saved this file within the `projects/` directory, so your relative link will have to specify that.
-
-When you knit your `index.Rmd` document to preview your website and click on the Projects Tab, there is now content in there (thanks to `projects.Rmd`) and a link in there to your analysis!
-
-![Projects Tab has content](images/04_projects/04_dsjob_projects-27.png)
-
-Then, if you click on the link, you will be redirected to this project!
-
-[Link opens up your analysis](images/04_projects/04_dsjob_projects-28.png)
-
-A final note on edits to `projects.Rmd` is that this is like any R Markdown document. You can use headers to separate projects, add images (make sure you upload images you want to include) and include brief text to describe what one will find in the link. This will help make your list of projects more similar to a visually-enticing project gallery.
-
-![updates to `projects.Rmd`](images/04_projects/04_dsjob_projects-29.png)
-
-Just remember that to see any changes, the document has to be Knit. The changes will then be visible locally in the HTML preview!
-
-![Knit to HTML](images/04_projects/04_dsjob_projects-30.png)
+After you're happy with your post, it's *always* a good idea to proofread your writing for typos and errors.
 
 ### Push to GitHub
 
-Once you're happy with these changes, push all your changes to GitHub:
+Once you're happy with these changes, remember that in order for them to be seen on your website, all the contents of your `/cloud/project/public/` directory have to be added to your website directory. To do this, first delete all of the current files (**except for the hidden files!**) in `/cloud/project/username.github.com`.
+
+![Delete old website files](images/04_projects/04_dsjob_projects-24.png)
+
+Then, select all the files in `cloud/project/public.` Click "More" and select "Move" from the drop down menu.
+
+![Move files](images/04_projects/04_dsjob_projects-25.png)
+ 
+Select the Folder for your website in the pop-up "Choose Folder" window. Click "Choose."
+
+![Select website](images/04_projects/04_dsjob_projects-26.png)
+
+You're now ready to push all your changes to GitHub. Make sure you're in the correct version-controlled directory (`/cloud/project/username.github.com/`) and then add, commit, and push your changes:
 
 ```
+cd /cloud/project/username.github.com/
 git add .
 git commit -m "add projects tab"
 git push
@@ -212,9 +211,25 @@ git push
 
 Your changes will now be viewable on your website!
 
-![Changes to website](images/04_projects/04_dsjob_projects-32.png)
+![Changes to website](images/04_projects/04_dsjob_projects-28.png)
 
-You'll want to create a blog post-like document for each of the projects you've completed in this course set *and* andy projects you've done on your own!
+You'll also want to create projects or posts for your Data Tidying and Data Visualization Projects on your website. That won't be required of this lesson, but it is a good idea to make sure that your work is represented clearly on your website
+
+### Your *Own* Project
+
+So far in this Course set, you've been told what data to work with, how to explore it, and what questions to answer. *However*, when looking for a job, hiring managers will want to see that you have completed projects on your own. At this point, it's your job to use *all* the skills you've learned throughout this Course Set to add a project that is *all your own* to your website.
+
+To be considered complete, this project must demonstrate your ability to:
+
+* form a data science question
+* get data
+* tidy data
+* explore data
+* analyze data
+* visualize data
+* communicate your analysis effectively
+
+Carry out a data science project on your own about a topic you care about or find interesting! Then **add this project to your `blogdown` website**. Push the changes to GitHub and include the link to your project in the quiz below. 
 
 
 ### Slides and Video
@@ -229,10 +244,10 @@ You'll want to create a blog post-like document for each of the projects you've 
 ### Project Gallery quiz
 
 {choose-answers: 4}
-? Projects on my website should be most similar to...
+?1 Projects on my website should be most similar to...
 
 C) blog posts
-C) brief reports
+C) data science reports
 o) GitHub repositories
 o) full reports
 o) technical presentations
@@ -240,7 +255,7 @@ o) general presentations
 o) one-on-one meetings
 
 {choose-answers: 4}
-? The goal of including projects on my website is to...
+?2 The goal of including projects on my website is to...
 
 C) Demonstrate my technical and data science communication skills
 C) Show off my work and interests to hiring managers
@@ -250,15 +265,40 @@ o) Generate a Twitter following
 o) Show every detail of what I did for an analysis
 o) Help others make their own website
 
+{choose-answers: 4}
+?3 For images you want to display on your homepage, in what directory should upload the image?
+
+C) `/cloud/project/static/img`
+m) `/cloud/project/static/img/project.img`
+o) `/cloud/project/public/img`
+o) `/cloud/project/static/images`
+o) `/cloud/project/public/images`
+o) `/cloud/project/public/img/project.img`
+o) `/cloud/project/static/images/project.img`
+o) `/cloud/project/public/images/project.img`
+
+
+{choose-answers: 4}
+?3 If you wanted the image "project.img" to be included on your website homepage along with your project, what would be the path to that image?
+
+C) `/cloud/project/static/img/project.img`
+m) `/cloud/project/static/img`
+o) `/cloud/project/public/img`
+o) `/cloud/project/public/img/project.img`
+o) `/cloud/project/static/images`
+o) `/cloud/project/public/images`
+o) `/cloud/project/static/images/project.img`
+o) `/cloud/project/public/images/project.img`
+
 {points: 3}
-? Throughout this lesson, you should have updated your website with a link to a blog post describing the analysis you did in the Final Project of this Course Set. **Paste the URL to the project on your website below**.
+?4 Throughout this lesson, you should have updated your website with a link to a blog post describing the analysis you did in the Final Project of this Course Set. **Paste the URL to the project on your website below**.
 
-! /(.+github.io.+)/i
+! /(.+github.io\/project.+)/i
 
 {points: 3}
-? You'll also need to have projects that you've completed on your own on your website. **Paste the URL to the a project you've completed and put on your website below.** This project must include at least four of the following: **getting data**, **cleaning data**, **exploratory data analysis**, **data analysis**, and **data visualization**.
+?5 You'll also need to have projects that you've completed on your own on your website. **Paste the URL to the a project you've completed and put on your website below.** This project must include the following: **getting data**, **cleaning data**, **exploratory data analysis**, **data analysis**, *and* **data visualization**.
 
-! /(.+github.io.+)/i
+! /(.+github.io\/project.+)/i
 
 {/quiz}
 
