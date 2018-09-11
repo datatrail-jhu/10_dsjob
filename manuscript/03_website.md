@@ -441,12 +441,12 @@ In this code, you're changing your directory to the version controlled directory
 
 On GitHub, these changes will all be visible! 
 
-![GitHub changes](images/03_website/03_dsjob_website-70.png)
+![GitHub changes](images/03_website/03_dsjob_website-69.png)
 
 And, when you go to `username.github.io`, you will be able to see all the changes you've made to make your website more professional! Awesome!
 
 
-![`blogdown` website!](images/03_website/03_dsjob_website-71.png)
+![`blogdown` website!](images/03_website/03_dsjob_website-70.png)
 
 
 ### Additional Resources
