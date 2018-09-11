@@ -101,13 +101,81 @@ Include clear explanations of what you did, the code, and all necessary graphs a
 
 Last but not least, you'll likely be tired at this point in the process but *don't skip proofreading*. Take the last few minutes to read what you've written, to check for typos, and to make sure it all makes sense. Attention to detail is important for data scientists, so be sure to hand over an analysis that has been proofread and is clear. 
 
-### Take-Home Assignment Example(s):
+### Take-Home Examples 
 
-- https://github.com/wikimedia-research/Discovery-Hiring-Analyst-2016
-- GovEx? 
-- Kyle Scot Shank
+To finish off this lesson, we wanted to include an example take-home analysis that you may be given on a data science interview. 
+
+#### Dollar Sales Prediction
+
+This first example provides you a good idea with something that applicants may be asked to complete in their interview. For this example, all the information you see in this lesson would be the information that would be provided to the applicant. This would be provided in the form of a two page document. 
+
+The document begins with a brief explanation of the exercise:
+
+![Predictive Modellng Exercise](images/12_take_home/12_dsjob_take_home-16.png)
+
+This introduction gives the applicant an idea of how much data they'll be working with (~20,000 observations and 19 variables) and what their goal is (to predict dollar sales).
+
+Accompanying this document there would be three datasets that the applicant would use to complete this task:
+
+![Three Datasets](images/12_take_home/12_dsjob_take_home-17.png)
+
+Additionally, the applicant is provided a description of the promotion tactics included in the dataset:
+
+![Promotion Tactics](images/12_take_home/12_dsjob_take_home-18.png)
+
+The applicant also gets a data dictionary, or an explanation of what each variable in the dataset is.
+
+![Variables in the dataset](images/12_take_home/12_dsjob_take_home-19.png)
+
+Last but not least, the applicant would be provided further directions and scoring criteria. This part of the document should be ***read multiple times**, as it makes clear what the applicant is expected to do and in what form your response should be submitted.
+
+![Directions & Scoring Criteria](images/12_take_home/12_dsjob_take_home-20.png)
+
+Specifically, for this example, when you go to consider what tools you're going to use, after reading the directions, it becomes clear that you're limited to either R or Python. 
+
+When it comes to considering what type of analysis you'll be doing, you know off the bat that this is prediction (and not inference), since the title is "Predictive Modeling Exercise."
+
+The directions also specify that at least two models should be used. You want to be sure you follow this instruction. And, you must explain *why* you chose one method over the other.
+
+It is specified in the directions that **two files must be submitted**. Thus, you need to be sure if you're the applicant that you submit both files at the end.
+
+The authors of this take-home also give you a little bit of direction. They inform the applicants that they'll be using RMSE (root mean squared error) to assess the predictions *and* will be looking at how you thought through and addressed the analysis.
+
+
+#### Data Analyst at Wikimedia Foundation
+
+Our second example comes from [Wikimedia Foundation](https://wikimediafoundation.org/). The full example can be found [on GitHub](https://github.com/wikimedia-research/Discovery-Hiring-Analyst-2016). This task would be asked of applicants who have applied to be a Data Analysts in the Discovery department at the Foundation. 
+
+The example task that the applicant would be provided first gives the applicant some background about the type of data they'll be working with.
+
+![Background](images/12_take_home/12_dsjob_take_home-21.png)
+
+The applicant is informed that the team is interested in `clickthrough rate` and `zero results rate`. These two terms are defined in this background information and the applicant is informed that they'll be working with Event Log data.
+
+After the background, the applicant's task is laid out. The instructions here specify that a reproducible report must be generated (You know how to do that in R Markdown!).
+
+![Task](images/12_take_home/12_dsjob_take_home-22.png)
+
+There are then four questions that the applicant must answer using the data they're provided. 
+
+After defining the task, the dataset is explained, defining each variable and its type.
+
+![Data](images/12_take_home/12_dsjob_take_home-23.png)
+ 
+Last but not least, an example session is provided to give the applicant some idea of what the data they'll be working with looks like.
+
+![Example Session](images/12_take_home/12_dsjob_take_home-24.png)
+
+And, with that the applicant is off to complete the Task
+
+#### Examples Summary
+
+The goal here was not to provide enough information to walk you step-by-step through each example and explain how to complete the task. Instead, the goal here was to give you an idea of what *types* of tasks are asked of data scientists during interviews. That said, the [data]((https://github.com/wikimedia-research/Discovery-Hiring-Analyst-2016)) are available for the Wikimedia example, so feel free to play around with the data and give it a go!
+
 
 ### Summary
+
+In this lesson, we've introduced the take-home data analysis that is a part of most data science interviews. We've discussed how to approach this part of the interview and provided two examples of the types of tasks that applicants are asked to complete during their interview process.
 
 ### Additional Resources
 
@@ -126,17 +194,17 @@ Last but not least, you'll likely be tired at this point in the process but *don
 ### Practice Take-Home Data Analysis quiz
 
 {choose-answers: 4}
-? Which of the following describes the *best* approach to carrying out a take-home data analysis project?
+?1 Which of the following describes the *best* approach to carrying out a take-home data analysis project?
 
 C) Read the Instructions x2 > Think & Plan > Clean the Data > Explore the Data > Analyze the Data Simply > Visualize the Data > Organize & Write
-C) Read the Instructions > Read the Instructions agan > Think & Plan > Clean the Data > Explore the Data > Analyze the Data Simply > Visualize the Data > Organize & Write
+C) Read the Instructions > Read the Instructions again > Think & Plan > Clean the Data > Explore the Data > Analyze the Data Simply > Visualize the Data > Organize & Write
 o) Read the Instructions > Think & Plan > Clean the Data > Explore the Data > Analyze the Data Using the Most Complex Model You Know > Visualize the Data > Organize & Write
 o) Explore the Data > Analyze the Data > Think & Plan > Clean the Data >  Visualize the Data > Organize & Write
 o) Analyze the Data > Write The Report
 o) Panic > Analyze furiously > Try to Organize Your Thoughts > Send the company whatever you have when your time limit is up
 
 {choose-answers: 4}
-? Which of the following statements is TRUE about take-home assignments?
+?2 Which of the following statements is TRUE about take-home assignments?
 
 C) Data Cleaning and Exploration are critical steps.
 C) Effective communication is important, so take time to figure out how to tell a story. 
@@ -147,6 +215,76 @@ o) Your code matters most. Focus time there. Don't worry about explanations.
 o) Visualizations should be quick and dirty.
 o) Always use the tools used by the company.
 
+
+{choose-answers: 4}
+?3 It's best to read through the content on the take-home examples provided in this lesson to answer the following question: In the Wikimedia take-home example, which of the following was *NOT* a task asked of the applicant?
+
+C) calculate the mean number of seconds a page is left open
+C) determine the number of unique individuals visiting the site
+o) calculate the mean number of visits to the site for a single individual
+o) calculate the daily overall zero results rate
+o) calculate the daily clickthrough rate
+o) determine how the daily clickthrough rate varies between groups
+o) determine which results people tend to try first
+o) answer whether or not the results people tend to try first changes from one day to the next
+o) Visualize a relationship between variables
+o) Summarize findings in an executive summary
+o) Generate a reproducible report
+o) Submit two files, one with your script and one with an additional variable
+o) Use at least two models to predict sales
+o) Explain why one model was better than another
+
+{choose-answers: 4}
+?3 It's best to read through the content on the take-home examples provided in this lesson to answer the following question: In the predictive modeling exercise example, which of the following was *NOT* a direction provided to the applicant?
+
+
+C) calculate the mean number of seconds a page is left open
+C) determine the number of unique individuals visiting the site
+C) calculate the mean number of visits to the site for a single individual
+C) calculate the daily overall zero results rate
+C) calculate the daily clickthrough rate
+C) determine how the daily clickthrough rate varies between groups
+C) determine which results people tend to try first
+o) Submit two files, one with your script and one with an additional variable
+o) Use at least two models to predict sales
+o) Explain why one model was better than another
+o) Use either R or Python to complete the exercise
+o) Conduct an exploratory data analysis
+o) explain your thought process in your report
+
+
+{choose-answers: 4}
+?4 It's best to read through the content on the take-home examples provided in this lesson to answer the following question: In the predictive modeling exercise example, what is the variable name for the percentage of dollar sales with TRP only?
+
+C) `percent_tpr`
+m) `session_id`
+o) `tpr_price`
+o) `p_tpr`
+o) `price`
+o) `dollar_sales`
+o) `feature_price`
+o) `uuid`
+o) `timestamp`
+o) `pageid`
+o) `n_results`
+
+
+{choose-answers: 4}
+?4 It's best to read through the content on the take-home examples provided in this lesson to answer the following question: In the Wikimedia take-home example, what is the variable name for a unique ID identifying indivdiual sessions?
+
+C) `session_id`
+o) `sess_ID`
+o) `session_ID`
+m) `percent_tpr`
+o) `uuid`
+o) `timestamp`
+o) `pageid`
+o) `n_results`
+o) `tpr_price`
+o) `p_tpr`
+o) `price`
+o) `dollar_sales`
+o) `feature_price`
 
 {/quiz}
 
