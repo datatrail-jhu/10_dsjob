@@ -68,6 +68,8 @@ Your educational history should be included on your resume. Each entry should in
 
 This section should also **include online programs** (such as this one, once you've fully completed it!) and **any pertinent other job training**, such as workshops attended or other pertinent certificates earned. Note that you should *not* include certificates you've earned that are not related to the job to which you're applying. 
 
+Once completed, this Course Set should be included in this section. However, you should not include this on your resume until you've completed the entire Course Set.
+
 #### Experience
 
 Finally, your previous job experience should be included here. If you have years of data science experience, then it's not necessary to include other, unrelated jobs. However, if you have years of job experience demonstrating your commitment to working for a company for an extended period of time but don't *yet* have data science experience, put this job down. Employers want to see that you have worked at a job for a period of time.
@@ -152,7 +154,7 @@ In this lesson we've reviewed the general guidelines for resume writing, the imp
 
 ### Slides and Video
 
-![Resumes](https://www.youtube.com/watch?v=yJy0fPoPHSQ)
+![Resumes](https://www.youtube.com/watch?v=3NH7zYT97U8)
 
 * [Slides](https://docs.google.com/presentation/d/163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc/edit?usp=sharing)
 
