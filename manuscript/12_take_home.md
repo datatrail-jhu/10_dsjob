@@ -107,7 +107,7 @@ To finish off this lesson, we wanted to include an example take-home analysis th
 
 #### Dollar Sales Prediction
 
-This first example provides you a good idea with something that applicants may be asked to complete in their interview. For this example, all the information you see in this lesson would be the information that would be provided to the applicant. This would be provided in the form of a two page document. 
+This first example provides you a good idea with something that applicants may be asked to complete in their interview. This example comes from the Data Science team at The Hershey Company. For this example, all the information you see in this lesson would be the information that would be provided to the applicant. This would be provided in the form of a two page document. 
 
 The document begins with a brief explanation of the exercise:
 
