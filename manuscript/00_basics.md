@@ -11,7 +11,7 @@ Whenever you're looking for a job, in data science or otherwise, there are a num
 
 However, for data science jobs, there are a number of other steps you should take *outside of what you submit to each company* to give yourself the best chance at getting the job you're interested in! These include ensuring you have a personal website and that it is up to date and ensuring that all your professional social media accounts are up-to-date!
 
-In this lesson, in particular, we'll cover an overview of what you need to find a data science job. And, then, in the lessons that follow, we'll discuss the ins- and outs- of those official documents (resume, cover letter, etc) and those less official steps to take (updated website, Twitter presence, etc.), helping to ensure you get each of these set up to move forward. 
+In this lesson, in particular, we'll cover an overview of what you need to find a data science job. And, then, in the lessons that follow, we'll discuss the ins- and outs- of those official documents (resume, cover letter, etc) and those less official steps to take (updated website, Twitter presence, etc.), helping to ensure you get each of these set up to move forward. Note that there will be *a lot* to do throughout this course, but that's what it takes to get a job! So, read carefully, follow along, and make all the updates and changes outlined throughout this course to start preparing yourself for looking for a position!
 
 ### Job Applications
 

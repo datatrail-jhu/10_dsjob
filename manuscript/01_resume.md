@@ -143,7 +143,7 @@ Last, once your resume has been written and formatted, you're all ready to send 
 
 ### Summary
 
-In this lesson we've reviewed the general guidelines for resume writing, the important features of any resume, and a few examples of data science resumes. It's best at this point to get working on your resume. You'll always have to update it and there will always be ways to improve it's appearance, but the hardest part is getting a first draft, so get working on that now!
+In this lesson we've reviewed the general guidelines for resume writing, the important features of any resume, and a few examples of data science resumes. It's best at this point to get working on your resume. You'll be asked to submit a link to your resume in a lesson later in this course as a quiz response. And, while you'll always have to update this document and there will always be ways to improve its appearance, the hardest part is getting a first draft, so get working on that now! 
 
 ### Additional Resources
 

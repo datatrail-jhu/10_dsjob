@@ -115,7 +115,7 @@ In this lesson, we've reviewed the goals, format and content of a cover letter t
 ### Cover Letters quiz
 
 {choose-answers: 4}
-? Which of the following is **not** a word or phrase to never include in a cover letter? (Note: Read the information in [this link](https://www.glassdoor.com/blog/cover-letter-words/) before answering this question.)
+? Which of the following is **not** a word or phrase to avoid using in a cover letter? (Note: Read the information in [this link](https://www.glassdoor.com/blog/cover-letter-words/) before answering this question.)
 
 C) "My \_\_\_\_ skills and experience \_\_\_\_ would make me a great fit for this position because \_\_\_\_\_\_"
 C) "I have experience in \_\_\_\_ and have been trained in \_\_\_\_\_\_, all of which would help me succeed in this position because \_\_\_\_"
