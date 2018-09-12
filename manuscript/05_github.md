@@ -129,6 +129,18 @@ o) Name
 o) A Picture
 o) URL to your website
 
+{points:3}
+? Submit the URL to your now-complete GitHub profile. 
+
+! /(.*github.com\/.+)/i
+
+{points:3}
+? Find a typo in a GitHub repo (This could be any GitHub repo!). Submit a PR (pull request) to edit that typo. **Paste the URL to that GitHub pull request below**.
+
+! /(.+github.com.+pull.*)/i
 
 {/quiz}
+
+
+
 

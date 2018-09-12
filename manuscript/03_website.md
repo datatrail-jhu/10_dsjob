@@ -596,5 +596,19 @@ o) Icons included below your name
 o) Link to where you're taken when you click on your picture
 o) Link to where you're taken when you click on your name 
 
+{points: 3}
+?7 Submit the URL for your new website here!
+
+! /(.+github.io.*)/i
+
+{points: 3}
+?8 Submit the URL to your *resume* on your website here!
+
+! /(.+github.io\/files\/.+)/i
+
 {/quiz}
+
+
+
+
 

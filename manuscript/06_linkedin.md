@@ -189,5 +189,10 @@ o) LinkedIn only allows connections to be made with famous pepole.
 o) LinkedIn is a free for all and you should connect with anyone and everyone, regardless of their field.
 o) LinkedIn is a place where you should only connect with individuals outside your field of interest.
 
+{points:3}
+?5 Submit the URL to your now-complete LinkedIn profile. 
+
+! /(.*linkedin.com\/.+)/i
+
 {/quiz}
 

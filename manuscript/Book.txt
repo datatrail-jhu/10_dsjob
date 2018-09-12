@@ -1,6 +1,5 @@
 00_basics.md
 01_resume.md
-02_coverletter.md
 03_website.md
 04_projects.md
 05_github.md
@@ -11,4 +10,5 @@
 10_remote_jobs.md
 11_interviews.md
 12_take_home.md
+02_coverletter.md
 13_meetups.md

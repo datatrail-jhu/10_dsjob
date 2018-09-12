@@ -171,6 +171,11 @@ o) Block that person.
 o) Report the tweet.
 o) Tweet negative things about that person.
 
+{points: 3}
+?5 Tweet or retweet something from your professional Twitter account related to data science. This could be a tweet about one of your projects (with a link to it on your website!) or a tweet about something cool someone else did. Paste the URL to this tweet below.
+
+! /(.+twitter.com.+\/status\/.*)/i
+
 
 {/quiz}
 
