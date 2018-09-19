@@ -174,13 +174,13 @@ In this lesson, we've covered a lot about interviewing for a data science positi
 
 A reminder that a few of the questions may ask about material in the resources included here. Be sure to read over them and watch the video before attempting the quiz:
 
-* [Twitter Thread about what questions to ask](https://twitter.com/jensenharris/status/988967889330819072), from [Jensen Harris](https://www.linkedin.com/in/jensenharris/)
-* [Questions I'm Asking in Interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/), by [Julia Evans](https://jvns.ca/about/)
-* [VIDEO: Live Breakdown of Common Data Science Interview Questions](https://www.youtube.com/watch?v=aXUsrKPTBvY&index=6&list=PLqFaTIg4myu-dNobDHQZPrD2wH27PthCG%29) <- There are multiple questions from this. It's best to watch the whole thing now!
-* [Advice for Applying to Data Science Jobs](http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/), by [Emily Robinson](http://hookedondata.org/about/s)
+* [Twitter Thread about what questions to ask](https://twitter.com/jensenharris/status/988967889330819072){target="_blank"}, from [Jensen Harris](https://www.linkedin.com/in/jensenharris/)
+* [Questions I'm Asking in Interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/){target="_blank"}, by [Julia Evans](https://jvns.ca/about/)
+* [VIDEO: Live Breakdown of Common Data Science Interview Questions](https://www.youtube.com/watch?v=aXUsrKPTBvY&index=6&list=PLqFaTIg4myu-dNobDHQZPrD2wH27PthCG%29){target="_blank"} <- There are multiple questions from this. It's best to watch the whole thing now!
+* [Advice for Applying to Data Science Jobs](http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/){target="_blank"}, by [Emily Robinson](http://hookedondata.org/about/s)
 
 {choose-answers: 4, points: 2}
-?1 Read [Advice for Applying to Data Science Jobs](http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/). At one point the author mentions a time she was interviewing someone. What does she say impressed her? 
+?1 Read [Advice for Applying to Data Science Jobs](http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/){target="_blank"}. At one point the author mentions a time she was interviewing someone. What does she say impressed her? 
 
 C) The interviewee asked a technical question about a presentation the interviewer had given previously.
 C) The interviewee demonstrated that she had done her research about the interviewer by asking a great question about a presentation.
