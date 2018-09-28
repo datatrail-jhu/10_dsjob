@@ -154,7 +154,7 @@ In this lesson we've reviewed the general guidelines for resume writing, the imp
 
 ### Slides and Video
 
-![Resumes](https://www.youtube.com/watch?v=3NH7zYT97U8)
+![Resumes](https://www.youtube.com/watch?v=7vTk9zWFjRE)
 
 * [Slides](https://docs.google.com/presentation/d/163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc/edit?usp=sharing)
 

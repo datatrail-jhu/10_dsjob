@@ -139,7 +139,7 @@ In this lesson we've discussed how to use LinkedIn to expand your professional n
 
 ### Slides and Video
 
-![Improving Your LinkedIn Profile](https://www.youtube.com/watch?v=k_F5iAYoFLQ)
+![Improving Your LinkedIn Profile](https://www.youtube.com/watch?v=gG5OBtkjhwk)
 
 * [Slides](https://docs.google.com/presentation/d/1_W66RAFguebMCK2UC44lwrdPmlBmzLMBcorknC-kLsM/edit?usp=sharing)
 

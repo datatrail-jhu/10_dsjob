@@ -89,7 +89,7 @@ In this lesson we discussed the importance of having a complete GitHub profile a
 
 ### Slides and Video
 
-![Improving Your GitHub Profile](https://www.youtube.com/watch?v=ok-GvtYwHGA)
+![Improving Your GitHub Profile](https://www.youtube.com/watch?v=2OvDFxPXKEQ)
 
 * [Slides](https://docs.google.com/presentation/d/10VRTUHsYh8hdYBily8cexSdP-sviYCIo_gzh1y8PsRs/edit?usp=sharing)
 

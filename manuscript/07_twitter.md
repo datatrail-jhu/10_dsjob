@@ -32,7 +32,7 @@ Here, we've included a few Twitter bios as examples. [@BecomingDataSci](https://
 
 You'll also want to include a link to your personal website in the "Website" box.  Type the URL of your website there. 
 
-On these same three profiles whose bios we just looked at, you'll see that each has also helpfully provided their webiste URL within their individual Twitter profiles. 
+On these same three profiles whose bios we just looked at, you'll see that each has also helpfully provided their website URL within their individual Twitter profiles. 
 
 ![Website links](images/07_twitter/07_dsjob_twitter-8.png)
 
@@ -116,7 +116,7 @@ In this lesson we discussed why Twitter can be a great place to learn more about
 
 ### Slides and Video
 
-![Using Twitter For Data Science](https://www.youtube.com/watch?v=rgwnzcPZ4Hc)
+![Using Twitter For Data Science](https://www.youtube.com/watch?v=mCPnazxjcJ4)
 
 * [Slides](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/edit?usp=sharing)
 
@@ -138,7 +138,7 @@ o) Include a link to their work
 
 
 {choose-answers: 4}
-?2 Which of the follwoing is a benefit of Twitter?
+?2 Which of the following is a benefit of Twitter?
 
 C) It allows you to learn new things
 C) Twitter allows you to virtually meet people you wouldn't otherwise

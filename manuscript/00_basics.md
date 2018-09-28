@@ -30,7 +30,7 @@ In addition to a resume which will not change much from one job application to t
 
 ### Online Presence
 
-In addition to the *official* job application materials, the individuals responsible for hiring decisions at the company where you're submitting your application will have access to the Interent. This means that if you get through their initial screening, where they look at your cover letter and resume, they'll likely search for you on the Internet. 
+In addition to the *official* job application materials, the individuals responsible for hiring decisions at the company where you're submitting your application will have access to the Internet. This means that if you get through their initial screening, where they look at your cover letter and resume, they'll likely search for you on the Internet. 
 
 This means that your **online presence should always be up to date when you're applying for jobs**. 
 
@@ -56,7 +56,7 @@ It's important that each of these profiles are up-to-date, contain all the infor
 
 ### Slides and Video
 
-![What You Need to Find a Data Science Job](https://www.youtube.com/watch?v=jXlYxAFGm3c)
+![What You Need to Find a Data Science Job](https://www.youtube.com/watch?v=n4fMLxLGlR8)
 
 * [Slides](https://docs.google.com/presentation/d/1nXZfBoWEKMCz5hUVdlE-V4B1eVCSOOlS2FVByiQlZ2c/edit?usp=sharing)
 

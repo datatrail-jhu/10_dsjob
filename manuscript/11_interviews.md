@@ -57,7 +57,7 @@ Practice answering questions out loud. Practice coding. Practice explaining tech
 
 #### Avoid Giving a Salary Number
 
-Sometimes HR or others will ask you what salary you're looking for. Never volunteer your current salary or what you're looking to make. If this number you offer is lower than what they intended to offer you, you may be getting a lower salary than you would have otherwise. If you're asked to give a salary number say that you're interested in learning about the position, the company, and responsibilites of the job and would rather discuss salary later. If you're asked again, you can always offer a very big range based on industry standards but state that you're really most interested in making sure the fit is right for you and would rather consider the entire compensation package rather than salary alone.
+Sometimes HR or others will ask you what salary you're looking for. Never volunteer your current salary or what you're looking to make. If this number you offer is lower than what they intended to offer you, you may be getting a lower salary than you would have otherwise. If you're asked to give a salary number say that you're interested in learning about the position, the company, and responsibilities of the job and would rather discuss salary later. If you're asked again, you can always offer a very big range based on industry standards but state that you're really most interested in making sure the fit is right for you and would rather consider the entire compensation package rather than salary alone.
 
 ![Avoid giving a salary](images/11_interviews/11_dsjob_interviews-7.png)
 
@@ -163,7 +163,7 @@ In this lesson, we've covered a lot about interviewing for a data science positi
 
 ### Slides and Video
 
-![Data Science Interviews](https://www.youtube.com/watch?v=P35gjneed7o)
+![Data Science Interviews](https://www.youtube.com/watch?v=D7wnXeUXYHk)
 
 * [Slides](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/edit?usp=sharing)
 

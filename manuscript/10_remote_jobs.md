@@ -50,7 +50,7 @@ In this lesson we discuss how and where to look for remote positions, should you
 
 ### Slides and Video
 
-![Where To Find Remote Data Science Jobs](https://www.youtube.com/watch?v=Umb4ptz-K80)
+![Where To Find Remote Data Science Jobs](https://www.youtube.com/watch?v=RRr5eQeqJlU)
 
 * [Slides](https://docs.google.com/presentation/d/1Ug8GIBwIQME8C68jVa0rPwEryW30Vn5PT-IM0LKFDNw/edit?usp=sharing)
 
