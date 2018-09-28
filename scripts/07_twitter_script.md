@@ -14,7 +14,7 @@ Here, we've included a few Twitter bios as examples. The first on the left is th
 
 You'll also want to include a link to your personal website in the "Website" box. Type the URL of your website there.
 
-On these same three profiles whose bios we just looked at, you'll see that each has also helpfully provided their webiste URL within their individual Twitter profiles. 
+On these same three profiles whose bios we just looked at, you'll see that each has also helpfully provided their website URL within their individual Twitter profiles. 
 
 If you want to share your location, you can also include that under "Location," but this is not required. Once you've completed all the information you'd like your profile to include, click "Save changes" on the right-hand side.
 

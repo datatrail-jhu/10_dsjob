@@ -116,7 +116,7 @@ In this lesson we discussed why Twitter can be a great place to learn more about
 
 ### Slides and Video
 
-![Using Twitter For Data Science](https://www.youtube.com/watch?v=mCPnazxjcJ4)
+![Using Twitter For Data Science](https://www.youtube.com/watch?v=7Zw95c4bS2U)
 
 * [Slides](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/edit?usp=sharing)
 
