@@ -28,15 +28,9 @@ Once you save this file, the changes should be visible on your website preview!
 
 To finish updating your Contact information, you'll want to be sure to include your email address in the email field. However, you'll want to remove the contents from the address, office_hours, and phone number fields. Leave the quotation marks, but remove the contents. Only include address and phone number if they are professional addresses and phone numbers. You should not include your home address or personal cell phone number on this website. You can always come back later and edit this information.
 
-These changes will be visible in the Contact section of your website preview. On this preview, you may notice that there's a big blank space above your name. There should be a picture there! Because of the way things are set up on R Studio Cloud, a change has to be made before this image can be visible. 
+These changes will be visible in the Contact section of your website preview. 
 
-To make this edit, you'll want to navigate to the directory highlighted here within the "Files" tab of R Studio Cloud. There, you'll click on about dot html. Within this file, go to line 13. Here you'll see some unfamiliar code. It's ok not to fully understand this at this point -- we're just going to make two small changes. 
-
-First, add dot slash, as highlighted on the video. Then, edit rel U R L to be abs U R L in that same line. The code should look just as you see here.
-
-Once you save this file, the avatar image should now be visible! 
-
-That's great, but you want this to be a picture of yourself! To do this, you'll want to navigate to the directory highlighted here within the "Files" tab on R Studio Cloud. This is where images you want to display on your website should be stored. 
+Now, let's add a picture of you to this website! To do this, you'll want to navigate to the directory highlighted here within the "Files" tab on R Studio Cloud. This is where images you want to display on your website should be stored. 
 
 Upload a image file of yourself to this directory! Then return to the config dot toml file we were editing previously and search for the line that says avatar equals "portrait dot jpg". Change "portrait.jpg" to the name of your image file, as you see here. Specifically, here, we're going to specify that we want to use the "female.png" image. 
 
@@ -92,13 +86,15 @@ In that same directory, open publications underscore selected dot m d. Set activ
 
 In that same directory, open talks dot md. Set active equals false and save your changes.
 
-In that same directory, open teaching dot md. Set active equals false and save your changes. Now, when you preview your website and scroll through your homepage, these sections will have been removed.
+In that same directory, open teaching dot md. Set active equals false and save your changes. 
+
+Finally, in that same directory, open experience dot md. Set active equals false and save your changes. Now, when you preview your website and scroll through your homepage, these sections will have been removed.
 
 We opted not to turn off the posts section of your website. Now, we won't specify in this course what to specifically include in this section, but we will encourage you to write blog posts and include them in this section. For now, we'll delete the posts that are already in there, since they're not your blog posts and show you how to write blog posts in the future. 
 
-Navigate to the directory highlighted here. In this directory, you'll se a few files. One of them will be getting dash started dot md If you were to open this file, you'd see all the contents used to write that "Getting Started" post currently on your website. 
+Navigate to the directory highlighted here. In this directory, you'll see an index dot md file. If you were to open this file, you'd see all the contents used to write that "Getting Started" post currently on your website. 
 
-While there's lots of helpful information in this post, you didn't write it, so you'll want to delete this file. Another file in there will be 20 15 dash 0 7 dash 2 3 dash r dash markdown dot R m d. This will contain the text we included at the beginning of the lesson in the "Edit" box. You can leave this file for now. There will be time to edit and write new posts later!
+While there's lots of helpful information in this post, you didn't write it, so you'll want to delete this entire directory. Another file in your post directory will be 20 15 dash 0 7 dash 2 3 dash r dash markdown dot R m d. This will contain the text we included at the beginning of the lesson in the "Edit" box. You can leave this file for now. There will be time to edit and write new posts later!
 
 After these changes are saved, your Recent Posts section of your website should look like this:
 
