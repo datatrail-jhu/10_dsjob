@@ -1,6 +1,6 @@
 # Making Your Website More Professional
 
-In an earlier lesson of this course, we generated a basic website where you could write about yourself, your interests, and the projects you've worked on. However, this was created before you were looking for jobs and before you were comfortable working with R and RStudio Cloud! In this lesson, now that you have these skills and are more comfortable, we'll update the look of your website using the `blogdown` package. In this lesson, we'll cover both how to add more information to your website and how to make it more professional. In doing this, we'll provide examples from others' websites. We hope that by the end of this lesson you'll have a website is helpful to those interested in hiring you!
+In the [Introduction to R](https://leanpub.com/universities/courses/jhu/cbds-intro-r) course earlier in this Course Set, we generated a basic website where you could write about yourself, your interests, and the projects you've worked on. (Note: You do not *need* to have generated this previous website to complete this lesson; however, the directions in this lesson assume that you have. Your steps may differ slightly than what's presented here when replacing files on GitHub.) However, this was created before you were looking for jobs and before you were comfortable working with R and RStudio Cloud! In this lesson, now that you have these skills and are more comfortable, we'll update the look of your website using the `blogdown` package. In this lesson, we'll cover both how to add more information to your website and how to make it more professional. In doing this, we'll provide examples from others' websites. We hope that by the end of this lesson you'll have a website is helpful to those interested in hiring you!
 
 This will be a long lesson, but it will be worth it. Go through each step in RStudio Cloud as you read through the lesson to update your professional website!
 
@@ -456,7 +456,7 @@ And, when you go to `username.github.io`, you will be able to see all the change
 
 ### Slides and Video
 
-![Making Your Website More Professional](https://www.youtube.com/watch?v=0VJeLiGTS2k)
+![Making Your Website More Professional](https://www.youtube.com/watch?v=BlcPPkQEbWw)
 
 * [Slides](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/edit?usp=sharing)
 
