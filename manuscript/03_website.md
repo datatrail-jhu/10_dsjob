@@ -79,7 +79,7 @@ When `blogdown::serve_site()` is run, every time you save a change to the files 
 
 Now that you've edited those two lines of code in `config.toml`, your preview should look something like this:
 
-![relURL edit preview](images/03_website/03_dsjob_website-11.png)
+![website preview](images/03_website/03_dsjob_website-11.png)
 
 ### Website Content
 
@@ -431,7 +431,7 @@ We're ready to push these changes to GitHub. To do so, change `username` in the 
 ```
 cd username.github.com
 git add -A
-git commit -m “Rmd to blogdown website”
+git commit -m "Rmd to blogdown website"
 git push
 ```
 
