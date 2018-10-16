@@ -63,7 +63,7 @@ Search for the line `baseurl = "/"`. After this line, add the following two line
 
 ```
 relativeurls = true
-canonifyurls = false
+canonifyurls = true
 ```
 
 ![config.toml edits](images/03_website/03_dsjob_website-9.png)
