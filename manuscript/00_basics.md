@@ -18,7 +18,7 @@ In this lesson, in particular, we'll cover an overview of what you need to find 
 
 When applying to jobs, they minimally will require you to submit a **cover letter** and a **resume**. 
 
-![resume & cover letter](images/00_basics/00_dsjob_basics-1.png)
+![resume & cover letter](https://docs.google.com/presentation/d/1nXZfBoWEKMCz5hUVdlE-V4B1eVCSOOlS2FVByiQlZ2c/export/png?id=1nXZfBoWEKMCz5hUVdlE-V4B1eVCSOOlS2FVByiQlZ2c&pageid=g3a45d4729b_0_0)
 
 #### Resumes
 
@@ -34,7 +34,7 @@ In addition to the *official* job application materials, the individuals respons
 
 This means that your **online presence should always be up to date when you're applying for jobs**. 
 
-![Online Presence](images/00_basics/00_dsjob_basics-2.png)
+![Online Presence](https://docs.google.com/presentation/d/1nXZfBoWEKMCz5hUVdlE-V4B1eVCSOOlS2FVByiQlZ2c/export/png?id=1nXZfBoWEKMCz5hUVdlE-V4B1eVCSOOlS2FVByiQlZ2c&pageid=g3ee04ecbc2_0_13)
 
 #### Personal Website
 

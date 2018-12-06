@@ -8,7 +8,7 @@ This will be a long lesson, but it will be worth it. Go through each step in RSt
 
 `blogdown` is an R package that helps create websites with R Markdown. There is a [whole book](https://bookdown.org/yihui/blogdown/) dedicated to helping users use this package, so if you want to learn more about `blogdown` beyond what is covered in this lesson, that book is a great place to start. 
 
-![blogdown](images/03_website/03_dsjob_website-1.png)
+![blogdown](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_144)
 
 Simply though, `blogdown` allows users to generate **static websites**. This means that you will generate HTML files within blogdown that visitors to your website will be able to view. The content will appear the same to the viewer no matter who it is visiting your site. This is perfect for a personal website!
 
@@ -17,7 +17,7 @@ Simply though, `blogdown` allows users to generate **static websites**. This mea
 
 In an earlier course in this Course Set, you developed a basic website within RStudio Cloud. At the end of that lesson, you had a website that looked something like this:
 
-![basic personal website](images/03_website/03_dsjob_website-2.png)
+![basic personal website](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_164)
 
 It contained some basic information about you and had information about where to contact you; however, it was *pretty* basic and not very visually appealing. In this lesson, we'll improve both the content and look of your personal website.
 
@@ -35,21 +35,21 @@ blogdown::new_site(theme = "gcushen/hugo-academic")
 
 For this site, we're using the Hugo theme "Academic", specified as an argument within the `blogdown::new_site()` function. At the end of this lesson, you'll have a website that looks something like what you see here!
 
-![Hugo Academic](images/03_website/03_dsjob_website-4.png)
+![Hugo Academic](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_151)
 
 There are *many* other themes that can be used within the `blogdown` package. We've chosen to use this one because it does a good job displaying information about your skills and qualifications *as well as* your projects, which will be important when you are looking for jobs. 
 
 Once you run this code, an "Edit" window will pop up.
 
-![Edit Window](images/03_website/03_dsjob_website-5.png)
+![Edit Window](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_0)
 
 Replace the text you see in this document, with a brief introduction about yourself, something similar to what you see here. Click Save. Note that nothing here is permanent. You'll be able to edit all of this later!
 
-![Welcome text](images/03_website/03_dsjob_website-6.png)
+![Welcome text](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_21)
 
 A new tab will open up with a preview of your website. 
 
-![First website preview](images/03_website/03_dsjob_website-7.png)
+![First website preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_26)
 
 But, this doesn't exactly look like that website we were looking at before...what's going on?
 
@@ -57,7 +57,7 @@ Well, in order for the preview to appear correctly, we have to make a slight cha
 
 To do this, open up the `config.toml` file within the project directory.
 
-![open config.toml](images/03_website/03_dsjob_website-8.png)
+![open config.toml](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_31)
 
 Search for the line `baseurl = "/"`. After this line, add the following two lines of code:
 
@@ -66,7 +66,7 @@ relativeurls = true
 canonifyurls = true
 ```
 
-![config.toml edits](images/03_website/03_dsjob_website-9.png)
+![config.toml edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_340)
 
 Save these changes. The preview of your website should update automatically in that tab that appeared. However, if it doesn't, you'll want to run:
 
@@ -79,7 +79,7 @@ When `blogdown::serve_site()` is run, every time you save a change to the files 
 
 Now that you've edited those two lines of code in `config.toml`, your preview should look something like this:
 
-![website preview](images/03_website/03_dsjob_website-11.png)
+![website preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_345)
 
 ### Website Content
 
@@ -93,36 +93,36 @@ Note that the line numbers within the `config.toml` file are shown. For example,
 
 At this time, you should also edit the `organizations` field by adding "Chromebook Data Science" and adding the URL for this program's website (http://jhudatascience.org/chromebookdatascience/index.html) in the `url` field. Note that all of this text *should* be within quotes.
 
-![name, role, and organization edits](images/03_website/03_dsjob_website-12.png)
+![name, role, and organization edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_36)
 
 Once you save this file, the changes should be visible on your website preview!
 
-![name and organization preview](images/03_website/03_dsjob_website-13.png)
+![name and organization preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_50)
 
 To finish updating your Contact information, you'll want to be sure to include your email address in the email field. However, you'll want to remove the contents from the address, office_hours, and phone number fields. Leave the quotation marks, but remove the contents. Only include address and phone number if they are professional addresses and phone numbers. You should not include your home address or personal cell phone number on this website. You can always come back later and edit this information.
 
-![Contact edits](images/03_website/03_dsjob_website-14.png)
+![Contact edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f2f95d203_0_0)
 
 These changes will be visible in the Contact section of your website preview.
 
-![Contact preview](images/03_website/03_dsjob_website-15.png)
+![Contact preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f2f95d203_0_6)
 
 
 #### Picture
 
 While there is currently an avar on your site, you want this to be a picture of you! You'll want to navigate to `/cloud/project/static/img` within the "Files" tab on RStudio Cloud. This is where images you want to display on your website should be stored. 
 
-![Upload image](images/03_website/03_dsjob_website-16.png)
+![Upload image](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_360)
 
 Upload a image file of yourself to this directory! 
 
 Then return to the `config.toml` file we were editing previously and search for the line that says `avatar = "portrait.jpg"`. Change `"portrait.jpg"` to the name of your image file. Here, we're going to specify that we want to use the `"female.png"` image. 
 
-![config.toml image edits](images/03_website/03_dsjob_website-17.png)
+![config.toml image edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_367)
 
 Once these changes are saved, the preview of your website should have your image on it!
 
-![*your* image preview](images/03_website/03_dsjob_website-21.png)
+![*your* image preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_78)
 
 #### Contact Information
 
@@ -130,19 +130,19 @@ With the basic information for our website edited and a picture of ourselves now
 
 Find the lines of code shown here, and delete the highlighted text
 
-![delete google-scholar](images/03_website/03_dsjob_website-19.png)
+![delete google-scholar](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_54)
 
 By deleting this text, you're removing the icon from below your name that links to your Google Scholar profile, since this won't be necessary for a data scientist.
 
 With that deleted, you'll want to include *your* information for the other three contact pieces. You should include your email address after `mailto:`, your twitter handle after `twitter.com/` and your GitHub username after `github.com`
 
-![contact information edits](images/03_website/03_dsjob_website-20.png)
+![contact information edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_68)
 
 This is important, since you'll want potential employers to be able to easily jump from one of your professional social media accounts to another *and* because they should be able to contact you easily!
 
 Once these changes are saved, your preview will be edited. There will now be three icons underneath your name (Google Scholar has been removed) and they will, if clicked, go to your profiles!
 
-![contact information preview](images/03_website/03_dsjob_website-21.png)
+![contact information preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_78)
 
 #### Website Tabs
 
@@ -150,13 +150,13 @@ On the last preview, you see that there are currently six tabs at the top of the
 
 To start customizing these tabs, we'll want to be sure that your most up-to-date resume is available on your website! To get started on this, you'll need to upload your resume into the `cloud/project/static/files` directory. Here, our resume is saved as `resume.pdf`.
 
-![resume.pdf in Files](images/03_website/03_dsjob_website-22.png)
+![resume.pdf in Files](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_100)
 
 Now, we're ready to start tweaking the tabs available on our website! To do this, we'll still be making edits to `config.toml`.
 
 Navigate to the portion of the file shown here. Delete the four lines related to "Publications" and the four lines related to "Teaching". The lines you should delete are highlighted here:
 
-![tabs to delete](images/03_website/03_dsjob_website-23.png)
+![tabs to delete](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_83)
 
 Then, make the following changes:
 
@@ -166,11 +166,11 @@ Then, make the following changes:
 4. __change the name to "Resume"__
 5. __Specify the filename of the resume you updated.__ Be sure the text in the `url` argument still starts with `"files/"` with *your* filename coming after the `/`.
 
-![`config.toml` tab edits](images/03_website/03_dsjob_website-24.png)
+![`config.toml` tab edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_89)
 
 Now, once these changes are saved, you'll have five tabs on your website preview. Publications and Talks will have been removed, but Resume will have been added!
 
-![tabs preview](images/03_website/03_dsjob_website-25.png)
+![tabs preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_95)
 
 #### About 
 
@@ -180,31 +180,31 @@ We'll start by editing our interests and education. To do so, we'll have to move
 
 Navigate to `cloud/project/content/home` in the "Files" tab of RStudio Cloud. Click on `about.md` to open that file.
 
-![open `about.md`](images/03_website/03_dsjob_website-26.png)
+![open `about.md`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_170)
 
 In this directory, change the text within interests to match your interests. You can include more than three interests, but be sure that each interest is in quotes and separated by a comma, as you see here. Be sure to include professional interests here, but it is ok to include a personal interest that you have, such as reading, writing, or a sport you're passionate about!
 
 You'll also want to edit your education section. You'll at the very least want to include this program on your website. You can do so using the edits you see here. If you have other educational information to add, you can edit the information included to include your information. Otherwise, delete the second two following sets of code for `[[education.courses]]`, as you see here:
 
-![`about.md` edits](images/03_website/03_dsjob_website-27.png)
+![`about.md` edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_105)
 
 Upon saving these changes, the following edits will be viewable on the preview:
 
-![`about.md` preview](images/03_website/03_dsjob_website-28.png)
+![`about.md` preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_110)
 
 Now it's time to edit your biography! Your biography section should a little bit of information briefly describing your current positions and data science interests! To see exactly what we mean, let's look at a few examples from the websites from people currently working in data science.
 
 Here we're looking at the about section from [Nathan Yau's website](https://flowingdata.com/about-nathan/). In his about me section, Nathan briefly explains what he does followed by where to find some of his work. He finishes with some of his interests outside of work. If you want to see more of Nathan's work, check out [flowingdata.com](https://flowingdata.com/).
 
-![Nathan Yau](images/03_website/03_dsjob_website-29.png)
+![Nathan Yau](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_171)
 
 Here we have another example from [Mona Chalabi](https://monachalabi.com/), a journalist who generates illustrations from data. Mona introduces what she does, describes where to find her work, and then provides some background information about her professional work.
 
-![Mona Chalabi](images/03_website/03_dsjob_website-30.png)
+![Mona Chalabi](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_182)
 
 Our final example comes from someone whose work you've seen throughout this course, [David Robinson](http://varianceexplained.org/about/). In his about me, he mentions his current position and interests, describes briefly some of his work, and provides a bit of background.
 
-![David Robinson](images/03_website/03_dsjob_website-31.png)
+![David Robinson](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_195)
 
 These three examples should give you an idea of what to include in the "About Me" section of your website. Generally, consider including:
 
@@ -214,11 +214,11 @@ These three examples should give you an idea of what to include in the "About Me
 
 Having looked at a few other individuals' websites, write your biography text in the # Biography section of the `about.md` document. 
 
-![biography edits in `about.md`](images/03_website/03_dsjob_website-33.png)
+![biography edits in `about.md`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_418)
 
 Once these changes are saved, your website preview will reflect these edits:
 
-![biography preview](images/03_website/03_dsjob_website-34.png)
+![biography preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_422)
 
 ### Website Appearance
 
@@ -228,11 +228,11 @@ Things are really coming along! We have all of our contact and necessary informa
 
 While the contact information looks great, there's information at the top of our website that doesn't need to be there. 
 
-![Unecessary information](images/03_website/03_dsjob_website-35.png)
+![Unecessary information](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_430)
 
 We'll remove this text by opening up `hero.md` within `/cloud/project/content/home`. 
 
-![open `hero.md`](images/03_website/03_dsjob_website-36.png)
+![open `hero.md`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_187)
 
 In this file, we'll first remove the text between the quotes in the `title` field.
 
@@ -242,11 +242,11 @@ We'll aslo comment out the call to action button by adding comments for the `[ct
 
 The last thing you'll want to do is delete everything after the final `+++` in that file.
 
-![`hero.md` edits](images/03_website/03_dsjob_website-37.png)
+![`hero.md` edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_435)
 
 Once the file looks as you see above, you're ready to save your changes and preview! The information about the theme will no longer be there!
 
-![`hero.md` preview](images/03_website/03_dsjob_website-38.png)
+![`hero.md` preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_443)
  
 #### Skills
 
@@ -254,7 +254,7 @@ With those changes, let's edit the skills section of the website. Navigate to `/
 
 This is where you highlight all of your job-pertinent skills! Here, we're suggesting you highlight your "R", "data visualization", and "Data Wrangling" skills. But, you could highlight more than three skills or three different skills! Think about what skills you want employers to know you have and include them here.
 
-![`skills.md` edits](images/03_website/03_dsjob_website-39.png)
+![`skills.md` edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_215)
 
 To add the three skills you see here, edit the text in the `[[feature]]` section of the document to include the following:
 
@@ -284,7 +284,7 @@ Then, the icons displayed are specified in `icon` and `icon_pack`. Which icon to
 
 Once these changes are saved, you'll be able to see the edits on your website preview:
 
-![`skills.md` preview](images/03_website/03_dsjob_website-40.png)
+![`skills.md` preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_449)
 
 #### Removing Content
 
@@ -294,22 +294,22 @@ We'll remove the "Publications," "Selected Publications", "Talks," and "Teaching
 
 First, navigate to `/cloud/project/content/home` and open `publications.md`. In this document, where you see `active = true`, set that to be `active = false`. This will remove this section from your homepage. Save these changes.
 
-![Turn off Publications](images/03_website/03_dsjob_website-41.png)
+![Turn off Publications](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_252)
 
 In that same directory, open `publications_selected.md`. Set `active = false` and save your changes.
 
-![Turn off Selected Publications](images/03_website/03_dsjob_website-45.png)
+![Turn off Selected Publications](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f87806caa_0_12)
 
 In that same directory, open `talks.md`. Set `active = false` and save your changes.
 
-![Turn off Talks](images/03_website/03_dsjob_website-43.png)
+![Turn off Talks](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_263)
 
 In that same directory, open `teaching.md`. Set `active = false` and save your changes.
 
-![Turn off Teaching](images/03_website/03_dsjob_website-44.png)
+![Turn off Teaching](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_268)
 Finally, in that same directory, open `experience.md`. Set `active = false` and save your changes.
 
-![Turn off Experience](images/03_website/03_dsjob_website-45.png)
+![Turn off Experience](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f87806caa_0_12)
 
 Now, when you preview your website and scroll through your homepage, these sections will have been removed.
 
@@ -317,29 +317,29 @@ Now, when you preview your website and scroll through your homepage, these secti
 
 We opted not to turn off the posts section of your website. Now, we won't specify in this course what to specifically include in this section, but we will *encourage* you to write blog posts and include them in this section. For now, we'll delete the posts that are already in there, since they're not your blog posts and show you how to write blog posts in the future. 
 
-![Posts section](images/03_website/03_dsjob_website-46.png)
+![Posts section](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_273)
 
 Navigate to `/cloud/project/content/post/getting-start`. In this directory, you'll se a few files. One of them will be `index.md` If you were to open this file, you'd see all the contents used to write that "Getting Started" post currently on your website. 
 
-![`getting-started.md`](images/03_website/03_dsjob_website-47.png)
+![`getting-started.md`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_284)
 
 While there's lots of helpful information in this post, you didn't write it, so you'll want to delete this directory. 
 
-![delete `getting-started` directory](images/03_website/03_dsjob_website-48.png)
+![delete `getting-started` directory](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_289)
 
 Another file in there will be `2015-07-23-r-markdown.Rmd`. This will contain the text we included at the beginning of the lesson in the "Edit" box. You can leave this file for now. There will be time to edit and write new posts later!
 
 After these changes are saved, your Recent Posts section of your website should look like this:
 
-![Welcome post preview](images/03_website/03_dsjob_website-49.png)
+![Welcome post preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_295)
 
 The last thing we'll note is the following. When you *are* ready to write a blog post, you'll want to use the "New Post" Add-in. To find this, click on "Addins" in RStudio Cloud. Then select "New Post" from the drop-down menu.
 
-![New Post](images/03_website/03_dsjob_website-50.png)
+![New Post](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_196)
 
 This will open up a box where you'll enter the title, author, date, and other information about your post. You can specify whether or not you want this file to be an `.Rmd` or a Markdown file (if you want it to include R code, choose `.Rmd`). After entering all the necessary information and clicking "Done," the Add-in will create the file for you to edit it within the `/cloud/project/content/post` directory and name it in a consistent manner. This is where you will write your blog post!
 
-![New Post Information](images/03_website/03_dsjob_website-51.png)
+![New Post Information](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_201)
 
 ### Projects
 
@@ -349,27 +349,27 @@ Navigate to `/cloud/project/content/post` and click on `deep-learning.md` to ope
 
 We're going to edit the information in that file to include information about your final project for this Course Set. Edit the `date` to today's date. Change the `title` to the title of your final project. Edit the `summary` to include a short description of the findings from your project. And, change the tags to match what you did in your analysis. Each tag should be in quotes and separated by a comma. 
 
-![edit `deep-learning.md`](images/03_website/03_dsjob_website-52.png)
+![edit `deep-learning.md`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_277)
 
 Safe this file as `atus-survey.md`. This file will now be visible in `/cloud/project/content/project`. Now, you can delete the other two projects there, as they are not your projects.
 
-![Save `atus-survey.md` and delete other two projects](images/03_website/03_dsjob_website-54.png)
+![Save `atus-survey.md` and delete other two projects](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_474)
 
 The skeleton for your project will then be visible on the preview of your website in the Projects section!
 
-![Projects preview](images/03_website/03_dsjob_website-55.png)
+![Projects preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_300)
 
 But, what are those tags above your project? We'll want to customize those as well!
 
 To do so, navigate to `/cloud/project/content/home` and open `projects.md`. Find the section of this file where you see `[[filter]]`. Leave the first filter alone, but edit the second filter to look for the tag "R" in your projects. The last one can be "Other" for now. Use the syntax you see here:
 
-![Tags edit](images/03_website/03_dsjob_website-56.png)
+![Tags edit](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_305)
 
 Note that these tags correspond to the tags specified in the YAML of your post. These filters will search for any projects with the specified tag. You can have more than three tags as you include more projects over time! 
 
 Once these changes are saved, the new tags will be visible on your preview!
 
-![Tags preview](images/03_website/03_dsjob_website-57.png)
+![Tags preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_310)
 
 #### Website Tailoring
 
@@ -377,22 +377,22 @@ Okay, we've done a lot, but there's one last thing we want to do. At this point,
 
 To do this we'll edit the `weight` argument. Return to `projects.md` within `/cloud/project/content/home`. Toward the top, change `weight = 50` to `weight = 40`. Save these changes.
 
-![Projects `weight`](images/03_website/03_dsjob_website-58.png)
+![Projects `weight`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_3)
 
 Then, within `posts.md` within `/cloud/project/content/home`, change `weight = 40` to `weight = 50`. Save these changes. 
 
-![Posts `weight`](images/03_website/03_dsjob_website-59.png)
+![Posts `weight`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_315)
 
 Recent posts will now be displayed *after* projects on your preview:
 
-![website preview](images/03_website/03_dsjob_website-60.png)
+![website preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_321)
 
 
 ### Deployment
 
 Your website is now ready for prime time. The only problem is it's only visible on *your* RStudio Cloud project. So, we have to **deploy** your website. There are a number of different ways to do this, but we're going to use the workflow with which we're most familiar: GitHub Pages. This is how your website is currently deployed. Your current website is hosted on GitHub at `username.github.com` and the file structure should look something like what you see here:
 
-![old website GitHub repo](images/03_website/03_dsjob_website-61.png)
+![old website GitHub repo](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_336)
 
 We're going to delete the current website and replace it with this updated website! To do so, within your current project on RStudio Cloud (where your new blogdown website files are), **go to the Terminal** and run the following...but replace `username` with *your* GitHub username:
 
@@ -402,29 +402,29 @@ git clone https://github.com/username/username.github.com.git
 
 This will clone your current website repo into the RStudio Cloud project where your new website files are.
 
-![cloned repo](images/03_website/03_dsjob_website-62.png)
+![cloned repo](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_24)
 
 Click on the directory of the repo where your old website contents are.
 
 Then, click on More and select "Show Hidden Files"
 
-![Show Hidden Files](images/03_website/03_dsjob_website-63.png)
+![Show Hidden Files](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_29)
 
 Within this directory, you'll see two hidden files `.git` and `.nojekyll`. Do *NOT* delete these files, but select everything else, and delete the files from your old website.
 
-![Delete most of your old website files](images/03_website/03_dsjob_website-64.png)
+![Delete most of your old website files](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_68)
 
 Now, we'll need to add all the *new* files! But, you should *NOT* add every file you just generated. You only want to add the contents of `/cloud/projects/public`. What's great about `blogdown` is that every time `blogdown::serve_site()` runs and generates a new preview of your website, all the files needed to deploy your website are updated and added to `/cloud/projects/public`. Thus, everything you need to deploy your website is right there. 
 
-![Move new website files from `public`](images/03_website/03_dsjob_website-65.png)
+![Move new website files from `public`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_34)
 
 Move all the files from `/cloud/projects/public` to the repository you just cloned (`username.github.com`) by selecting "Move..." from the "More" drop-down menu.
 
-![Select destination directory](images/03_website/03_dsjob_website-66.png)
+![Select destination directory](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_38)
 
 All of your new website files should be within the `username.github.com` directory.
 
-![new files within `username.github.com`](images/03_website/03_dsjob_website-67.png)
+![new files within `username.github.com`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_44)
 
 We're ready to push these changes to GitHub. To do so, change `username` in the code below to your GitHub username:
 
@@ -439,12 +439,12 @@ In this code, you're changing your directory to the version controlled directory
 
 On GitHub, these changes will all be visible! 
 
-![GitHub changes](images/03_website/03_dsjob_website-69.png)
+![GitHub changes](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_56)
 
 And, when you go to `username.github.io`, you will be able to see all the changes you've made to make your website more professional! Awesome!
 
 
-![`blogdown` website!](images/03_website/03_dsjob_website-70.png)
+![`blogdown` website!](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_61)
 
 
 ### Additional Resources
