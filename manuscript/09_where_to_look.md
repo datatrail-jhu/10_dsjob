@@ -44,7 +44,7 @@ Jobs are also [posted on LinkedIn](https://www.linkedin.com/jobs/). Similar to S
 
 One advantage of jobs on LinkedIn is that your full LinkedIn profile will help LinkedIn identify jobs that may be of interest to you. You can search through their suggestions to see if any of them are a good fit!
 
-[Jobs you may be interested in](images/09_where_to_look/09_dsjob_where_to_look-7.png)
+![Jobs you may be interested in](https://docs.google.com/presentation/d/1bOnA2S_dXQypd4CaGeFux-yQLwS9EzY9fPOqutPZJQg/export/png?id=1bOnA2S_dXQypd4CaGeFux-yQLwS9EzY9fPOqutPZJQg&pageid=g3efad8d752_0_23)
 
 If you carry out a search, the results can be further filtered by "Location", "Date Posted", "Job Type", "Industry", and "Company" to help hone in on the best position for you. As with StackOverflow, it's possible to create an alert that will update you whenever applicable positions are posted in the future!
 
