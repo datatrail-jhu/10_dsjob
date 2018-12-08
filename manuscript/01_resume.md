@@ -42,6 +42,7 @@ Sometimes, resumes will use color. This could be used to make your name and sect
 
 Don't use too many different colors. If you use a color for one section header, that exact same color should be used for all the section headers. The same goes for font and font size. Do not distract readers by using lots of different fonts. And, be sure that each element of your resume uses a consistent font size. Text in one section should be the same size as text in another section. Section headers should all be the same size. Spacing between the sections should be consistent. **Consistency is key**.
 
+{format: png}
 ![formatting matters](https://docs.google.com/presentation/d/163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc/export/png?id=163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc&pageid=g3fe2ca85f0_0_113)
 
 ### What to Include
@@ -94,26 +95,31 @@ Historically, resumes have *not* been visually stunning. They've been clear and 
 
 Here, we see an example of one such resume:
 
+{format: png}
 ![classic resume](https://docs.google.com/presentation/d/163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc/export/png?id=163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc&pageid=g3fe2ca85f0_0_185)
 
 We'll highlight a number of features of this type of resume to draw your attention to important aspects of a data science resume. 
 
 First, notice that the applicants name and contact information are right at the top of the resume, and the name in particular stands out. 
 
+{format: png}
 ![Name and Contact Information are prominent](https://docs.google.com/presentation/d/163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc/export/png?id=163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc&pageid=g3fe2ca85f0_0_7)
 
 Second, note that the font size, spacing between lines and sections, and chosen fonts are consistent throughout the resume.
 
+{format: png}
 ![consistency is key](https://docs.google.com/presentation/d/163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc/export/png?id=163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc&pageid=g3fe2ca85f0_0_12)
 
 Additionally, the expected sections are present and separated visually from one another. Further, within each section, bullet points are used and the text are aligned consistently from one point within the section to the next
 
+{format: png}
 ![expected sections are present visually separated](https://docs.google.com/presentation/d/163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc/export/png?id=163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc&pageid=g3fe2ca85f0_0_17)
 
 Note that no resume is perfect. In fact, there are many things that could be improved about this resume. For example, white space is to be avoided whenever possible on a resume. So blocks of white, empty spaces are opportunities to explain what you've done. This does not mean that you need to add more text to fill space. Rather, maybe font size could be increased or a different layout would have been able to display the important information more effectively.
 
 Additionally, the Projects section could use work. There are too many bullet points for Projects. Three to four bullet points for any one topic is usually plenty. We would want to see if we could remove one of these bullet points. Also, the bullet points are smushed up against the underlined project name. It would be best to add a small space after the project name and the bullet points.
 
+{format: png}
 ![Blank white spaces should be avoided & spacing and bullet points could be improved](https://docs.google.com/presentation/d/163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc/export/png?id=163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc&pageid=g3fe2ca85f0_0_22)
 
 After noticing these, we would want to go back to the resume and make these improvements before applying! Your resume will be one of the first things seen by your possible future employer. You want to be sure to put your best foot forward!
@@ -123,18 +129,22 @@ After noticing these, we would want to go back to the resume and make these impr
 
 Recently, with the frequency of data scientist positions within smaller startups, there has been some room for flexibility and creativity in data science resume design. Going with the classic design is a safer route; however, for positions where creativity is something the position is looking for, it may be ok to go with a somewhat different resume design. Here we see an example of a less traditional resume. Information very similar to what was seen in the last example is displayed; however, the formatting is very different. We'll similarly walk through this resume design highlighting what it does well and where it could be improved.
 
+{format: png}
 ![creative resume](https://docs.google.com/presentation/d/163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc/export/png?id=163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc&pageid=g3a45d4729b_0_0)
 
 As we saw in the last example, the applicant's name and contact information are clearly at the top of hte resume. Here, the addition of small icons makes this information slightly more appealing.
 
+{format: png}
 ![name and contact information are visible and visually-appealing](https://docs.google.com/presentation/d/163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc/export/png?id=163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc&pageid=g3fe2ca85f0_0_46)
 
 However, unlike in the classic view, sections are not spaced one on top of the other. While all the same sections are still there, the page is separated using one gray block in the middle to highlight projects the applicant has used. And, sections are separated using either blue text, or white text within blue shapes. These do not all start at the left end of the page. Instead, they can be either on the left or in a second column on the page.
 
+{format: png}
 ![Spacing, coloring, and layout differ in this resume](https://docs.google.com/presentation/d/163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc/export/png?id=163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc&pageid=g3fe2ca85f0_0_67)
 
 As mentioned above, no resume is perfect. Maybe the gray is a little too dark. Maybe you wish you had more room to talk about your skills, as you did in the traditional resume view, but that you don't have with this layout. Or, maybe the hiring manager won't like this type of resume, as it's not what they're used to looking at. By choosing to use a less-traditional resume type, you're taking a risk. It may make your resume stand out, or it could confuse be something the company doesn't like. Know that there are risks behind using a less-traditional resume. It's important to consider the limitations of your resume and the changes you should make to improve it before submitting it with your application!
 
+{format: png}
 ![Creative resumes layout limitations](https://docs.google.com/presentation/d/163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc/export/png?id=163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc&pageid=g3fe2ca85f0_0_80)
 
 ### Sharing your resume
