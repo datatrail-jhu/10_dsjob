@@ -158,7 +158,7 @@ In this lesson we've reviewed the general guidelines for resume writing, the imp
 ### Additional Resources
 
 * [Data Science Resume Examples](https://zety.com/blog/data-scientist-resume-example)
-*[Advice for Applying to Data Science Jobs](http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/)
+* [Advice for Applying to Data Science Jobs](http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/)
 * Example Resume Templates - [Classic ](https://docs.google.com/document/d/12uD_ERvEO6vonibOTOh7Lg4T5O8_QiVQ3dWCoyuUWh8/edit?usp=sharing) ; [Creative](https://docs.google.com/presentation/d/1qyTLb_NOKet_WWIrahyZFbl-JGz0_LU8zv9JyjZXoso/edit?usp=sharing)
 
 
