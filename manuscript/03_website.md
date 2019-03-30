@@ -72,6 +72,7 @@ Search for the line `baseurl = "/"`. After this line, add the following two line
 relativeurls = true
 canonifyurls = true
 ```
+Additionally, change title to include your name.
 
 {format: png}
 ![config.toml edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_340)
@@ -164,8 +165,6 @@ While there is currently an avatar image on your site, you want this to be a pic
 ![Upload image](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_360)
 
 Once the file is uploaded, we'll have to go specify to your website that we want to use this file, and not `avatar.jpg`. To do so, navigate to `cloud/project/config/_default` and open the `params.toml` file. Look for the line that says `gravatar = false`. Under that line add the line `avatar = 'female.png'`, where `female.png` is replaced with the filename of the file you uploaded.
-
-Then return to the `config.toml` file we were editing previously and search for the line that says `avatar = "portrait.jpg"`. Change `"portrait.jpg"` to the name of your image file. Here, we're going to specify that we want to use the `'female.png'` image. 
 
 {format: png}
 ![params.toml image edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_367)
@@ -326,6 +325,11 @@ In that same directory, open `experience.md`. Set `active = false` and save your
 {format: png}
 ![Turn off Experience](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f87806caa_0_12)
 
+In that same directory, open `accomplishments.md`. Set `active = false` and save your changes.
+
+{format: png}
+![Turn off Accomplishments](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=555823640f_0_133)
+
 Finally, to turn off Gallery go into `cloud/project/content/home/gallery`, open `index.md`. Set `active = false` and save your changes.
 
 {format: png}
@@ -336,12 +340,12 @@ Now, when you save and preview your website, you can scroll through to see that 
 
 ### Posts
 
-We opted not to turn off the posts section of your website. Now, we won't specify in this course what to specifically include in this section, but we will *encourage* you to write blog posts and include them in this section. For now, we'll delete the posts that are already in there, since they're not *your* blog posts and show you how to write blog posts in the future. 
+We opted not to turn off the posts section of your website. Now, we won't specify in this lesson what to specifically include in this section, but we will *encourage* you to write blog posts and include them in this section. For now, we'll delete the posts that are already in there, since they're not *your* blog posts and show you how to write blog posts in the future. 
 
 {format: png}
 ![Posts section](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_273)
 
-Navigate to `/cloud/project/content/post/getting-start`. In this directory, you'll se a few files. One of them will be `index.md` If you were to open this file, you'd see all the contents used to write that "Getting Started" post currently on your website. 
+Navigate to `/cloud/project/content/post/getting-started`. In this directory, you'll se a few files. One of them will be `index.md` If you were to open this file, you'd see all the contents used to write that "Getting Started" post currently on your website. 
 
 {format: png}
 ![`getting-started.md`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_284)
@@ -412,12 +416,12 @@ Once these changes are saved, the new tags will be visible on your preview!
 
 Okay, we've done a lot, but there's one last thing we want to do. At this point, it's more important that future employers see the projects you've worked on than the blog posts you've written. Thus, we want projects to show up before posts. 
 
-To do this we'll edit the `weight` argument. Return to `projects.md` within `/cloud/project/content/home`. Toward the top, change `weight = 60` to `weight = 65`. Save these changes.
+To do this we'll edit the `weight` argument. Return to `posts.md` within `/cloud/project/content/home`. Toward the top, change `weight = 60` to `weight = 65`. Save these changes.
 
 {format: png}
 ![Projects `weight`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_3)
 
-Then, within `posts.md` within `/cloud/project/content/home`, change `weight = 65` to `weight = 60`. Save these changes. 
+Then, within `projects.md` within `/cloud/project/content/home`, change `weight = 65` to `weight = 60`. Save these changes. 
 
 {format: png}
 ![Posts `weight`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_315)
