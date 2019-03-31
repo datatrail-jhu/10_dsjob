@@ -97,7 +97,7 @@ Now that we have the skeleton of the website ready and our theme preview looks a
 
 #### Author Details
 
-With that all settled, let's start adding information about you to hte website. To do this open the file `index.md` in the directory `/cloud/project/content/author/admin`. Now and in the future, you'll want to edit this file so that it's alwasy as up-to-date as possible. 
+With that all settled, let's start adding information about you to the website. To do this open the file `index.md` in the directory `/cloud/project/content/author/admin`. Now and in the future, you'll want to edit this file so that it's always as up-to-date as possible. 
 
 In this file you'll want to edit the following sections: 
 * `bio` : include a brief 1 line about yourself. You'll write a more complete bio later.
@@ -109,7 +109,7 @@ In this file you'll want to edit the following sections:
 {format: png}
 ![`content/author/admin/index.md` edits`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_36)
 
-Once you save this file, the changes should be visible on your website preview! You can scroll down to this section or click the "Home" section on the navigation bar at top to see the changes to your webiste.
+Once you save this file, the changes should be visible on your website preview! You can scroll down to this section or click the "Home" section on the navigation bar at top to see the changes to your website.
 
 {format: png}
 ![Home preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_50)
@@ -146,7 +146,7 @@ These three examples should give you an idea of what to include in the "About Me
 - background information
 - where to find projects you've worked on
 
-Having looked at a few other individuals' websites, write your biography text at teh end of the `_index.md` file we've been working with so far. 
+Having looked at a few other individuals' websites, write your biography text at the end of the `_index.md` file we've been working with so far. 
 
 {format: png}
 ![Bio section edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g555823640f_0_72)
@@ -180,7 +180,7 @@ With the basic information for our website edited and a picture of ourselves now
 
 Update the email address to include your email address but remove the phone and address information, leaving just the empty quotation marks. Similarly, set `office hours = ""` and `appointment_url = ""`. 
 
-Finally, within the `contact_links`, comment out all the lines so taht they are not displayed. If you change your mind in the future and want any of this information displayed in your contact section, you can uncomment any of these lines and update the links to your pages.
+Finally, within the `contact_links`, comment out all the lines so that they are not displayed. If you change your mind in the future and want any of this information displayed in your contact section, you can uncomment any of these lines and update the links to your pages.
 
 {format: png}
 ![edits to `params.toml`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_54)
@@ -201,7 +201,7 @@ To start customizing these tabs, we'll want to be sure that your most up-to-date
 
 Now, we're ready to start tweaking the tabs available on our website! To do this, we'll still be making edits to a file we haven't yet worked with. Open `cloud/project/config/_default/menus.toml`.
 
-Navigate to the portion of the file shown here. Comment out the four lines related to "Publications" and the four lines related to "Tutorials". This will remove thiese links from the top of your website. The lines you should delete are highlighted here:
+Navigate to the portion of the file shown here. Comment out the four lines related to "Publications" and the four lines related to "Tutorials". This will remove these links from the top of your website. The lines you should delete are highlighted here:
 
 {format: png}
 ![tabs to comment out](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_83)
@@ -345,7 +345,7 @@ We opted not to turn off the posts section of your website. Now, we won't specif
 {format: png}
 ![Posts section](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_273)
 
-Navigate to `/cloud/project/content/post/getting-started`. In this directory, you'll se a few files. One of them will be `index.md` If you were to open this file, you'd see all the contents used to write that "Getting Started" post currently on your website. 
+Navigate to `/cloud/project/content/post/getting-started`. In this directory, you'll see a few files. One of them will be `index.md` If you were to open this file, you'd see all the contents used to write that "Getting Started" post currently on your website. 
 
 {format: png}
 ![`getting-started.md`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_284)
@@ -634,13 +634,13 @@ o) Icons included below your name
 o) Link to where you're taken when you click on your picture
 o) Link to where you're taken when you click on your name 
 m) Programs and schools listed under "Education"
-o) what's listed under "Eduation" on home page
+o) what's listed under "Education" on home page
 
 {choose-answers:4}
 ?6 To what part of your website does the `[[education.courses]]` tag refer?
 
 C) Programs and schools listed under "Education"
-C) what's listed under "Eduation" on home page
+C) what's listed under "Education" on home page
 m) Menu at top of website
 o) Tabs included along the top of the website
 o) Icons included below your name

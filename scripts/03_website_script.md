@@ -22,7 +22,7 @@ Save these changes. The preview of your website should update automatically in t
 
 When blogdown::serve_site() is run, every time you save a change to the files of your website, the preview will update and you'll be able to see what changes have been made and how they'll appear on your website! Now that you've edited those two lines of code in config.toml, your preview should look something like this.
 
-Now that we have the skeleton of the website ready and our theme preview looks as we expected, we're ready to start editing the content of the website to make it your own. This is where you should edit the text to match your information. Thus, where it says "Jane Doe" in this lesson, put your name in your files. When a description is included, make sure you're writing information about yourself, and not word for word what's in this lesson. You really want employers to know about you! With that all settled, let's start adding information about you to hte website. To do this open the file index.md in the directory /cloud/project/content/author/admin. Now and in the future, you'll want to edit this file so that it's alwasy as up-to-date as possible. In this file you'll want to edit all the sections you see here with information about yourself.
+Now that we have the skeleton of the website ready and our theme preview looks as we expected, we're ready to start editing the content of the website to make it your own. This is where you should edit the text to match your information. Thus, where it says "Jane Doe" in this lesson, put your name in your files. When a description is included, make sure you're writing information about yourself, and not word for word what's in this lesson. You really want employers to know about you! With that all settled, let's start adding information about you to the website. To do this open the file index.md in the directory /cloud/project/content/author/admin. Now and in the future, you'll want to edit this file so that it's always as up-to-date as possible. In this file you'll want to edit all the sections you see here with information about yourself.
 
 Once you save this file, the changes should be visible on your website preview! You can scroll down to this section or click the "Home" section on the navigation bar at top to see the changes to your website.
 
@@ -36,7 +36,7 @@ Our final example comes from someone whose work you've seen throughout this cour
 
 These three examples should give you an idea of what to include in the "About Me" section of your website. Generally, consider including your current position, if applicable, background information about yourself and where to find projects you've worked on.
 
-Having looked at a few other individuals' websites, write your biography text at teh end of the _index.md file we've been working with so far. 
+Having looked at a few other individuals' websites, write your biography text at the end of the _index.md file we've been working with so far. 
 
 Once you save, these changes to the icons and bio displayed on your home page will be visible.
 
@@ -46,13 +46,13 @@ Once the file is uploaded, we'll have to go specify to your website that we want
 
 Once these changes are saved, the preview of your website should have your image on it!
 
-With the basic information for our website edited and a picture of ourselves now visible on the preview, it's time to edit all our contact information. To do this, we'll continue to make edits within the params.toml file. Update the email address to include your email address but remove the phone and address information, leaving just the empty quotation marks. Similarly, set office hours = "" and appointment_url = "". Finally, within the contact_links, comment out all the lines so taht they are not displayed. If you change your mind in the future and want any of this information displayed in your contact section, you can uncomment any of these lines and update the links to your pages.
+With the basic information for our website edited and a picture of ourselves now visible on the preview, it's time to edit all our contact information. To do this, we'll continue to make edits within the params.toml file. Update the email address to include your email address but remove the phone and address information, leaving just the empty quotation marks. Similarly, set office hours = "" and appointment_url = "". Finally, within the contact_links, comment out all the lines so that they are not displayed. If you change your mind in the future and want any of this information displayed in your contact section, you can uncomment any of these lines and update the links to your pages.
 
 By editing this text, the Contact section of your website will only display a form by which someone can email you to contact you. This is sufficient for now, but you can add additional information in the future, should you need to. Once these changes are saved, your preview will be edited and you can see what your Contact page looks like. On this preview, you see that there are currently six tabs at the top of the preview. However, we won't need all of those tabs. We're going to pare down these tabs to only include the most important information. But, in the future, should you want to add any of these back in, you'll know how to do so.
 
 To start customizing these tabs, we'll want to be sure that your most up-to-date resume is available on your website! To get started on this, you'll need to upload your resume into the cloud/project/static directory. Here, our resume is saved as resume.pdf.
 
-Now, we're ready to start tweaking the tabs available on our website! To do this, we'll still be making edits to a file we haven't yet worked with. Open cloud/project/config/_default/menus.toml. Navigate to the portion of the file shown here. Comment out the four lines related to "Publications" and the four lines related to "Tutorials". This will remove thiese links from the top of your website. The lines you should delete are highlighted here:
+Now, we're ready to start tweaking the tabs available on our website! To do this, we'll still be making edits to a file we haven't yet worked with. Open cloud/project/config/_default/menus.toml. Navigate to the portion of the file shown here. Comment out the four lines related to "Publications" and the four lines related to "Tutorials". This will remove these links from the top of your website. The lines you should delete are highlighted here:
 
 Then, make the following changes you see specified here.
 
@@ -84,13 +84,11 @@ In that same directory, open experience.md. Set active = false and save your cha
 
 In that same directory, open accomplishments.md. Set active = false and save your changes.
 
-Finally, to turn off Gallery go into cloud/project/content/home/gallery, open index.md. Set active = false and save your changes.
-
-Now, when you save and preview your website, you can scroll through to see that all these sections will have been removed. Your site will be minimal, but it's a great place to start! You can always add back in any of these sections later.
+Finally, to turn off Gallery go into cloud/project/content/home/gallery, open index.md. Set active = false and save your changes. Now, when you save and preview your website, you can scroll through to see that all these sections will have been removed. Your site will be minimal, but it's a great place to start! You can always add back in any of these sections later.
 
 We opted not to turn off the posts section of your website. Now, we won't specify in this lesson what to specifically include in this section, but we will encourage you to write blog posts and include them in this section. For now, we'll delete the posts that are already in there, since they're not your blog posts and show you how to write blog posts in the future. 
 
-Navigate to /cloud/project/content/post/getting-started. In this directory, you'll se a few files. One of them will be index.md If you were to open this file, you'd see all the contents used to write that "Getting Started" post currently on your website. 
+Navigate to /cloud/project/content/post/getting-started. In this directory, you'll see a few files. One of them will be index.md If you were to open this file, you'd see all the contents used to write that "Getting Started" post currently on your website. 
 
 While there's lots of helpful information in this post, you didn't write it, so you'll want to delete this directory. The same goes for the jupyter directory. Select both directories and delete the contents. Another file in there will be a file with a name similar to:  2015-07-23-r-markdown.Rmd. This will contain the text we included at the beginning of the lesson in the "Edit" box. You can leave this file for now. There will be time to edit and write new posts later!
 
@@ -100,7 +98,7 @@ The last thing we'll note is the following. When you are ready to write a blog p
 
 This will open up a box where you'll enter the title, author, date, and other information about your post. You can specify whether or not you want this file to be an .Rmd or a Markdown file (if you want it to include R code, choose .Rmd). After entering all the necessary information and clicking "Done," the Add-in will create the file for you to edit it within the /cloud/project/content/post directory and name it in a consistent manner. This is where you will write your blog post!
 
-Aside from including blog posts, you'll also want to include information on projects you've worked on and completed in the projects section. By default, there are two projects included in /cloud/project/content/project. One is in the directory internal-project. The content for this post is included inindex.md. The second is an external-project (meaning the content is hosted elsewhere on the Internet). The content here is again specified in the index.md file within this directory. We'll remove this content from the site for now, but it's good to note that it's possible to include external projects on your site. Delete both directories.
+Aside from including blog posts, you'll also want to include information on projects you've worked on and completed in the projects section. By default, there are two projects included in /cloud/project/content/project. One is in the directory internal-project. The content for this post is included in index.md. The second is an external-project (meaning the content is hosted elsewhere on the Internet). The content here is again specified in the index.md file within this directory. We'll remove this content from the site for now, but it's good to note that it's possible to include external projects on your site. Delete both directories.
 
 Now, we'll create a new project using the "Addins" approach we reviewed previously for creating new posts. Click on "Addins" at the top of RStudio. From the drop-down menu, select "New Post." In the New Post box that appears, fill out the information as you see here. Be sure that "Subdirectory" is project (not post!), and select "project" from the "Archetype" menu. Specify that you want an .Rmd document. Once information is complete, click "Done."
 
