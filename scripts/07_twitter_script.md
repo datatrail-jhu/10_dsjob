@@ -2,7 +2,7 @@ In a lesson in an earlier course we had you create a professional Twitter accoun
 
 As with every other platform we've discussed so far, you'll want to add a photo and update your Twitter profile. Your Twitter profile will contain less information than the other profiles we've discussed thus far, so we'll discuss all necessary steps of how to do so right away. To update your photo, log into your Twitter account. If you haven't yet uploaded a photo, you can do so, by clicking on the camera icon and clicking on "Upload photo" from the drop-down menu. 
 
-Navigate to the file you want to upload on your Chromebook. In the window that appears, position and size your photo. When you're satisfied, click "Apply."
+Navigate to the file you want to upload on your computer. In the window that appears, position and size your photo. When you're satisfied, click "Apply."
 
 From here, click on the menu at the top right-hand of the screen and click "Profile" to navigate to your Twitter Profile. 
 

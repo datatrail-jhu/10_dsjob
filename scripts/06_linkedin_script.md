@@ -6,7 +6,7 @@ Note that you may be asked after logging in, "What are you most interested in?" 
 
 Navigate to your profile, using the icon at the top right-hand of the screen
 
-The first thing we'll do is update the profile picture on your page. To do so, click on the camera icon. Navigate to where the picture you've used for your website and Git Hub are located on your Chromebook and click "Open." 
+The first thing we'll do is update the profile picture on your page. To do so, click on the camera icon. Navigate to where the picture you've used for your website and Git Hub are located on your computer and click "Open." 
 
 A Screen will appear with your photo in it. Adjust the size and position of the circle to best capture you in the photo you've uploaded. You have the option to zoom, straighten, adjust the brightness, crop, filter, and adjust this photo. Additionally, you can control who sees this photo by clicking on the "Visibility" icon. Once you're happy with your profile picture, click "Apply."
 
