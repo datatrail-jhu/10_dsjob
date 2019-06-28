@@ -101,7 +101,7 @@ With that all settled, let's start adding information about you to the website. 
 
 In this file you'll want to edit the following sections: 
 * `bio` : include a brief 1 line about yourself. You'll write a more complete bio later.
-* `education` : feel free to add Cloud-based Data Science and include the URL to the CBDS website: http://jhudatascience.org/chromebookdatascience/index.html. Include all of your educational experience here.
+* `education` : feel free to add Cloud-based Data Science and include the URL to the CBDS website: https://www.clouddatascience.org/. Include all of your educational experience here.
 * `email` : include your professional email here. Be sure it's in quotes
 * `interests` : add a few interests here. They don't have to be the same as those included here
 * `name` & `organizations` : be sure to update your name and add any organizations you're involved with.
