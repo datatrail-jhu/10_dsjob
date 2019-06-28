@@ -13,7 +13,7 @@ To update your photo, log into your [Twitter account](www.twitter.com). If you h
 {format: png}
 ![Upload photo](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/export/png?id=1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q&pageid=g3a45d4729b_0_0)
 
-Navigate to the file you want to upload on your Chromebook. In the window that appears, position and size your photo. When you're satisfied, click "Apply."
+Navigate to the file you want to upload on your computer. In the window that appears, position and size your photo. When you're satisfied, click "Apply."
 
 {format: png}
 ![Apply](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/export/png?id=1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q&pageid=g40039f2b2d_0_2)
