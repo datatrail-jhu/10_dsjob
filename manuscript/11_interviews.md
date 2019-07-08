@@ -40,10 +40,10 @@ Many people have written and spoken about the types of data science questions th
 
 Here we list a few types of questions you *could* be asked: 
 
-  * "Talk to me about [fill in the bank]..."
-  * "Write an algorithm that does [fill in the blank]."
-  * "What problems should you solve with [fill in the blank]?"
-  * "How would you approach this problem given this dataset?"
+* "Talk to me about [fill in the bank]..."
+* "Write an algorithm that does [fill in the blank]."
+* "What problems should you solve with [fill in the blank]?"
+* "How would you approach this problem given this dataset?"
 
 Thus, it's a really good idea to look at resources that are already out there. These are included again at the end of the lesson, but we're including them directly in the lesson because they're *really* important to read over and use when you're preparing for interviews. Read and listen through these resources - there will be a few quiz questions from these resources at the end of the lesson.
 
