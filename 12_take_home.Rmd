@@ -13,20 +13,20 @@ Often these projects will describe a scenario that you may find yourself in at t
 
 For example, consider the hypothetical situation that data scientists at [Etsy](www.etsy.com) - "a global online marketplace, where people come together to make, sell, buy, and collect unique items."- give you a take-home assignment during your interview where they provide sales data from their site and information about changes to their site over time. It is then your job to determine what changes were most effective. It would be your job to read the instructions, determine what you need and what you have to answer the question and then to analyze the data.
 
-### Plan 
+### Plan
 
 After reading the instructions through *at least* twice, it's **time to plan**. Take time to think about the question and devise a plan. Think about:
 
 * What information would I want to have in a perfect world to answer this question?
-* What variables do I actually have? 
+* What variables do I actually have?
 * How many observations do I have?
-* What type of analysis should I use? Predictive? Inferential? 
+* What type of analysis should I use? Predictive? Inferential?
 * What statistical analysis would be appropriate for this type of data?
 * How do I plan to visualize the results? What would that look like?
 
-As you begin to answer these questions and devise an approach, you'll want to **keep it simple**. Remember, this is only supposed to take you a few hours so you're limited in how much you'll be able to get done. Start with simple models and then work toward more complex. This is how all analyses should be done, so this will demonstrate that you have a reasonable approach to analysis, rather than just starting with the most complex, confusing, and newest approach out there. 
+As you begin to answer these questions and devise an approach, you'll want to **keep it simple**. Remember, this is only supposed to take you a few hours so you're limited in how much you'll be able to get done. Start with simple models and then work toward more complex. This is how all analyses should be done, so this will demonstrate that you have a reasonable approach to analysis, rather than just starting with the most complex, confusing, and newest approach out there.
 
-Finally, you should be **forming your data science question** at this point in time. The questions you'll want to ask in your analysis will likely not be spelled out explicitly in the assignment. It will be your job to determine what the right questions to ask are and what you'll do to answer them. Consider what the instructions say, form the specific questions you'll ask in your analysis and be sure that these questions are in-line with what the instructions ask of you. 
+Finally, you should be **forming your data science question** at this point in time. The questions you'll want to ask in your analysis will likely not be spelled out explicitly in the assignment. It will be your job to determine what the right questions to ask are and what you'll do to answer them. Consider what the instructions say, form the specific questions you'll ask in your analysis and be sure that these questions are in-line with what the instructions ask of you.
 
 For our hypothetical Etsy example, maybe we decide we're most interested in answering the question: "Do large overhauls to the website increase sales more than small changes?" This seems like a reasonable place to start and a fairly straightforward question to answer. For this question we'd need to determine from the data we've been given which changes were large and which were small. Then, we'd need to calculate changes in sales associated with each website change. We'd use these data in our analysis to answer our question of interest.
 
@@ -36,7 +36,7 @@ At this point you should also be deciding on **what tools you'll use**. In an id
 
 ### Analyze
 
-After determining the questions we'll ask during the analysis and with a general plan in hand, it's time to do the analysis! 
+After determining the questions we'll ask during the analysis and with a general plan in hand, it's time to do the analysis!
 
 #### Data Cleaning
 
@@ -59,7 +59,7 @@ In our hypothetical Etsy example from above, maybe you would plan to do an explo
 {format: png}
 ![Sales over time dummy plot](https://docs.google.com/presentation/d/1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w/export/png?id=1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w&pageid=g40a5d14bdd_0_55)
 
-You'd determine whether or not there are outliers. You'd work to understand any spikes or dips in sales. You'd consider seasonal effects. 
+You'd determine whether or not there are outliers. You'd work to understand any spikes or dips in sales. You'd consider seasonal effects.
 
 {format: png}
 ![Considering the data](https://docs.google.com/presentation/d/1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w/export/png?id=1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w&pageid=g40a5d14bdd_0_80)
@@ -68,7 +68,7 @@ Basically, you'd *think* about any results you generate. Then, after understandi
 
 #### Regression Analysis
 
-Whether the assignment asks for an inferential or predictive analysis, you'll likely want to carry out some type of regression analysis to assess the relationship between variables. When you carry out your regression *start simple*. Your model can become more complex from here if need be, but always start with a simple model and understand and interpret that model before generating anything more complicated. 
+Whether the assignment asks for an inferential or predictive analysis, you'll likely want to carry out some type of regression analysis to assess the relationship between variables. When you carry out your regression *start simple*. Your model can become more complex from here if need be, but always start with a simple model and understand and interpret that model before generating anything more complicated.
 
 
 {format: png}
@@ -82,7 +82,7 @@ For our hypothetical Etsy example, the prompt suggests that this is an inferenti
 
 #### Visualize
 
-After you've carried out your analysis, you'll want to convey your results effectively -- this could require a few plots or tables. Regardless, you'll want to generate visualizations that demonstrate the results of your analysis in an effective an appropriate manner. Be sure that axes are labeled, that the text and points are large enough and that the appropriate graph has been used. 
+After you've carried out your analysis, you'll want to convey your results effectively -- this could require a few plots or tables. Regardless, you'll want to generate visualizations that demonstrate the results of your analysis in an effective an appropriate manner. Be sure that axes are labeled, that the text and points are large enough and that the appropriate graph has been used.
 
 {format: png}
 ![Visualize your results](https://docs.google.com/presentation/d/1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w/export/png?id=1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w&pageid=g40a5d14bdd_0_196)
@@ -106,17 +106,17 @@ Once organized, it's time to write up your report. Be sure this report tells a s
 
 Include clear explanations of what you did, the code, and all necessary graphs and tables. For our purposes, this will likely be an R Markdown report, which is a *great*  way to communicate an analysis effectively.
 
-#### Proofread 
+#### Proofread
 
-Last but not least, you'll likely be tired at this point in the process but *don't skip proofreading*. Take the last few minutes to read what you've written, to check for typos, and to make sure it all makes sense. Attention to detail is important for data scientists, so be sure to hand over an analysis that has been proofread and is clear. 
+Last but not least, you'll likely be tired at this point in the process but *don't skip proofreading*. Take the last few minutes to read what you've written, to check for typos, and to make sure it all makes sense. Attention to detail is important for data scientists, so be sure to hand over an analysis that has been proofread and is clear.
 
-### Take-Home Examples 
+### Take-Home Examples
 
-To finish off this lesson, we wanted to include an example take-home analysis that you may be given on a data science interview. 
+To finish off this lesson, we wanted to include an example take-home analysis that you may be given on a data science interview.
 
 #### Dollar Sales Prediction
 
-This first example provides you a good idea with something that applicants may be asked to complete in their interview. This example comes from the Data Science team at The Hershey Company. For this example, all the information you see in this lesson would be the information that would be provided to the applicant. This would be provided in the form of a two page document. 
+This first example provides you a good idea with something that applicants may be asked to complete in their interview. This example comes from the Data Science team at The Hershey Company. For this example, all the information you see in this lesson would be the information that would be provided to the applicant. This would be provided in the form of a two page document.
 
 The document begins with a brief explanation of the exercise:
 
@@ -145,7 +145,7 @@ Last but not least, the applicant would be provided further directions and scori
 {format: png}
 ![Directions & Scoring Criteria](https://docs.google.com/presentation/d/1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w/export/png?id=1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w&pageid=g40fa6e3ca0_0_18)
 
-Specifically, for this example, when you go to consider what tools you're going to use, after reading the directions, it becomes clear that you're limited to either R or Python. 
+Specifically, for this example, when you go to consider what tools you're going to use, after reading the directions, it becomes clear that you're limited to either R or Python.
 
 When it comes to considering what type of analysis you'll be doing, you know off the bat that this is prediction (and not inference), since the title is "Predictive Modeling Exercise."
 
@@ -158,7 +158,7 @@ The authors of this take-home also give you a little bit of direction. They info
 
 #### Data Analyst at Wikimedia Foundation
 
-Our second example comes from [Wikimedia Foundation](https://wikimediafoundation.org/). The full example can be found [on GitHub](https://github.com/wikimedia-research/Discovery-Hiring-Analyst-2016). This task would be asked of applicants who have applied to be a Data Analysts in the Discovery department at the Foundation. 
+Our second example comes from [Wikimedia Foundation](https://wikimediafoundation.org/). The full example can be found [on GitHub](https://github.com/wikimedia-research/Discovery-Hiring-Analyst-2016). This task would be asked of applicants who have applied to be a Data Analysts in the Discovery department at the Foundation.
 
 The example task that the applicant would be provided first gives the applicant some background about the type of data they'll be working with.
 
@@ -172,13 +172,13 @@ After the background, the applicant's task is laid out. The instructions here sp
 {format: png}
 ![Task](https://docs.google.com/presentation/d/1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w/export/png?id=1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w&pageid=g40fa6e3ca0_0_37)
 
-There are then four questions that the applicant must answer using the data they're provided. 
+There are then four questions that the applicant must answer using the data they're provided.
 
 After defining the task, the dataset is explained, defining each variable and its type.
 
 {format: png}
 ![Data](https://docs.google.com/presentation/d/1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w/export/png?id=1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w&pageid=g40fa6e3ca0_0_42)
- 
+
 Last but not least, an example session is provided to give the applicant some idea of what the data they'll be working with looks like.
 
 {format: png}
@@ -205,104 +205,3 @@ In this lesson, we've introduced the take-home data analysis that is a part of m
 ![Practice Take-Home Data Analysis](https://www.youtube.com/watch?v=ggIH94LvRu8)
 
 * [Slides](https://docs.google.com/presentation/d/1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w/edit?usp=sharing)
-
-
-{quiz, id: quiz_11_take_home}
-
-### Practice Take-Home Data Analysis quiz
-
-{choose-answers: 4}
-?1 Which of the following describes the *best* approach to carrying out a take-home data analysis project?
-
-C) Read the Instructions x2 > Think & Plan > Clean the Data > Explore the Data > Analyze the Data Simply > Visualize the Data > Organize & Write
-C) Read the Instructions > Read the Instructions again > Think & Plan > Clean the Data > Explore the Data > Analyze the Data Simply > Visualize the Data > Organize & Write
-o) Read the Instructions > Think & Plan > Clean the Data > Explore the Data > Analyze the Data Using the Most Complex Model You Know > Visualize the Data > Organize & Write
-o) Explore the Data > Analyze the Data > Think & Plan > Clean the Data >  Visualize the Data > Organize & Write
-o) Analyze the Data > Write The Report
-o) Panic > Analyze furiously > Try to Organize Your Thoughts > Send the company whatever you have when your time limit is up
-
-{choose-answers: 4}
-?2 Which of the following statements is TRUE about take-home assignments?
-
-C) Data Cleaning and Exploration are critical steps.
-C) Effective communication is important, so take time to figure out how to tell a story. 
-C) You should read the instructions multiple times.
-o) Complex analyses are better than simple analyses.
-o) The analysis is the most important part, so start there.
-o) Your code matters most. Focus time there. Don't worry about explanations.
-o) Visualizations should be quick and dirty.
-o) Always use the tools used by the company.
-
-
-{choose-answers: 4}
-?3 It's best to read through the content on the take-home examples provided in this lesson to answer the following question: In the Wikimedia take-home example, which of the following was *NOT* a task asked of the applicant?
-
-C) calculate the mean number of seconds a page is left open
-C) determine the number of unique individuals visiting the site
-o) calculate the mean number of visits to the site for a single individual
-o) calculate the daily overall zero results rate
-o) calculate the daily clickthrough rate
-o) determine how the daily clickthrough rate varies between groups
-o) determine which results people tend to try first
-o) answer whether or not the results people tend to try first changes from one day to the next
-o) Visualize a relationship between variables
-o) Summarize findings in an executive summary
-o) Generate a reproducible report
-o) Submit two files, one with your script and one with an additional variable
-o) Use at least two models to predict sales
-o) Explain why one model was better than another
-
-{choose-answers: 4}
-?3 It's best to read through the content on the take-home examples provided in this lesson to answer the following question: In the predictive modeling exercise example, which of the following was *NOT* a direction provided to the applicant?
-
-
-C) calculate the mean number of seconds a page is left open
-C) determine the number of unique individuals visiting the site
-C) calculate the mean number of visits to the site for a single individual
-C) calculate the daily overall zero results rate
-C) calculate the daily clickthrough rate
-C) determine how the daily clickthrough rate varies between groups
-C) determine which results people tend to try first
-o) Submit two files, one with your script and one with an additional variable
-o) Use at least two models to predict sales
-o) Explain why one model was better than another
-o) Use either R or Python to complete the exercise
-o) Conduct an exploratory data analysis
-o) explain your thought process in your report
-
-
-{choose-answers: 4}
-?4 It's best to read through the content on the take-home examples provided in this lesson to answer the following question: In the predictive modeling exercise example, what is the variable name for the percentage of dollar sales with TRP only?
-
-C) `percent_tpr`
-m) `session_id`
-o) `tpr_price`
-o) `p_tpr`
-o) `price`
-o) `dollar_sales`
-o) `feature_price`
-o) `uuid`
-o) `timestamp`
-o) `pageid`
-o) `n_results`
-
-
-{choose-answers: 4}
-?4 It's best to read through the content on the take-home examples provided in this lesson to answer the following question: In the Wikimedia take-home example, what is the variable name for a unique ID identifying indivdiual sessions?
-
-C) `session_id`
-o) `sess_ID`
-o) `session_ID`
-m) `percent_tpr`
-o) `uuid`
-o) `timestamp`
-o) `pageid`
-o) `n_results`
-o) `tpr_price`
-o) `p_tpr`
-o) `price`
-o) `dollar_sales`
-o) `feature_price`
-
-{/quiz}
-

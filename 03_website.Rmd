@@ -4,9 +4,9 @@ In the [Introduction to R](https://leanpub.com/universities/courses/jhu/cbds-int
 
 This will be a long lesson, but it will be worth it. Go through each step in RStudio Cloud as you read through the lesson to update your professional website!
 
-### Blogdown 
+### Blogdown
 
-`blogdown` is an R package that helps create websites with R Markdown. There is a [whole book](https://bookdown.org/yihui/blogdown/) dedicated to helping users use this package, so if you want to learn more about `blogdown` beyond what is covered in this lesson - that book is a great place to start. 
+`blogdown` is an R package that helps create websites with R Markdown. There is a [whole book](https://bookdown.org/yihui/blogdown/) dedicated to helping users use this package, so if you want to learn more about `blogdown` beyond what is covered in this lesson - that book is a great place to start.
 
 {format: png}
 ![blogdown](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_144)
@@ -40,7 +40,7 @@ For this site, we're using the Hugo theme "Academic", specified as an argument w
 {format: png}
 ![Hugo Academic](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_151)
 
-There are *many* other themes that can be used within the `blogdown` package. We've chosen to use this one because it does a good job displaying information about your skills and qualifications *as well as* your projects, which will be important when you are looking for jobs. 
+There are *many* other themes that can be used within the `blogdown` package. We've chosen to use this one because it does a good job displaying information about your skills and qualifications *as well as* your projects, which will be important when you are looking for jobs.
 
 Once you run this code, an "Edit" window will pop up.
 
@@ -97,9 +97,9 @@ Now that we have the skeleton of the website ready and our theme preview looks a
 
 #### Author Details
 
-With that all settled, let's start adding information about you to the website. To do this open the file `index.md` in the directory `/cloud/project/content/author/admin`. Now and in the future, you'll want to edit this file so that it's always as up-to-date as possible. 
+With that all settled, let's start adding information about you to the website. To do this open the file `index.md` in the directory `/cloud/project/content/author/admin`. Now and in the future, you'll want to edit this file so that it's always as up-to-date as possible.
 
-In this file you'll want to edit the following sections: 
+In this file you'll want to edit the following sections:
 * `bio` : include a brief 1 line about yourself. You'll write a more complete bio later.
 * `education` : feel free to add Cloud-based Data Science and include the URL to the CBDS website: https://www.clouddatascience.org/. Include all of your educational experience here.
 * `email` : include your professional email here. Be sure it's in quotes
@@ -119,7 +119,7 @@ While we've got that same `_index.md` file open, let's just go ahead and update 
 {format: png}
 ![Contact icon edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f2f95d203_0_0)
 
-We only have two more things to do to finish up with this section - write a bio and add a picture. 
+We only have two more things to do to finish up with this section - write a bio and add a picture.
 
 #### Biography
 
@@ -146,7 +146,7 @@ These three examples should give you an idea of what to include in the "About Me
 - background information
 - where to find projects you've worked on
 
-Having looked at a few other individuals' websites, write your biography text at the end of the `_index.md` file we've been working with so far. 
+Having looked at a few other individuals' websites, write your biography text at the end of the `_index.md` file we've been working with so far.
 
 {format: png}
 ![Bio section edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g555823640f_0_72)
@@ -159,7 +159,7 @@ Once you save, these changes to the icons and bio displayed on your home page wi
 
 #### Picture
 
-While there is currently an avatar image on your site, you want this to be a picture of you! Within the same directory (`/cloud/project/content/author/admin`) upload a file containing a picture of you. 
+While there is currently an avatar image on your site, you want this to be a picture of you! Within the same directory (`/cloud/project/content/author/admin`) upload a file containing a picture of you.
 
 {format: png}
 ![Upload image](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_360)
@@ -176,16 +176,16 @@ Once these changes are saved, the preview of your website should have your image
 
 #### Contact Information
 
-With the basic information for our website edited and a picture of ourselves now visible on the preview, it's time to edit all our contact information. To do this, we'll continue to make edits within the `params.toml` file. 
+With the basic information for our website edited and a picture of ourselves now visible on the preview, it's time to edit all our contact information. To do this, we'll continue to make edits within the `params.toml` file.
 
-Update the email address to include your email address but remove the phone and address information, leaving just the empty quotation marks. Similarly, set `office hours = ""` and `appointment_url = ""`. 
+Update the email address to include your email address but remove the phone and address information, leaving just the empty quotation marks. Similarly, set `office hours = ""` and `appointment_url = ""`.
 
 Finally, within the `contact_links`, comment out all the lines so that they are not displayed. If you change your mind in the future and want any of this information displayed in your contact section, you can uncomment any of these lines and update the links to your pages.
 
 {format: png}
 ![edits to `params.toml`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_54)
 
-By editing this text, the Contact section of your website will only display a form by which someone can email you to contact you. This is sufficient for now, but you can add additional information in the future, should you need to. Once these changes are saved, your preview will be edited and you can see what your Contact page looks like. 
+By editing this text, the Contact section of your website will only display a form by which someone can email you to contact you. This is sufficient for now, but you can add additional information in the future, should you need to. Once these changes are saved, your preview will be edited and you can see what your Contact page looks like.
 
 {format: png}
 ![contact information edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_68)
@@ -228,12 +228,12 @@ Things are really coming along! We have all of our contact and necessary informa
 
 #### Hero Widget
 
-While the contact information looks great, there's information at the top of our website that doesn't need to be there (and that we've kind of been ignoring up to now). 
+While the contact information looks great, there's information at the top of our website that doesn't need to be there (and that we've kind of been ignoring up to now).
 
 {format: png}
 ![Unnecessary information](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_430)
 
-We'll remove this text by opening up `hero.md` within `/cloud/project/content/home`. 
+We'll remove this text by opening up `hero.md` within `/cloud/project/content/home`.
 
 {format: png}
 ![open `hero.md`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_187)
@@ -248,7 +248,7 @@ Once the file looks as you see above, you're ready to save your changes and prev
 {format: png}
 ![`hero.md` preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_443)
 
-We'll repeat the same process for the demo widget. Open `demo.md` in `/cloud/project/content/home`. Set `active = false`. 
+We'll repeat the same process for the demo widget. Open `demo.md` in `/cloud/project/content/home`. Set `active = false`.
 
 {format: png}
 ![`demo.md` edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g555823640f_0_113)
@@ -275,13 +275,13 @@ To add the three skills you see here, edit the text in the `[[feature]]` section
   icon_pack = "fab"
   name = "R"
   description = ""
-  
+
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Data Visualization"
   description = ""  
-  
+
 [[feature]]
   icon = "table"
   icon_pack = "fas"
@@ -289,9 +289,9 @@ To add the three skills you see here, edit the text in the `[[feature]]` section
   description = ""
 ```
 
-Note that the text that will be displayed on your website underneath each icon is specified in `name`. We've removed the text from the description variable for each skill, but you could choose to include text here explaining the skill. 
+Note that the text that will be displayed on your website underneath each icon is specified in `name`. We've removed the text from the description variable for each skill, but you could choose to include text here explaining the skill.
 
-Then, the icons displayed are specified in `icon` and `icon_pack`. Which icon to display on the website is defined in the `icon` argument and refers to the names of the icons found at [Font Awesome Brand](https://fontawesome.com/icons), [Font Awesome Standard](https://fontawesome.com/icons), and [Academic Icons](https://jpswalsh.github.io/academicons/). You can search here for other icons you'd like to use to highlight your skills. If you use an icon from [Font Awesome Brand](https://fontawesome.com/icons), you would then specify `fab` in the `icon_pack` variable. From [Font Awesome Standard](https://fontawesome.com/icons), you'd specify `fas`. And, from [Academic Icons](https://jpswalsh.github.io/academicons/), you'd specify `ai`. 
+Then, the icons displayed are specified in `icon` and `icon_pack`. Which icon to display on the website is defined in the `icon` argument and refers to the names of the icons found at [Font Awesome Brand](https://fontawesome.com/icons), [Font Awesome Standard](https://fontawesome.com/icons), and [Academic Icons](https://jpswalsh.github.io/academicons/). You can search here for other icons you'd like to use to highlight your skills. If you use an icon from [Font Awesome Brand](https://fontawesome.com/icons), you would then specify `fab` in the `icon_pack` variable. From [Font Awesome Standard](https://fontawesome.com/icons), you'd specify `fas`. And, from [Academic Icons](https://jpswalsh.github.io/academicons/), you'd specify `ai`.
 
 Once these changes are saved, you'll be able to see the edits on your website preview:
 
@@ -340,12 +340,12 @@ Now, when you save and preview your website, you can scroll through to see that 
 
 ### Posts
 
-We opted not to turn off the posts section of your website. Now, we won't specify in this lesson what to specifically include in this section, but we will *encourage* you to write blog posts and include them in this section. For now, we'll delete the posts that are already in there, since they're not *your* blog posts and show you how to write blog posts in the future. 
+We opted not to turn off the posts section of your website. Now, we won't specify in this lesson what to specifically include in this section, but we will *encourage* you to write blog posts and include them in this section. For now, we'll delete the posts that are already in there, since they're not *your* blog posts and show you how to write blog posts in the future.
 
 {format: png}
 ![Posts section](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_273)
 
-Navigate to `/cloud/project/content/post/getting-started`. In this directory, you'll see a few files. One of them will be `index.md` If you were to open this file, you'd see all the contents used to write that "Getting Started" post currently on your website. 
+Navigate to `/cloud/project/content/post/getting-started`. In this directory, you'll see a few files. One of them will be `index.md` If you were to open this file, you'd see all the contents used to write that "Getting Started" post currently on your website.
 
 {format: png}
 ![`getting-started.md`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_284)
@@ -380,14 +380,14 @@ Aside from including blog posts, you'll also want to include information on proj
 ![delete current projects](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g555823640f_0_149)
 
 
-Now, we'll create a new project using the "Addins" approach we reviewed previously for creating new posts. Click on "Addins" at the top of RStudio. From the drop-down menu, select "New Post." In the New Post box that appears, fill out the information as you see here: 
+Now, we'll create a new project using the "Addins" approach we reviewed previously for creating new posts. Click on "Addins" at the top of RStudio. From the drop-down menu, select "New Post." In the New Post box that appears, fill out the information as you see here:
 
 {format: png}
 ![New Project](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g555823640f_0_157)
 
 Be sure that "Subdirectory" is project (not post!), and select "project" from the "Archetype" menu. Specify that you want an .Rmd document. Once information is complete, click "Done."
 
-A new file will appear within `/cloud/project/content/project` and this file will open up. You'll see that it's an empty RMarkdown document. It's up to you to add in the text and code you used to analyze the ATUS Survey data in your final project. 
+A new file will appear within `/cloud/project/content/project` and this file will open up. You'll see that it's an empty RMarkdown document. It's up to you to add in the text and code you used to analyze the ATUS Survey data in your final project.
 
 {format: png}
 ![Rmd document](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_277)
@@ -405,7 +405,7 @@ To do so, navigate to `/cloud/project/content/home` and open `projects.md`. Find
 {format: png}
 ![Tags edit](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_305)
 
-Note that these tags correspond to the tags specified in the YAML of your post. These filters will search for any projects with the specified tag. You can have more than three tags as you include more projects over time! 
+Note that these tags correspond to the tags specified in the YAML of your post. These filters will search for any projects with the specified tag. You can have more than three tags as you include more projects over time!
 
 Once these changes are saved, the new tags will be visible on your preview!
 
@@ -414,14 +414,14 @@ Once these changes are saved, the new tags will be visible on your preview!
 
 #### Website Tailoring
 
-Okay, we've done a lot, but there's one last thing we want to do. At this point, it's more important that future employers see the projects you've worked on than the blog posts you've written. Thus, we want projects to show up before posts. 
+Okay, we've done a lot, but there's one last thing we want to do. At this point, it's more important that future employers see the projects you've worked on than the blog posts you've written. Thus, we want projects to show up before posts.
 
 To do this we'll edit the `weight` argument. Return to `posts.md` within `/cloud/project/content/home`. Toward the top, change `weight = 60` to `weight = 65`. Save these changes.
 
 {format: png}
 ![Projects `weight`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_3)
 
-Then, within `projects.md` within `/cloud/project/content/home`, change `weight = 65` to `weight = 60`. Save these changes. 
+Then, within `projects.md` within `/cloud/project/content/home`, change `weight = 65` to `weight = 60`. Save these changes.
 
 {format: png}
 ![Posts `weight`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_315)
@@ -462,7 +462,7 @@ Within this directory, you'll see two hidden files `.git` and `.nojekyll`. Do *N
 {format: png}
 ![Delete most of your old website files](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_68)
 
-Now, we'll need to add all the *new* files! But, you should *NOT* add every file you just generated. You only want to add the contents of `/cloud/projects/public`. What's great about `blogdown` is that every time `blogdown::serve_site()` runs and generates a new preview of your website, all the files needed to deploy your website are updated and added to `/cloud/projects/public`. Thus, everything you need to deploy your website is right there. 
+Now, we'll need to add all the *new* files! But, you should *NOT* add every file you just generated. You only want to add the contents of `/cloud/projects/public`. What's great about `blogdown` is that every time `blogdown::serve_site()` runs and generates a new preview of your website, all the files needed to deploy your website are updated and added to `/cloud/projects/public`. Thus, everything you need to deploy your website is right there.
 
 {format: png}
 ![Move new website files from `public`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_34)
@@ -488,7 +488,7 @@ git push
 
 In this code, you're changing your directory to the version controlled directory you just cloned. You're then staging the files using `git add -A`, which will stage all new, modified *and* deleted files. You're then committing these changes and pushing to GitHub.
 
-On GitHub, these changes will all be visible! 
+On GitHub, these changes will all be visible!
 
 {format: png}
 ![GitHub changes](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_56)
@@ -512,154 +512,3 @@ And, when you go to `username.github.io`, you will be able to see all the change
 ![Making Your Website More Professional](https://www.youtube.com/watch?v=BlcPPkQEbWw)
 
 * [Slides](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/edit?usp=sharing)
-
-
-{quiz, id: quiz_03_website}
-
-###Making Your Website More Professional quiz
-
-{choose-answers: 4}
-?1 Which of the following should NOT be included on your professional website?
-
-C) home address
-C) link to Facebook 
-C) parent's home address
-C) others' projects
-o) professional interests
-o) appropriate personal interests
-o) background
-o) current position
-o) projects you've worked on
-o) contact information
-o) link to GitHub
-o) link to LinkedIn
-o) an image
-
-{choose-answers: 4, points:2}
-?2 To deploy your blogdown website, what do you have to do?
-
-C) Move all files in `/cloud/project/content/public` to version controlled `username.github.com` repo and push the changes
-C) Ensure that all files within `/cloud/project/public` directory have been included in my website repo on GitHub
-o) Move all files in `/cloud/project` to version controlled `username.github.com` repo and push the changes
-o) Ensure that all files within `project` directory have been included in my website repo on GitHub
-o) Include the link to my RStudio project in the CNAME field on GitHub Pages
-o) Ensure that there are no typos in any of the posts or projects on my website
-o) Move all files in `/cloud/project/content/public` to version controlled `username.github.com` repo and pull the changes
-o) Move all files in `/cloud/project` to version controlled `username.github.com` repo and pull the changes
-
-
-{choose-answers: 4}
-?3 Which of the following statements is TRUE?
-
-C) It's ok to include personal interests (like reading, sports, and cooking) on your professional website, as long as you include your professional skills and interests first.
-C) It's ok to include professional and personal (such as jogging or painting) interests on your professional website
-o) Professional websites should be strictly professional, and your interests should adhere to this rule
-o) Professional websites must follow a strict format - your personal website should not stray from this
-o) Professional websites should use no color and should not reflect the personality of the individual
-o) Professional websites are not looked at by hiring managers so it doesn't matter what you put on your website
-o) Professional websites should only include your personal interests in the interests section. Your professional interests are on your resume.
-o) Professional websites should only include your personal interests in the interests section. Your professional interests can be found on your GitHub.
-
-{choose-answers: 4}
-?4 What would you run in the R Console to preview changes to your website in RStudio Cloud?
-
-C) `blogdown::serve_site()`
-o) `blogdown::install_hugo()`
-m) `blogdown::new_site()`
-o) `blogdown::hugo_version()`
-o) `blogdown::find_tags()`
-o) `blogdown::find_yaml()`
-o) `blogdown::new_post()`
-o) `blogdown::new_content()`
-o) `blogdown::install_theme()`
-
-{choose-answers: 4}
-?4 What function would you use to generate a new `blogdown` site in RStudio Cloud?
-
-C) `blogdown::new_site()`
-m) `blogdown::serve_site()`
-o) `blogdown::install_hugo()`
-o) `blogdown::hugo_version()`
-o) `blogdown::find_tags()`
-o) `blogdown::find_yaml()`
-o) `blogdown::new_post()`
-o) `blogdown::new_content()`
-o) `blogdown::install_theme()`
-
-{choose-answers:4}
-?5 If you were to include a logo from [Font Awesome Standard](https://fontawesome.com/icons), what would you include in the `icon_pack` variable?
-
-C) `icon_pack = fas`
-o) `icon_pack = FAS`
-m) `icon_pack = fab`
-o) `icon_pack = FAB`
-m) `icon_pack = ai`
-o) `icon_pack = AI`
-o) `icon_pack = standard`
-o) `icon_pack = brand`
-o) `icon_pack = academic`
-
-{choose-answers:4}
-?5 If you were to include a logo from [Font Awesome Brand](https://fontawesome.com/icons), what would you include in the `icon_pack` variable?
-
-C) `icon_pack = fab`
-m) `icon_pack = fas`
-o) `icon_pack = FAS`
-o) `icon_pack = FAB`
-m) `icon_pack = ai`
-o) `icon_pack = AI`
-o) `icon_pack = standard`
-o) `icon_pack = brand`
-o) `icon_pack = academic`
-
-{choose-answers:4}
-?5 If you were to include a logo from [Academic Icons](https://jpswalsh.github.io/academicons/), what would you include in the `icon_pack` variable?
-
-C) `icon_pack = ai`
-m) `icon_pack = fas`
-o) `icon_pack = FAS`
-m) `icon_pack = fab`
-o) `icon_pack = FAB`
-o) `icon_pack = AI`
-o) `icon_pack = standard`
-o) `icon_pack = brand`
-o) `icon_pack = academic`
-
-{choose-answers:4}
-?6 To what part of your website does the `[[menu.main]]` tag refer?
-
-C) Menu at top of website
-C) Tabs included along the top of the website
-o) Icons included below your name
-o) Link to where you're taken when you click on your picture
-o) Link to where you're taken when you click on your name 
-m) Programs and schools listed under "Education"
-o) what's listed under "Education" on home page
-
-{choose-answers:4}
-?6 To what part of your website does the `[[education.courses]]` tag refer?
-
-C) Programs and schools listed under "Education"
-C) what's listed under "Education" on home page
-m) Menu at top of website
-o) Tabs included along the top of the website
-o) Icons included below your name
-o) Link to where you're taken when you click on your picture
-o) Link to where you're taken when you click on your name 
-
-{points: 3}
-?7 Submit the URL for your new website here!
-
-! /(.+github.io.*)/i
-
-{points: 3}
-?8 Submit the URL to your *resume* on your website here!
-
-! /(.+github.io\/files\/.+)/i
-
-{/quiz}
-
-
-
-
-
