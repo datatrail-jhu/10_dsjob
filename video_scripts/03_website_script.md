@@ -16,7 +16,7 @@ A new tab will open up in your browser with a (somewhat ugly) preview of your we
 
 Well, in order for the preview to appear correctly, we have to make a slight change to how the website looks for links on the website. To do this, open up the config.toml file within the project directory.
 
-Search for the line baseurl equals slash. After this line, add the two lines of code you see highlighted here. Additionally, change the title of your website to include your name, as you see here.
+Search for the line baseurl equals slash. After this line, add the two lines of code you see highligthed here. Additionally, change the title of your website to include your name, as you see here.
 
 Save these changes. The preview of your website should update automatically in that tab that appeared previously. However, if it doesn't, you'll want to run the code you see here in the R Console.
 
@@ -52,7 +52,7 @@ By editing this text, the Contact section of your website will only display a fo
 
 To start customizing these tabs, we'll want to be sure that your most up-to-date resume is available on your website! To get started on this, you'll need to upload your resume into the cloud/project/static directory. Here, our resume is saved as resume.pdf.
 
-Now, we're ready to start tweaking the tabs available on our website! To do this, we'll still be making edits to a file we haven't yet worked with. Open cloud/project/config/_default/menus.toml. Navigate to the portion of the file shown here. Comment out the four lines related to "Publications" and the four lines related to "Tutorials". This will remove these links from the top of your website. The lines you should delete are highlighted here:
+Now, we're ready to start tweaking the tabs available on our website! To do this, we'll still be making edits to a file we haven't yet worked with. Open cloud/project/config/_default/menus.toml. Navigate to the portion of the file shown here. Comment out the four lines related to "Publications" and the four lines related to "Tutorials". This will remove these links from the top of your website. The lines you should delete are highligthed here:
 
 Then, make the following changes you see specified here.
 

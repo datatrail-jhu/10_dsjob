@@ -132,7 +132,7 @@ Recently, with the frequency of data scientist positions within smaller startups
 {format: png}
 ![creative resume](https://docs.google.com/presentation/d/163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc/export/png?id=163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc&pageid=g3a45d4729b_0_0)
 
-As we saw in the last example, the applicant's name and contact information are clearly at the top of hte resume. Here, the addition of small icons makes this information slightly more appealing.
+As we saw in the last example, the applicant's name and contact information are clearly at the top of the resume. Here, the addition of small icons makes this information slightly more appealing.
 
 {format: png}
 ![name and contact information are visible and visually-appealing](https://docs.google.com/presentation/d/163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc/export/png?id=163yY-dxZnMIdH9x-xf6hqoQxRDGlb-XpAX1NoRZc6Jc&pageid=g3fe2ca85f0_0_46)
@@ -230,7 +230,7 @@ B) False
 a) True
 B) False
 
-? TRUE/FALSE: Everything on your resume should be absoultely true.
+? TRUE/FALSE: Everything on your resume should be absolutely true.
 
 A) True
 b) False

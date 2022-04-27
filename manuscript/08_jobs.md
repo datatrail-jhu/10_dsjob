@@ -42,10 +42,10 @@ Finally, data scientists very rarely work in isolation. Instead, they're part of
 
 * effective communicators
 * problem solvers
-* knowledgable
+* knowledgeable
 * curious & interested
 
-It's expected that data scientists be able to talk with others to help hone the question that they're trying to ask *and* to effectively communicate the results of their analyses. Similarly, to do the job of a data scientist, it requires one to solve problems in creative and new ways. Being a problem solver who is knowledgable about how to work with data *and* the data the company has is an important skill. Finally, it will be expected that you're curious to learn more and interested in what you're doing.
+It's expected that data scientists be able to talk with others to help hone the question that they're trying to ask *and* to effectively communicate the results of their analyses. Similarly, to do the job of a data scientist, it requires one to solve problems in creative and new ways. Being a problem solver who is knowledgeable about how to work with data *and* the data the company has is an important skill. Finally, it will be expected that you're curious to learn more and interested in what you're doing.
 
 These qualities can also come through on your resume, website, and cover letter through examples. Additionally, in an interview (which we'll discuss in a later lesson), it's important that those interviewing you see that you possess these qualities.
 
@@ -78,7 +78,7 @@ Now that we have a general understanding of what information is included in a jo
 At [Airbnb]((https://www.airbnb.com/?logo=1)), there are [three tracks](https://www.linkedin.com/pulse/one-data-science-job-doesnt-fit-all-elena-grewal/) for data science positions. The [Analytics Track](https://www.airbnb.com/careers/departments/position/38405), the [Algorithms Track](https://www.airbnb.com/careers/departments/position/44708), and the [Inference Track](https://www.airbnb.com/careers/departments/position/44708). Very briefly here, data scientists on the:
 
 * *analytics track* focus on monitoring metrics of the company, building tools, and helping the company make data-driven decisions. 
-* *algortihms track* are responsible for building and interpreting algorithms that will help to power data products at the company
+* *algorithms track* are responsible for building and interpreting algorithms that will help to power data products at the company
 * *inference track* use statistical techniques to determine causal relationships
 
 For each of these three categories, we'll first walk through a job description from Airbnb. We'll break the description down by what *technical*, *employee*, and *business* skills they company is looking for in each position. After the Airbnb examples, we'll walk through two more examples of a data science job descriptions from other  companies and do the same. This way, you'll have a fairly complete picture of what job descriptions look like *and* what skills companies are looking for from their data scientists.
@@ -173,7 +173,7 @@ Beyond technical skills, this position is looking for an individual who is a str
 {format: png}
 ![Work Principles - Claire's](https://docs.google.com/presentation/d/1VOu82HOB5ngB-Mmc0Y2s__QIs0U5nSM4P7kniiQVBCw/export/png?id=1VOu82HOB5ngB-Mmc0Y2s__QIs0U5nSM4P7kniiQVBCw&pageid=g408b131f93_0_326)
 
-Finally, this data scientist would be able to communicate their findings via reports that could be understood by parters and business users.
+Finally, this data scientist would be able to communicate their findings via reports that could be understood by partners and business users.
 
 {format: png}
 ![Business Skills - Claire's](https://docs.google.com/presentation/d/1VOu82HOB5ngB-Mmc0Y2s__QIs0U5nSM4P7kniiQVBCw/export/png?id=1VOu82HOB5ngB-Mmc0Y2s__QIs0U5nSM4P7kniiQVBCw&pageid=g408b131f93_0_391)

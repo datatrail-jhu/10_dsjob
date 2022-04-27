@@ -28,7 +28,7 @@ Note that no resume is perfect. In fact, there are many things that could be imp
 
 Recently, with the frequency of data scientist positions within smaller startups, there has been some room for flexibility and creativity in data science resume design. Going with the classic design is a safer route; however, for positions where creativity is something the position is looking for, it may be ok to go with a somewhat different resume design. Here we see an example of a less traditional resume. Information very similar to what was seen in the last example is displayed; however, the formatting is very different. We'll similarly walk through this resume design highlighting what it does well and where it could be improved.
 
-As we saw in the last example, the applicant's name and contact information are clearly at the top of hte resume. Here, the addition of small icons makes this information slightly more appealing.
+As we saw in the last example, the applicant's name and contact information are clearly at the top of the resume. Here, the addition of small icons makes this information slightly more appealing.
 
 However, unlike in the classic view, sections are not spaced one on top of the other. While all the same sections are still there, the page is separated using one gray block in the middle to highlight projects the applicant has used. And, sections are separated using either blue text, or white text within blue shapes. These do not all start at the left end of the page. Instead, they can be either on the left or in a second column on the page.
 

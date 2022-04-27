@@ -121,7 +121,7 @@ This first example provides you a good idea with something that applicants may b
 The document begins with a brief explanation of the exercise:
 
 {format: png}
-![Predictive Modellng Exercise](https://docs.google.com/presentation/d/1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w/export/png?id=1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w&pageid=g40fa6e3ca0_0_0)
+![Predictive Modeling Exercise](https://docs.google.com/presentation/d/1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w/export/png?id=1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w&pageid=g40fa6e3ca0_0_0)
 
 This introduction gives the applicant an idea of how much data they'll be working with (~20,000 observations and 19 variables) and what their goal is (to predict dollar sales).
 

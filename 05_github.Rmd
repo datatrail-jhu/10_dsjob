@@ -71,7 +71,7 @@ Unlike sending an email letting the developer know about a typo and the develope
 
 Further, for R packages that are hosted on GitHub, there are often *many* issues that users and other developers submit to the repository. It can be a lot on developers to keep up with these issues. Fortunately, you can take a look at the issues on packages you use to see if there are any issues you can help with. If you figure out how to address the issue, you can again submit a PR to the developers and they can determine if they want to accept your PR.
 
-Specifically, many packages also include tags within issues stating where they feel help is wanted on an issue (using hte tag "help wanted") or where developers feel there's an opportunity for individuals with less experience to contribute (using the tag "good first issue").
+Specifically, many packages also include tags within issues stating where they feel help is wanted on an issue (using the tag "help wanted") or where developers feel there's an opportunity for individuals with less experience to contribute (using the tag "good first issue").
 
 {format: png}
 ![`ggplot2` Open Issues](https://docs.google.com/presentation/d/10VRTUHsYh8hdYBily8cexSdP-sviYCIo_gzh1y8PsRs/export/png?id=10VRTUHsYh8hdYBily8cexSdP-sviYCIo_gzh1y8PsRs&pageid=g3fe8a5363e_0_22)
