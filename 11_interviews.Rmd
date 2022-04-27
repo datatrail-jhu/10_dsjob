@@ -36,9 +36,9 @@ For personality questions, practice by **answering questions out loud**. It's al
 
 As for technical questions, there are *many* different ways companies assess technical skills. They may explain a technical issue out loud and ask how you would solve it. They may give you a take-home analysis (we'll discuss these in detail in the next lesson). They may have you live-code, meaning they may ask you to code in front of them. They may ask you to explain a concept (such as regression) to them. These are all fair game. Hopefully, with some idea as to the structure of the interview, you'll have some idea as to what to expect.
 
-Many people have written and spoken about the types of data science questions they've asked and been asked in data science interviews previously. 
+Many people have written and spoken about the types of data science questions they've asked and been asked in data science interviews previously.
 
-Here we list a few types of questions you *could* be asked: 
+Here we list a few types of questions you *could* be asked:
 
 * "Talk to me about [fill in the bank]..."
 * "Write an algorithm that does [fill in the blank]."
@@ -67,7 +67,7 @@ Sometimes HR or others will ask you what salary you're looking for. Never volunt
 
 #### Get Knowledge
 
-In addition to practicing your responses and practicing how to avoid giving a salary number if asked, you also need to gain even more **knowledge about the company** with which you're interviewing. You probably learned a bit when deciding to apply to the job, but now is the time to go much deeper. Learn as much as you can about what the company does from their website. Search other websites (such as [Glassdoor](https://www.glassdoor.com/index.htm)) to see what others have to say about the company and about working at the company (For example, information from hundreds of individuals who have interviewed for data science positions at Airbnb can be found [here](https://www.glassdoor.com/Interview/Airbnb-Data-Scientist-Interview-Questions-EI_IE391850.0,6_KO7,21.htm).) 
+In addition to practicing your responses and practicing how to avoid giving a salary number if asked, you also need to gain even more **knowledge about the company** with which you're interviewing. You probably learned a bit when deciding to apply to the job, but now is the time to go much deeper. Learn as much as you can about what the company does from their website. Search other websites (such as [Glassdoor](https://www.glassdoor.com/index.htm)) to see what others have to say about the company and about working at the company (For example, information from hundreds of individuals who have interviewed for data science positions at Airbnb can be found [here](https://www.glassdoor.com/Interview/Airbnb-Data-Scientist-Interview-Questions-EI_IE391850.0,6_KO7,21.htm).)
 
 In addition to company knowledge about the company, you also want to **know as much about the people you'll be meeting with as possible.** Check out their profiles on the company website, look at their Twitters, check their GitHub accounts, look for presentations they've given. Learn as much as you can about what each person does and have different questions ready for each individual. These questions can be about their experience at the company *or* about that individual's work -- if you listen to a presentation someone gave and have a question, you can ask that question!
 
@@ -76,20 +76,20 @@ In addition to company knowledge about the company, you also want to **know as m
 
 #### Ask Questions
 
-In your research about the company and its employees you should start to gather a list of questions that you want answers to on the day of the interview. These questions can discuss more technical aspects of the position, such as details of **how work is done at the company** (i.e."How is code shared?" or "What languages are used by the team?" "When something goes wrong, how is it handled?") and **how projects are managed** (i.e "Who assigns projects? How are they assigned?" or "How will my performance be evaluated?"). Alternatively, they could be questions about **quality of life and work culture** aimed at getting a better understanding of how much vacation time comes with the job, how often people work late or on the weekends, and whether or not working from home is an option. 
+In your research about the company and its employees you should start to gather a list of questions that you want answers to on the day of the interview. These questions can discuss more technical aspects of the position, such as details of **how work is done at the company** (i.e."How is code shared?" or "What languages are used by the team?" "When something goes wrong, how is it handled?") and **how projects are managed** (i.e "Who assigns projects? How are they assigned?" or "How will my performance be evaluated?"). Alternatively, they could be questions about **quality of life and work culture** aimed at getting a better understanding of how much vacation time comes with the job, how often people work late or on the weekends, and whether or not working from home is an option.
 
 For a more complete list of questions one could ask at an interview, check out Julia Evans' list [here](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/).
 
 
 ### The Day of the Interview
 
-Once you've practiced answering questions and have a number of questions you're interested in getting answered about the position and company, you're almost ready for the big day! When it comes to the interview day, your goal should be to learn as much about them as they're learning about you. Ultimately, the position should be a good fit for both of you. 
+Once you've practiced answering questions and have a number of questions you're interested in getting answered about the position and company, you're almost ready for the big day! When it comes to the interview day, your goal should be to learn as much about them as they're learning about you. Ultimately, the position should be a good fit for both of you.
 
 #### Dress
 
-Deciding what to wear for a data science interview is not as straightforward as it is for other positions, where it's often expected interviewees wear a suit. For data science positions, you likely do not have to wear a suit. *That said*, it's always better to be overdressed than underdressed, so if you're unsure, wear something more formal rather than less. 
+Deciding what to wear for a data science interview is not as straightforward as it is for other positions, where it's often expected interviewees wear a suit. For data science positions, you likely do not have to wear a suit. *That said*, it's always better to be overdressed than underdressed, so if you're unsure, wear something more formal rather than less.
 
-Ideally, you'd be able to ask HR (or the person you first chatted with at the company) how applicants typically dress for interviews at their company. They probably get that question frequently and will likely be very helpful. If they say jeans are ok for interviews, they probably mean it. It's up to you at that point to then decide what to wear. 
+Ideally, you'd be able to ask HR (or the person you first chatted with at the company) how applicants typically dress for interviews at their company. They probably get that question frequently and will likely be very helpful. If they say jeans are ok for interviews, they probably mean it. It's up to you at that point to then decide what to wear.
 
 Ultimately, you want to put your best foot forward, so if they say casual is fine, believe them, but maybe go one step above jeans. Slacks of some sort (or a skirt or dress, if you're more comfortable) may be the safest bet. Clothing should be clean and ironed if necessary. If they say casual, you likely do not need a tie, unless that's what you're most comfortable in!
 
@@ -100,19 +100,19 @@ At the end of the day, you want to be comfortable and look professional in whate
 
 #### One-on-one Interviews
 
-After the initial phone call(s) and once you're interviewing in person, you'll likely have one or more one-on-one interviews. In these interviews, the person interviewing you will likely explain a little about the company, the position, and/or themselves before trying to gauge your background, your technical capabilities, and fit for the position. They'll ask you questions and should give you time to ask them questions as well. In your questions, you should demonstrate that you have knowledge of the company and have done your homework, but should also get answers to everything you still want to know about the company and position. 
+After the initial phone call(s) and once you're interviewing in person, you'll likely have one or more one-on-one interviews. In these interviews, the person interviewing you will likely explain a little about the company, the position, and/or themselves before trying to gauge your background, your technical capabilities, and fit for the position. They'll ask you questions and should give you time to ask them questions as well. In your questions, you should demonstrate that you have knowledge of the company and have done your homework, but should also get answers to everything you still want to know about the company and position.
 
 
 #### Technical Assessment
 
-While technical questions will be asked in one-on-one interviews, there should be some coding required during a data science interview. This may require live-coding where another person will sit with you and watch you code or it may be a take-home analysis. Regardless of the format, this is where you want to show off your technical skills! Live-coding can be intimidating, but do your best to relax and just complete the task at hand. As for take-home analyses, we'll spend more time discussing the details of these in the next lesson. While these may seem daunting, it's an important part of a data science interview. In fact, if the interview process doesn't require you to code at all, that may be a [red flag](http://hookedondata.org/Red-Flags-in-Data-Science-Interviews/) that the position is maybe not exactly what you thought it was. 
+While technical questions will be asked in one-on-one interviews, there should be some coding required during a data science interview. This may require live-coding where another person will sit with you and watch you code or it may be a take-home analysis. Regardless of the format, this is where you want to show off your technical skills! Live-coding can be intimidating, but do your best to relax and just complete the task at hand. As for take-home analyses, we'll spend more time discussing the details of these in the next lesson. While these may seem daunting, it's an important part of a data science interview. In fact, if the interview process doesn't require you to code at all, that may be a [red flag](http://hookedondata.org/Red-Flags-in-Data-Science-Interviews/) that the position is maybe not exactly what you thought it was.
 
 {format: png}
 ![Coding required](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&pageid=g409bf900b8_0_75)
 
-#### Communication 
+#### Communication
 
-In addition to learning about your background, interests, and technical skills, data science positions often require a lot of written and oral communication. As such, the interview may require you to generate a report or presentation using the results from the take-home analysis you did. Or, they may ask you to give a presentation on some of your past work. For this, prepare as much as possible. Practice your presentation if you're given time to prepare at home. Proofread your report carefully before sending it back to the company. Know that this is an important part of their assessment of you and do your best to communicate your analysis and findings 
+In addition to learning about your background, interests, and technical skills, data science positions often require a lot of written and oral communication. As such, the interview may require you to generate a report or presentation using the results from the take-home analysis you did. Or, they may ask you to give a presentation on some of your past work. For this, prepare as much as possible. Practice your presentation if you're given time to prepare at home. Proofread your report carefully before sending it back to the company. Know that this is an important part of their assessment of you and do your best to communicate your analysis and findings
 
 {format: png}
 ![Effective communication](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&pageid=g409bf900b8_0_82)
@@ -178,155 +178,3 @@ In this lesson, we've covered a lot about interviewing for a data science positi
 ![Data Science Interviews](https://www.youtube.com/watch?v=Dlt-ikUoNh8)
 
 * [Slides](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/edit?usp=sharing)
-
-
-{quiz, id: quiz_00_filename}
-
-### Data Science Interviews quiz
-
-A reminder that a few of the questions may ask about material in the resources included here. Be sure to read over them and watch the video before attempting the quiz:
-
-* [Twitter Thread about what questions to ask](https://twitter.com/jensenharris/status/988967889330819072){target="_blank"}, from [Jensen Harris](https://www.linkedin.com/in/jensenharris/)
-* [Questions I'm Asking in Interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/){target="_blank"}, by [Julia Evans](https://jvns.ca/about/)
-* [VIDEO: Live Breakdown of Common Data Science Interview Questions](https://www.youtube.com/watch?v=aXUsrKPTBvY&index=6&list=PLqFaTIg4myu-dNobDHQZPrD2wH27PthCG%29){target="_blank"} <- There are multiple questions from this. It's best to watch the whole thing now!
-* [Advice for Applying to Data Science Jobs](http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/){target="_blank"}, by [Emily Robinson](http://hookedondata.org/about/s)
-
-{choose-answers: 4, points: 2}
-?1 Read [Advice for Applying to Data Science Jobs](http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/){target="_blank"}. At one point the author mentions a time she was interviewing someone. What does she say impressed her? 
-
-C) The interviewee asked a technical question about a presentation the interviewer had given previously.
-C) The interviewee demonstrated that she had done her research about the interviewer by asking a great question about a presentation.
-o) The interviewee demonstrated great technical knowledge and knew exactly the right answer to everything they were asked.
-o) The interviewee had done their research and knew the names and accomplishments of everyone at the company.
-o) The interviewee wore a nice suit to the interview.
-o) The interviewee asked important and interesting questions of everyone she met with that day demonstrating interest and preparation
-
-{choose-answers: 4}
-?2 On the first call before your in-person interview, what information do you want to be sure to get?
-
-C) The structure of the interview and an understanding of their interview process
-o) The salary for the position
-o) A list of all the people working at the company
-o) An idea of the projects you'd be working on if hired
-o) Details about how projects are managed within the company
-o) Details about health insurance, stock options, and benefits 
-o) Information about promotions
-
-{choose-answers: 4}
-?3 When asked if you have any questions on an interview...
-
-C) Always ask a question. 
-C) Ask a question. Failing to do so indicates that you don't care or haven't thought very hard about this position.
-o) do not ask a question.
-o) only ask a question if you think of a really good one.
-o) ask the interviewer to ask you another question.
-o) Ask a question about something unrelated to the job for which you're interviewing
-
-{choose-answers: 4}
-?4 It's the end of your interview day. What information should you be sure you have before leaving?
-
-C) What the next steps are
-C) A general idea of the process going forward and when you can expect to hear
-o) The exact date and time at which you'll hear from them
-o) An answer as to whether or not you will be offered the job
-o) The salary that will be in the offer
-o) Your start date
-o) How much everyone else makes in salary
-
-{choose-answers: 4}
-?5 You've interviewed for a position and received a job offer! The salary is much higher than your current position and you're happy with it. What should you do?
-
-C) Negotiate anyway.
-C) Negotiate before accepting.
-o) Accept!
-o) Get it in writing then accept.
-o) Negotiate for every possible thing you can think of through many rounds of negotiation before ever considering acepting.
-o) Turn the position down.
-
-{choose-answers: 4, points: 3}
-?6 Use the resources and information in the lesson and re-mentioned at the beginning of this quiz to answer the following question: Rachel and Walter are doing a mock interview. In the practice question about colinearity, what was a mistake that Walter made in his first attempt to answer the question?
-
-C) His response did not use a specific example.
-C) He discussed co-linearity at a level that was too high for the audience.
-C) He used jargon that was not at the right level for his audience.
-o) He was technically incorrect in what he stated.
-o) He explained linearity rather than co-linearity in his response.
-o) He said colinearity and multicolinearity were synonyms.
-o) He told the interviewer that he didn't like the question. 
-
-{choose-answers: 4, points: 3}
-?7 Use the resources and information in the lesson and re-mentioned at the beginning of this quiz to answer the following question: When Walter improved his response on colinearity, what *example* did he use to explain colinearity?
-
-C) height of the building & number of stories in a building
-C) stories number & building height
-C) building height & number of stories in building
-o) height & weight
-o) temperature & popsicle sales
-o) snow boots sales & temperature
-o) arm length & number of home runs hit
-o) rainfall & lake depth
-o) hill height & hill width
-o) time of day food truck arrives & hunger level
-o) time of day & number of fireworks going off
-o) number of models run & question asked
-o) number of concussions & time in the NFL
-
-{choose-answers: 4, points: 3}
-?8 Use the resources and information in the lesson and re-mentioned at the beginning of this quiz to answer the following question: Throughout the mock interview, Walter and Rachel return to which common theme about what is difficult in data science interviews?
-
-C) Answering interviewer's questions at the right level is difficult but important
-C) It's important not to assume your audience has the same background knowledge you do
-C) It's essential to answer questions you're asked at the right level and not use too much jargon
-o) Predicting what you'll be asked in an interview is essential.
-o) Small data cannot be used to do data science.
-o) Colinearity thwarts the ability of data scientists to do predictive analyses.
-o) You'll always be asked to explain linear regression, so be sure to know how to do this.
-o) It's best to refrain from from using examples to answer the interviewer's questions.
-o) Minimize the time you think about your response to a question.
-o) If asked to clarify, it's best to stick to your original answer.
-o) Follow-up questions mean you're doing a bad job.
-
-{choose-answers: 4, points: 3}
-?9 Use the resources and information in the lesson and re-mentioned at the beginning of this quiz to answer the following question: What function was Rachel asked to write in the "live coding" demo portion of the mock interviewing?
-
-C) Determine which rows in a column contain an oultlier
-C) Ientify the rows in each column containing an oultlier
-o) Determine the mean for each column in a data frame
-o) Remove outliers from a data frame
-o) Detect how many NAs are in each column of a data frame
-o) Test how many distinct values there are in each column
-o) Scrape google.com for datasets
-o) Send a mass e-mail to all employees
-
-{choose-answers: 4, points: 2}
-?9 Use the resources and information in the lesson and re-mentioned at the beginning of this quiz to answer the following question: When Rachel was asked to live code during the mock interview, what language did she choose to use and why?
-
-C) R, because the data are in a data frame format
-m) Python, because the data are in a data frame format
-o) C, because the data are in a data frame format
-o) R, because the data can only be read in in R
-o) Python, because the data can only be read in in Python
-o) C, because the data can only be read in in C
-o) R, because the data are in the CSV format
-o) Python, because the data are in the CSV format
-o) C, because the data are in the CSV format
-o) R, because it's the best language
-o) Python, because it's the best language
-o) C, because it's the best language
-
-{choose-answers: 4, points: 3}
-?10 Which of the following is *not* one of the question categories Julia Evans is asking at interviews?
-
-C) Disciplinary actions
-C) Consequences for being late
-C) Bank employees use
-o) Engineering practices
-o) Management style
-o) Quality of life
-o) Community involvement
-o) Career development
-o) Culture
-o) Financial/business model/growth
-
-{/quiz}
-

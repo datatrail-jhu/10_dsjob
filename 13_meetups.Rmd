@@ -27,7 +27,7 @@ Often there will be a time to network and chat in the beginning. Then, there may
 
 ### Meetups and Jobs
 
-So far we've discussed where to find out about what meetups there are in your area and about how you can learn new information and meet people with similar interests. However, this is a course about getting jobs. 
+So far we've discussed where to find out about what meetups there are in your area and about how you can learn new information and meet people with similar interests. However, this is a course about getting jobs.
 
 Well, admittedly, meetups are not the *best* place to look for jobs, but they are a great place to build a network and meet people. Meetups are most helpful in your job search if you start going to them and building up your network *before* you really need a job. After meeting people at these meetups, you can follow them on Twitter or exchange emails to discuss project ideas! This is a great step in networking!
 
@@ -36,7 +36,7 @@ However, if you're at a meetup and are looking for a job, that's a good thing to
 
 ### Summary
 
-In this brief lesson we discussed the benefits of building your network, attending meetups, and getting to know people in your field in person! Check out the meetups in your area and start to meet people! 
+In this brief lesson we discussed the benefits of building your network, attending meetups, and getting to know people in your field in person! Check out the meetups in your area and start to meet people!
 
 
 ### Slides and Video
@@ -44,31 +44,3 @@ In this brief lesson we discussed the benefits of building your network, attendi
 ![Data Science Meetups](https://www.youtube.com/watch?v=cz7YSG8y_EQ)
 
 * [Slides](https://docs.google.com/presentation/d/10vEVkFVYiMKK6XP3NBzfed_PocaLc0sJigmJJKVNzHw/edit?usp=sharing)
-
-
-{quiz, id: quiz_13_meetups}
-
-### Data Science Meetups quiz
-
-{choose-answers: 4}
-? Which of the following is not a benefit of attending data science meetups?
-
-C) On-the-spot interviews
-o) Meet cool people
-o) Learn new things
-o) Build your network
-o) Hear about jobs
-o) Learn more about some companies
-
-{choose-answers: 4}
-? You've signed up to attend a meetup and are no longer able to make it, what should you do?
-
-C) Log back in to Meetup.com and update to say you won't be attending
-o) Nothing - it's rude to change your response
-o) Nothing - the organizers will feel bad if you change your response
-o) Log back in to Meetup.com and respond yes to other meetups you don't plan to attend
-o) Email the organizers to let them know you won't be there
-o) Call the organizers to let them know you won't be there
-
-{/quiz}
-

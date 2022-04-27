@@ -2,13 +2,13 @@
 
 Now that we've discussed what you'll need to apply to jobs, including a resume and cover letter, what steps to take to update your professional social media presence, including an updated website, GitHub, LinkedIn and active Twitter, and what a job description looks like, we're ready to discuss where you actually find data science jobs. There are a number of locations where jobs are posted. We'll walk through them now and discuss the strengths of each platform.
 
-We'll finish out this lesson discussing the steps to take when applying to a position. These will vary from one job to the next, so we won't discuss specifics in this process, but we'll walk you through generally. 
+We'll finish out this lesson discussing the steps to take when applying to a position. These will vary from one job to the next, so we won't discuss specifics in this process, but we'll walk you through generally.
 
 ### What Jobs to Look For
 
-We mentioned this briefly in the last lesson, but there will be data scientist positions for which you will not be qualified if this program is the extent of your data science training. That's ok! It makes sense that individuals who have been learning and gaining experience for years will be better suited for higher level or more advanced data science positions! With more training and experience, you'll get there too. For now though, it's best to read job descriptions carefully. If it's a machine learning-focused position and you are unfamiliar with most of the words in the job description, that's probably *not* the right position for you. There's no need to apply to that job. 
+We mentioned this briefly in the last lesson, but there will be data scientist positions for which you will not be qualified if this program is the extent of your data science training. That's ok! It makes sense that individuals who have been learning and gaining experience for years will be better suited for higher level or more advanced data science positions! With more training and experience, you'll get there too. For now though, it's best to read job descriptions carefully. If it's a machine learning-focused position and you are unfamiliar with most of the words in the job description, that's probably *not* the right position for you. There's no need to apply to that job.
 
-However, you do *not* need to have exactly *every* qualification and skill listed on the job posting. If you have most of the skills they're requesting and are willing to learn the few with which you're less familiar, it is ok to apply to that position! 
+However, you do *not* need to have exactly *every* qualification and skill listed on the job posting. If you have most of the skills they're requesting and are willing to learn the few with which you're less familiar, it is ok to apply to that position!
 
 Thus, given the training in this Course Set, you'll want to focus on positions where data wrangling, data visualization, basic analysis, and report generation and presentations are the focus. These may have the title "data analyst", "junior data scientist", "entry level data scientist" or "data scientist." Read the job descriptions carefully and decide if the job may be right for you!
 
@@ -32,7 +32,7 @@ On this site, you can search jobs by tags. For example if you type `r AND data s
 {format: png}
 ![`r AND data science`](https://docs.google.com/presentation/d/1bOnA2S_dXQypd4CaGeFux-yQLwS9EzY9fPOqutPZJQg/export/png?id=1bOnA2S_dXQypd4CaGeFux-yQLwS9EzY9fPOqutPZJQg&pageid=g3efad8d752_0_0)
 
-You can further narrow your search by entering a location where you want to find a job. For example, if you enter "Baltimore, MD" into the "Located anywhere" box, positions within a 20 mile radius will be listed. 
+You can further narrow your search by entering a location where you want to find a job. For example, if you enter "Baltimore, MD" into the "Located anywhere" box, positions within a 20 mile radius will be listed.
 
 {format: png}
 ![Baltimore, MD data science jobs](https://docs.google.com/presentation/d/1bOnA2S_dXQypd4CaGeFux-yQLwS9EzY9fPOqutPZJQg/export/png?id=1bOnA2S_dXQypd4CaGeFux-yQLwS9EzY9fPOqutPZJQg&pageid=g3efad8d752_0_6)
@@ -41,7 +41,7 @@ Additionally, you can click "Create alert" to send yourself alerts when jobs of 
 
 ### LinkedIn
 
-Jobs are also [posted on LinkedIn](https://www.linkedin.com/jobs/). Similar to StackOverflow's jobs, positions can be searched by title and Location. However, the jobs posted on LinkedIn will span many more fields, so there will be a larger pool of total jobs to go through. 
+Jobs are also [posted on LinkedIn](https://www.linkedin.com/jobs/). Similar to StackOverflow's jobs, positions can be searched by title and Location. However, the jobs posted on LinkedIn will span many more fields, so there will be a larger pool of total jobs to go through.
 
 {format: png}
 ![LinkedIn Jobs](https://docs.google.com/presentation/d/1bOnA2S_dXQypd4CaGeFux-yQLwS9EzY9fPOqutPZJQg/export/png?id=1bOnA2S_dXQypd4CaGeFux-yQLwS9EzY9fPOqutPZJQg&pageid=g3efad8d752_0_17)
@@ -78,7 +78,7 @@ The last suggestion we have for hearing about new positions is to keep an eye ou
 Once you've identified a number of positions to which you'll apply, you'll need to actually apply. The platform may look different from one site to the next but you'll generally have to provide:
 
 * Contact Information
-* Materials (resume + cover letter) 
+* Materials (resume + cover letter)
 * Additional information about the job + posting
 
 {format: png}
@@ -94,16 +94,16 @@ These forms will also have a place for you to upload your resume and cover lette
 
 #### Additional Information
 
-You'll also be asked frequently about how you heard about this position and information about whether or not you're authorized to work in the United States. Provide this information along with any other optional information that they've requested and that you're comfortable sharing. 
+You'll also be asked frequently about how you heard about this position and information about whether or not you're authorized to work in the United States. Provide this information along with any other optional information that they've requested and that you're comfortable sharing.
 
-#### Proofread 
+#### Proofread
 
 Once you've entered all the information into the form and uploaded all necessary documents, look carefully over all the information you've provided. Verify that it's correct and check for typos. Then, hit the "Apply" button to submit!
 
 
 ### Summary
 
-In this lesson we covered what types of terms to use for job searches, where to carry out those searches, and generally how to apply to a job once you've found a good fit! 
+In this lesson we covered what types of terms to use for job searches, where to carry out those searches, and generally how to apply to a job once you've found a good fit!
 
 ### Additional Resources
 
@@ -115,59 +115,3 @@ In this lesson we covered what types of terms to use for job searches, where to 
 ![Where To Look for Data Science Jobs](https://www.youtube.com/watch?v=LSINF4lDkuM)
 
 * [Slides](https://docs.google.com/presentation/d/1bOnA2S_dXQypd4CaGeFux-yQLwS9EzY9fPOqutPZJQg/edit?usp=sharing)
-
-
-{quiz, id: quiz_09_where_to_look}
-
-### Where To Look for Data Science Jobs quiz
-
-{choose-answers: 4}
-? If your data science training were limited to the content taught in this Course Set, which of the following job titles would *NOT* be a good fit?
-
-C) Machine Learning Specialist
-C) Full Stack Developer
-C) Data Engineer
-C) Senior Data Scientist
-C) System Administrator
-C) Senior Data Analyst
-o) Junior Data Scientist
-o) Data Analyst
-o) Jr. Data Scientist
-o) Entry Level Data Scientist
-
-{choose-answers: 4}
-? Which of the following is *NOT* a place you should look for a position in data science?
-
-C) People Magazine
-C) novel you're currently reading
-C) cereal box
-o) StackOverflow
-o) indeed.com
-o) LinkedIn
-o) Twitter
-o) company websites
-o) ZipRecruiter.com
- 
-{choose-answers: 4}
-? If you see a job posted in a city to which you're unwilling to move that looks interesting, what should you do?
-
-C) Look to see if the job can be done remotely
-C) Look for similar positions where you're wiling to live
-C) Identify similar jobs that are good fits geographically
-o) Apply even though you're never going to move there
-o) Email the company telling them they should move their operations
-o) Move to the city for the job anyway
-
-{choose-answers: 4}
-? What's the last thing you should do before submitting your application?
-
-C) proofread
-C) check to make sure everything is accurate
-o) email the hiring manager to let them know you're applying
-o) Tweet that you're applying for a position
-o) Delete your resume and cover letter
-o) Request an interview
-o) Demand an interview
-
-{/quiz}
-
