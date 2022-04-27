@@ -201,7 +201,7 @@ To start customizing these tabs, we'll want to be sure that your most up-to-date
 
 Now, we're ready to start tweaking the tabs available on our website! To do this, we'll still be making edits to a file we haven't yet worked with. Open `cloud/project/config/_default/menus.toml`.
 
-Navigate to the portion of the file shown here. Comment out the four lines related to "Publications" and the four lines related to "Tutorials". This will remove these links from the top of your website. The lines you should delete are highligthed here:
+Navigate to the portion of the file shown here. Comment out the four lines related to "Publications" and the four lines related to "Tutorials". This will remove these links from the top of your website. The lines you should delete are highlighted here:
 
 {format: png}
 ![tabs to comment out](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_83)
