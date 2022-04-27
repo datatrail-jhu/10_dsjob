@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 12 Data Science Interviews | Course Name</title>
+  <meta name="description" content="Description about Course/Book." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 12 Data Science Interviews | Course Name" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Description about Course/Book." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 12 Data Science Interviews | Course Name" />
+  
+  <meta name="twitter:description" content="Description about Course/Book." />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="assets/DataTrail_favicon.ico" type="image/x-icon" />
+<link rel="prev" href="where-to-find-remote-data-science-jobs.html"/>
+<link rel="next" href="practice-take-home-data-analysis.html"/>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  background-color: #f8f8f8; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #c4a000; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #000000; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #000000; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<link rel="stylesheet" href="assets/style_DataTrail.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<a href="https://www.datatrail.org/"><img src="https://github.com/datatrail-jhu/DataTrail_Template/raw/main/assets/DataTrail_logo.jpg" style="padding-left: 0px; padding-top: 8px;"</a>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a></li>
+<li class="chapter" data-level="1" data-path="what-you-need-to-find-a-data-science-job.html"><a href="what-you-need-to-find-a-data-science-job.html"><i class="fa fa-check"></i><b>1</b> What You Need to Find a Data Science Job</a>
+<ul>
+<li class="chapter" data-level="1.0.1" data-path="what-you-need-to-find-a-data-science-job.html"><a href="what-you-need-to-find-a-data-science-job.html#job-applications"><i class="fa fa-check"></i><b>1.0.1</b> Job Applications</a></li>
+<li class="chapter" data-level="1.0.2" data-path="what-you-need-to-find-a-data-science-job.html"><a href="what-you-need-to-find-a-data-science-job.html#online-presence"><i class="fa fa-check"></i><b>1.0.2</b> Online Presence</a></li>
+<li class="chapter" data-level="1.0.3" data-path="what-you-need-to-find-a-data-science-job.html"><a href="what-you-need-to-find-a-data-science-job.html#additional-resources"><i class="fa fa-check"></i><b>1.0.3</b> Additional Resources</a></li>
+<li class="chapter" data-level="1.0.4" data-path="what-you-need-to-find-a-data-science-job.html"><a href="what-you-need-to-find-a-data-science-job.html#slides-and-video"><i class="fa fa-check"></i><b>1.0.4</b> Slides and Video</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="resumes-1.html"><a href="resumes-1.html"><i class="fa fa-check"></i><b>2</b> Resumes</a>
+<ul>
+<li class="chapter" data-level="2.0.1" data-path="resumes-1.html"><a href="resumes-1.html#what-is-a-resume"><i class="fa fa-check"></i><b>2.0.1</b> What is a Resume?</a></li>
+<li class="chapter" data-level="2.0.2" data-path="resumes-1.html"><a href="resumes-1.html#general-features"><i class="fa fa-check"></i><b>2.0.2</b> General Features</a></li>
+<li class="chapter" data-level="2.0.3" data-path="resumes-1.html"><a href="resumes-1.html#formatting"><i class="fa fa-check"></i><b>2.0.3</b> Formatting</a></li>
+<li class="chapter" data-level="2.0.4" data-path="resumes-1.html"><a href="resumes-1.html#what-to-include"><i class="fa fa-check"></i><b>2.0.4</b> What to Include</a></li>
+<li class="chapter" data-level="2.0.5" data-path="resumes-1.html"><a href="resumes-1.html#example-resumes"><i class="fa fa-check"></i><b>2.0.5</b> Example Resumes</a></li>
+<li class="chapter" data-level="2.0.6" data-path="resumes-1.html"><a href="resumes-1.html#sharing-your-resume"><i class="fa fa-check"></i><b>2.0.6</b> Sharing your resume</a></li>
+<li class="chapter" data-level="2.0.7" data-path="resumes-1.html"><a href="resumes-1.html#summary"><i class="fa fa-check"></i><b>2.0.7</b> Summary</a></li>
+<li class="chapter" data-level="2.0.8" data-path="resumes-1.html"><a href="resumes-1.html#additional-resources-1"><i class="fa fa-check"></i><b>2.0.8</b> Additional Resources</a></li>
+<li class="chapter" data-level="2.0.9" data-path="resumes-1.html"><a href="resumes-1.html#slides-and-video-1"><i class="fa fa-check"></i><b>2.0.9</b> Slides and Video</a></li>
+<li class="chapter" data-level="2.0.10" data-path="resumes-1.html"><a href="resumes-1.html#resumes-quiz"><i class="fa fa-check"></i><b>2.0.10</b> Resumes quiz</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="cover-letters-1.html"><a href="cover-letters-1.html"><i class="fa fa-check"></i><b>3</b> Cover Letters</a>
+<ul>
+<li class="chapter" data-level="3.0.1" data-path="cover-letters-1.html"><a href="cover-letters-1.html#format"><i class="fa fa-check"></i><b>3.0.1</b> Format</a></li>
+<li class="chapter" data-level="3.0.2" data-path="cover-letters-1.html"><a href="cover-letters-1.html#content"><i class="fa fa-check"></i><b>3.0.2</b> Content</a></li>
+<li class="chapter" data-level="3.0.3" data-path="cover-letters-1.html"><a href="cover-letters-1.html#what-to-avoid"><i class="fa fa-check"></i><b>3.0.3</b> What to Avoid</a></li>
+<li class="chapter" data-level="3.0.4" data-path="cover-letters-1.html"><a href="cover-letters-1.html#summary-1"><i class="fa fa-check"></i><b>3.0.4</b> Summary</a></li>
+<li class="chapter" data-level="3.0.5" data-path="cover-letters-1.html"><a href="cover-letters-1.html#additional-resources-2"><i class="fa fa-check"></i><b>3.0.5</b> Additional Resources</a></li>
+<li class="chapter" data-level="3.0.6" data-path="cover-letters-1.html"><a href="cover-letters-1.html#slides-and-video-2"><i class="fa fa-check"></i><b>3.0.6</b> Slides and Video</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="making-your-website-more-professional.html"><a href="making-your-website-more-professional.html"><i class="fa fa-check"></i><b>4</b> Making Your Website More Professional</a>
+<ul>
+<li class="chapter" data-level="4.0.1" data-path="making-your-website-more-professional.html"><a href="making-your-website-more-professional.html#blogdown"><i class="fa fa-check"></i><b>4.0.1</b> Blogdown</a></li>
+<li class="chapter" data-level="4.0.2" data-path="making-your-website-more-professional.html"><a href="making-your-website-more-professional.html#getting-started"><i class="fa fa-check"></i><b>4.0.2</b> Getting Started</a></li>
+<li class="chapter" data-level="4.0.3" data-path="making-your-website-more-professional.html"><a href="making-your-website-more-professional.html#website-content"><i class="fa fa-check"></i><b>4.0.3</b> Website Content</a></li>
+<li class="chapter" data-level="4.0.4" data-path="making-your-website-more-professional.html"><a href="making-your-website-more-professional.html#website-appearance"><i class="fa fa-check"></i><b>4.0.4</b> Website Appearance</a></li>
+<li class="chapter" data-level="4.0.5" data-path="making-your-website-more-professional.html"><a href="making-your-website-more-professional.html#posts"><i class="fa fa-check"></i><b>4.0.5</b> Posts</a></li>
+<li class="chapter" data-level="4.0.6" data-path="making-your-website-more-professional.html"><a href="making-your-website-more-professional.html#projects-1"><i class="fa fa-check"></i><b>4.0.6</b> Projects</a></li>
+<li class="chapter" data-level="4.0.7" data-path="making-your-website-more-professional.html"><a href="making-your-website-more-professional.html#deployment"><i class="fa fa-check"></i><b>4.0.7</b> Deployment</a></li>
+<li class="chapter" data-level="4.0.8" data-path="making-your-website-more-professional.html"><a href="making-your-website-more-professional.html#additional-resources-3"><i class="fa fa-check"></i><b>4.0.8</b> Additional Resources</a></li>
+<li class="chapter" data-level="4.0.9" data-path="making-your-website-more-professional.html"><a href="making-your-website-more-professional.html#slides-and-video-3"><i class="fa fa-check"></i><b>4.0.9</b> Slides and Video</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="project-gallery.html"><a href="project-gallery.html"><i class="fa fa-check"></i><b>5</b> Project Gallery</a>
+<ul>
+<li class="chapter" data-level="5.0.1" data-path="project-gallery.html"><a href="project-gallery.html#project-list"><i class="fa fa-check"></i><b>5.0.1</b> Project List</a></li>
+<li class="chapter" data-level="5.0.2" data-path="project-gallery.html"><a href="project-gallery.html#project-gallery-1"><i class="fa fa-check"></i><b>5.0.2</b> Project Gallery</a></li>
+<li class="chapter" data-level="5.0.3" data-path="project-gallery.html"><a href="project-gallery.html#what-to-include-1"><i class="fa fa-check"></i><b>5.0.3</b> What To Include</a></li>
+<li class="chapter" data-level="5.0.4" data-path="project-gallery.html"><a href="project-gallery.html#what-not-to-include"><i class="fa fa-check"></i><b>5.0.4</b> What Not To Include</a></li>
+<li class="chapter" data-level="5.0.5" data-path="project-gallery.html"><a href="project-gallery.html#your-final-project"><i class="fa fa-check"></i><b>5.0.5</b> Your Final Project</a></li>
+<li class="chapter" data-level="5.0.6" data-path="project-gallery.html"><a href="project-gallery.html#push-to-github"><i class="fa fa-check"></i><b>5.0.6</b> Push to GitHub</a></li>
+<li class="chapter" data-level="5.0.7" data-path="project-gallery.html"><a href="project-gallery.html#your-own-project"><i class="fa fa-check"></i><b>5.0.7</b> Your <em>Own</em> Project</a></li>
+<li class="chapter" data-level="5.0.8" data-path="project-gallery.html"><a href="project-gallery.html#slides-and-video-4"><i class="fa fa-check"></i><b>5.0.8</b> Slides and Video</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="improving-your-github-profile.html"><a href="improving-your-github-profile.html"><i class="fa fa-check"></i><b>6</b> Improving Your GitHub Profile</a>
+<ul>
+<li class="chapter" data-level="6.0.1" data-path="improving-your-github-profile.html"><a href="improving-your-github-profile.html#profile"><i class="fa fa-check"></i><b>6.0.1</b> Profile</a></li>
+<li class="chapter" data-level="6.0.2" data-path="improving-your-github-profile.html"><a href="improving-your-github-profile.html#pinned-repos"><i class="fa fa-check"></i><b>6.0.2</b> Pinned Repos</a></li>
+<li class="chapter" data-level="6.0.3" data-path="improving-your-github-profile.html"><a href="improving-your-github-profile.html#github-contributions"><i class="fa fa-check"></i><b>6.0.3</b> GitHub Contributions</a></li>
+<li class="chapter" data-level="6.0.4" data-path="improving-your-github-profile.html"><a href="improving-your-github-profile.html#summary-2"><i class="fa fa-check"></i><b>6.0.4</b> Summary</a></li>
+<li class="chapter" data-level="6.0.5" data-path="improving-your-github-profile.html"><a href="improving-your-github-profile.html#additional-resources-4"><i class="fa fa-check"></i><b>6.0.5</b> Additional Resources</a></li>
+<li class="chapter" data-level="6.0.6" data-path="improving-your-github-profile.html"><a href="improving-your-github-profile.html#slides-and-video-5"><i class="fa fa-check"></i><b>6.0.6</b> Slides and Video</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="improving-your-linkedin-profile.html"><a href="improving-your-linkedin-profile.html"><i class="fa fa-check"></i><b>7</b> Improving Your LinkedIn Profile</a>
+<ul>
+<li class="chapter" data-level="7.0.1" data-path="improving-your-linkedin-profile.html"><a href="improving-your-linkedin-profile.html#linkedin-profile"><i class="fa fa-check"></i><b>7.0.1</b> LinkedIn Profile</a></li>
+<li class="chapter" data-level="7.0.2" data-path="improving-your-linkedin-profile.html"><a href="improving-your-linkedin-profile.html#connecting-to-others"><i class="fa fa-check"></i><b>7.0.2</b> Connecting to Others</a></li>
+<li class="chapter" data-level="7.0.3" data-path="improving-your-linkedin-profile.html"><a href="improving-your-linkedin-profile.html#summary-3"><i class="fa fa-check"></i><b>7.0.3</b> Summary</a></li>
+<li class="chapter" data-level="7.0.4" data-path="improving-your-linkedin-profile.html"><a href="improving-your-linkedin-profile.html#additional-resources-5"><i class="fa fa-check"></i><b>7.0.4</b> Additional Resources</a></li>
+<li class="chapter" data-level="7.0.5" data-path="improving-your-linkedin-profile.html"><a href="improving-your-linkedin-profile.html#slides-and-video-6"><i class="fa fa-check"></i><b>7.0.5</b> Slides and Video</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="using-twitter-for-data-science.html"><a href="using-twitter-for-data-science.html"><i class="fa fa-check"></i><b>8</b> Using Twitter For Data Science</a>
+<ul>
+<li class="chapter" data-level="8.0.1" data-path="using-twitter-for-data-science.html"><a href="using-twitter-for-data-science.html#profile-1"><i class="fa fa-check"></i><b>8.0.1</b> Profile</a></li>
+<li class="chapter" data-level="8.0.2" data-path="using-twitter-for-data-science.html"><a href="using-twitter-for-data-science.html#who-what-to-follow"><i class="fa fa-check"></i><b>8.0.2</b> Who &amp; What To Follow</a></li>
+<li class="chapter" data-level="8.0.3" data-path="using-twitter-for-data-science.html"><a href="using-twitter-for-data-science.html#tweeting"><i class="fa fa-check"></i><b>8.0.3</b> Tweeting</a></li>
+<li class="chapter" data-level="8.0.4" data-path="using-twitter-for-data-science.html"><a href="using-twitter-for-data-science.html#summary-4"><i class="fa fa-check"></i><b>8.0.4</b> Summary</a></li>
+<li class="chapter" data-level="8.0.5" data-path="using-twitter-for-data-science.html"><a href="using-twitter-for-data-science.html#additional-resources-6"><i class="fa fa-check"></i><b>8.0.5</b> Additional Resources</a></li>
+<li class="chapter" data-level="8.0.6" data-path="using-twitter-for-data-science.html"><a href="using-twitter-for-data-science.html#slides-and-video-7"><i class="fa fa-check"></i><b>8.0.6</b> Slides and Video</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="data-science-job-descriptions.html"><a href="data-science-job-descriptions.html"><i class="fa fa-check"></i><b>9</b> Data Science Job Descriptions</a>
+<ul>
+<li class="chapter" data-level="9.0.1" data-path="data-science-job-descriptions.html"><a href="data-science-job-descriptions.html#what-data-scientists-do"><i class="fa fa-check"></i><b>9.0.1</b> What Data Scientists Do</a></li>
+<li class="chapter" data-level="9.0.2" data-path="data-science-job-descriptions.html"><a href="data-science-job-descriptions.html#skills-for-entry-level-positions"><i class="fa fa-check"></i><b>9.0.2</b> Skills for entry-level positions</a></li>
+<li class="chapter" data-level="9.0.3" data-path="data-science-job-descriptions.html"><a href="data-science-job-descriptions.html#job-descriptions"><i class="fa fa-check"></i><b>9.0.3</b> Job Descriptions</a></li>
+<li class="chapter" data-level="9.0.4" data-path="data-science-job-descriptions.html"><a href="data-science-job-descriptions.html#which-job-is-right-for-you"><i class="fa fa-check"></i><b>9.0.4</b> Which Job is Right For You?</a></li>
+<li class="chapter" data-level="9.0.5" data-path="data-science-job-descriptions.html"><a href="data-science-job-descriptions.html#summary-5"><i class="fa fa-check"></i><b>9.0.5</b> Summary</a></li>
+<li class="chapter" data-level="9.0.6" data-path="data-science-job-descriptions.html"><a href="data-science-job-descriptions.html#additional-resources-7"><i class="fa fa-check"></i><b>9.0.6</b> Additional Resources</a></li>
+<li class="chapter" data-level="9.0.7" data-path="data-science-job-descriptions.html"><a href="data-science-job-descriptions.html#slides-and-video-8"><i class="fa fa-check"></i><b>9.0.7</b> Slides and Video</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="where-to-look-for-data-science-jobs.html"><a href="where-to-look-for-data-science-jobs.html"><i class="fa fa-check"></i><b>10</b> Where To Look for Data Science Jobs</a>
+<ul>
+<li class="chapter" data-level="10.0.1" data-path="where-to-look-for-data-science-jobs.html"><a href="where-to-look-for-data-science-jobs.html#what-jobs-to-look-for"><i class="fa fa-check"></i><b>10.0.1</b> What Jobs to Look For</a></li>
+<li class="chapter" data-level="10.0.2" data-path="where-to-look-for-data-science-jobs.html"><a href="where-to-look-for-data-science-jobs.html#additional-considerations"><i class="fa fa-check"></i><b>10.0.2</b> Additional Considerations</a></li>
+<li class="chapter" data-level="10.0.3" data-path="where-to-look-for-data-science-jobs.html"><a href="where-to-look-for-data-science-jobs.html#job-titles-to-search"><i class="fa fa-check"></i><b>10.0.3</b> Job Titles to Search</a></li>
+<li class="chapter" data-level="10.0.4" data-path="where-to-look-for-data-science-jobs.html"><a href="where-to-look-for-data-science-jobs.html#stackoverflow-jobs"><i class="fa fa-check"></i><b>10.0.4</b> StackOverflow Jobs</a></li>
+<li class="chapter" data-level="10.0.5" data-path="where-to-look-for-data-science-jobs.html"><a href="where-to-look-for-data-science-jobs.html#linkedin"><i class="fa fa-check"></i><b>10.0.5</b> LinkedIn</a></li>
+<li class="chapter" data-level="10.0.6" data-path="where-to-look-for-data-science-jobs.html"><a href="where-to-look-for-data-science-jobs.html#job-boards"><i class="fa fa-check"></i><b>10.0.6</b> Job Boards</a></li>
+<li class="chapter" data-level="10.0.7" data-path="where-to-look-for-data-science-jobs.html"><a href="where-to-look-for-data-science-jobs.html#company-websites"><i class="fa fa-check"></i><b>10.0.7</b> Company websites</a></li>
+<li class="chapter" data-level="10.0.8" data-path="where-to-look-for-data-science-jobs.html"><a href="where-to-look-for-data-science-jobs.html#twitter"><i class="fa fa-check"></i><b>10.0.8</b> Twitter</a></li>
+<li class="chapter" data-level="10.0.9" data-path="where-to-look-for-data-science-jobs.html"><a href="where-to-look-for-data-science-jobs.html#remote-work"><i class="fa fa-check"></i><b>10.0.9</b> Remote Work</a></li>
+<li class="chapter" data-level="10.0.10" data-path="where-to-look-for-data-science-jobs.html"><a href="where-to-look-for-data-science-jobs.html#applying"><i class="fa fa-check"></i><b>10.0.10</b> Applying</a></li>
+<li class="chapter" data-level="10.0.11" data-path="where-to-look-for-data-science-jobs.html"><a href="where-to-look-for-data-science-jobs.html#summary-6"><i class="fa fa-check"></i><b>10.0.11</b> Summary</a></li>
+<li class="chapter" data-level="10.0.12" data-path="where-to-look-for-data-science-jobs.html"><a href="where-to-look-for-data-science-jobs.html#additional-resources-8"><i class="fa fa-check"></i><b>10.0.12</b> Additional Resources</a></li>
+<li class="chapter" data-level="10.0.13" data-path="where-to-look-for-data-science-jobs.html"><a href="where-to-look-for-data-science-jobs.html#slides-and-video-9"><i class="fa fa-check"></i><b>10.0.13</b> Slides and Video</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="where-to-find-remote-data-science-jobs.html"><a href="where-to-find-remote-data-science-jobs.html"><i class="fa fa-check"></i><b>11</b> Where To Find Remote Data Science Jobs</a>
+<ul>
+<li class="chapter" data-level="11.0.1" data-path="where-to-find-remote-data-science-jobs.html"><a href="where-to-find-remote-data-science-jobs.html#general-postings"><i class="fa fa-check"></i><b>11.0.1</b> General Postings</a></li>
+<li class="chapter" data-level="11.0.2" data-path="where-to-find-remote-data-science-jobs.html"><a href="where-to-find-remote-data-science-jobs.html#remote-ok"><i class="fa fa-check"></i><b>11.0.2</b> Remote OK</a></li>
+<li class="chapter" data-level="11.0.3" data-path="where-to-find-remote-data-science-jobs.html"><a href="where-to-find-remote-data-science-jobs.html#summary-7"><i class="fa fa-check"></i><b>11.0.3</b> Summary</a></li>
+<li class="chapter" data-level="11.0.4" data-path="where-to-find-remote-data-science-jobs.html"><a href="where-to-find-remote-data-science-jobs.html#slides-and-video-10"><i class="fa fa-check"></i><b>11.0.4</b> Slides and Video</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="data-science-interviews.html"><a href="data-science-interviews.html"><i class="fa fa-check"></i><b>12</b> Data Science Interviews</a>
+<ul>
+<li class="chapter" data-level="12.0.1" data-path="data-science-interviews.html"><a href="data-science-interviews.html#pre-interview-phone-calls"><i class="fa fa-check"></i><b>12.0.1</b> Pre-Interview Phone Calls</a></li>
+<li class="chapter" data-level="12.0.2" data-path="data-science-interviews.html"><a href="data-science-interviews.html#interview-preparation"><i class="fa fa-check"></i><b>12.0.2</b> Interview Preparation</a></li>
+<li class="chapter" data-level="12.0.3" data-path="data-science-interviews.html"><a href="data-science-interviews.html#the-day-of-the-interview"><i class="fa fa-check"></i><b>12.0.3</b> The Day of the Interview</a></li>
+<li class="chapter" data-level="12.0.4" data-path="data-science-interviews.html"><a href="data-science-interviews.html#after-the-interview"><i class="fa fa-check"></i><b>12.0.4</b> After The Interview</a></li>
+<li class="chapter" data-level="12.0.5" data-path="data-science-interviews.html"><a href="data-science-interviews.html#summary-8"><i class="fa fa-check"></i><b>12.0.5</b> Summary</a></li>
+<li class="chapter" data-level="12.0.6" data-path="data-science-interviews.html"><a href="data-science-interviews.html#additional-resources-9"><i class="fa fa-check"></i><b>12.0.6</b> Additional Resources</a></li>
+<li class="chapter" data-level="12.0.7" data-path="data-science-interviews.html"><a href="data-science-interviews.html#slides-and-video-11"><i class="fa fa-check"></i><b>12.0.7</b> Slides and Video</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="practice-take-home-data-analysis.html"><a href="practice-take-home-data-analysis.html"><i class="fa fa-check"></i><b>13</b> Practice Take-Home Data Analysis</a>
+<ul>
+<li class="chapter" data-level="13.0.1" data-path="practice-take-home-data-analysis.html"><a href="practice-take-home-data-analysis.html#read-the-instructions"><i class="fa fa-check"></i><b>13.0.1</b> Read the Instructions</a></li>
+<li class="chapter" data-level="13.0.2" data-path="practice-take-home-data-analysis.html"><a href="practice-take-home-data-analysis.html#plan"><i class="fa fa-check"></i><b>13.0.2</b> Plan</a></li>
+<li class="chapter" data-level="13.0.3" data-path="practice-take-home-data-analysis.html"><a href="practice-take-home-data-analysis.html#analyze"><i class="fa fa-check"></i><b>13.0.3</b> Analyze</a></li>
+<li class="chapter" data-level="13.0.4" data-path="practice-take-home-data-analysis.html"><a href="practice-take-home-data-analysis.html#clean-up"><i class="fa fa-check"></i><b>13.0.4</b> Clean Up</a></li>
+<li class="chapter" data-level="13.0.5" data-path="practice-take-home-data-analysis.html"><a href="practice-take-home-data-analysis.html#take-home-examples"><i class="fa fa-check"></i><b>13.0.5</b> Take-Home Examples</a></li>
+<li class="chapter" data-level="13.0.6" data-path="practice-take-home-data-analysis.html"><a href="practice-take-home-data-analysis.html#summary-9"><i class="fa fa-check"></i><b>13.0.6</b> Summary</a></li>
+<li class="chapter" data-level="13.0.7" data-path="practice-take-home-data-analysis.html"><a href="practice-take-home-data-analysis.html#additional-resources-10"><i class="fa fa-check"></i><b>13.0.7</b> Additional Resources</a></li>
+<li class="chapter" data-level="13.0.8" data-path="practice-take-home-data-analysis.html"><a href="practice-take-home-data-analysis.html#slides-and-video-12"><i class="fa fa-check"></i><b>13.0.8</b> Slides and Video</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="data-science-meetups.html"><a href="data-science-meetups.html"><i class="fa fa-check"></i><b>14</b> Data Science Meetups</a>
+<ul>
+<li class="chapter" data-level="14.0.1" data-path="data-science-meetups.html"><a href="data-science-meetups.html#where-to-look"><i class="fa fa-check"></i><b>14.0.1</b> Where to Look</a></li>
+<li class="chapter" data-level="14.0.2" data-path="data-science-meetups.html"><a href="data-science-meetups.html#what-to-expect"><i class="fa fa-check"></i><b>14.0.2</b> What to Expect</a></li>
+<li class="chapter" data-level="14.0.3" data-path="data-science-meetups.html"><a href="data-science-meetups.html#meetups-and-jobs"><i class="fa fa-check"></i><b>14.0.3</b> Meetups and Jobs</a></li>
+<li class="chapter" data-level="14.0.4" data-path="data-science-meetups.html"><a href="data-science-meetups.html#summary-10"><i class="fa fa-check"></i><b>14.0.4</b> Summary</a></li>
+<li class="chapter" data-level="14.0.5" data-path="data-science-meetups.html"><a href="data-science-meetups.html#slides-and-video-13"><i class="fa fa-check"></i><b>14.0.5</b> Slides and Video</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="15" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>15</b> References</a></li>
+<li class="divider"></li>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/OTTR_Template" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by: </a> </p>
+<p style="text-align:center;"> <a href="https://www.datatrail.org/"> Data Trail </a></p>
+<a href="https://www.datatrail.org/"><img src="https://github.com/datatrail-jhu/DataTrail_Template/raw/main/assets/DataTrail_logo.jpg" style=" width: 80%; filter: grayscale(100%); padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/VWaJYc3zATe3qxYC9"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Course Name</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/style_DataTrail.css" rel="stylesheet">
+</head>
+        
+
+
+<div class="hero-image-container"> 
+  <img class= "hero-image" src="assets/DataTrail.jpg">
+</div>
+<div id="data-science-interviews" class="section level1" number="12">
+<h1><span class="header-section-number">Chapter 12</span> Data Science Interviews</h1>
+<p>After applying to jobs, there’s a waiting period. The company has to look over the application materials they’ve received and decide who amongst their applicant pool they want to interview. After they decide if you’re one of the people they’ve decided to interview, they’ll reach out to you via email or phone call. During this phone call or in this email they’ll likely describe their interview process and schedule the next step. If they don’t explain the interview process on this initial call, you should ask.</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&amp;pageid=g409bf900b8_0_16" alt="Understand the next steps" /></p>
+<p>Before moving on, it’s important to note that much of this lesson is based on <a href="http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/">this post</a> from <a href="http://hookedondata.org/about/">Emily Robinson</a>, a data scientist at DataCamp. And, if you want to learn even more about the information in this lesson, read her entire post as well as the information in the other links provided at the end of this lesson!</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&amp;pageid=g409bf900b8_0_0" alt="Emily Robinson’s Post" /></p>
+<div id="pre-interview-phone-calls" class="section level3" number="12.0.1">
+<h3><span class="header-section-number">12.0.1</span> Pre-Interview Phone Calls</h3>
+<p>Sometimes there are one or more phone interviews before the in-person interview. These calls <em>are</em> part of the interview process. You should prepare for them as best you can, just like you would for an in-person interview. The purpose of these phone calls is to ensure that you are who you say you are on your resume, to gauge your interest in this position, and to decide if the company wants to bring you in for an interview. Thus, before the phone call, be sure you know who it is you’ll be talking to, what that person does at the company, and do your best to <strong>prepare for questions they may ask you</strong>. We’ll discuss the types of interview questions you may get more in the next section.</p>
+<p>Additionally, <strong>always have questions to ask the person you’re talking to</strong>. If you have no questions at all, it will look like you don’t care about and are not that interested in the position. We’ll discuss these later in the lesson as well.</p>
+<p>If there are phone calls and they go well, then they’ll invite you for an interview! Be sure to write down the date and time of the interview and get details about where the interview will be taking place. If it’s in a big office building, be sure they’ll provide you with details on how to get to them within the building.</p>
+</div>
+<div id="interview-preparation" class="section level3" number="12.0.2">
+<h3><span class="header-section-number">12.0.2</span> Interview Preparation</h3>
+<p>Before the interview, you should be sent a schedule or at least explained the structure of the interview. Ideally you’ll have the names of and times at which you’ll be meeting people in the company. If you don’t receive this information a day or two in advance of your interview, you can reach out to your point of contact at the company (the person you chatted or emailed with to plan the interview, typically from HR (human resources)) and ask if one is available.</p>
+<div id="practice" class="section level4" number="12.0.2.1">
+<h4><span class="header-section-number">12.0.2.1</span> Practice</h4>
+<p>With a schedule of who you’ll be meeting with or at least some idea of the structure of their interview process, it’s time to practice! While there’s no way to know exactly what you’ll be asked in the interview, there are a few general types of questions:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Personality Questions</strong> - questions asked to learn more about your background, your behaviors, how you would handle certain situations, and about how you work with others</li>
+<li><strong>Technical Questions</strong> - questions asked to gauge your technical competence</li>
+</ol>
+<p>For personality questions, practice by <strong>answering questions out loud</strong>. It’s always best to practice interviews the way they would actually happen. Writing the answers down or thinking about them is a good start, but it’s best to actually say them out loud to get more comfortable. These questions range from “Tell me about yourself” and “How did you get interested in data science?” to “What’s your greatest strength” and “How would you handle a conflict with a colleague?”</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&amp;pageid=g409bf900b8_0_22" alt="Practice out loud" /></p>
+<p>As for technical questions, there are <em>many</em> different ways companies assess technical skills. They may explain a technical issue out loud and ask how you would solve it. They may give you a take-home analysis (we’ll discuss these in detail in the next lesson). They may have you live-code, meaning they may ask you to code in front of them. They may ask you to explain a concept (such as regression) to them. These are all fair game. Hopefully, with some idea as to the structure of the interview, you’ll have some idea as to what to expect.</p>
+<p>Many people have written and spoken about the types of data science questions they’ve asked and been asked in data science interviews previously.</p>
+<p>Here we list a few types of questions you <em>could</em> be asked:</p>
+<ul>
+<li>“Talk to me about [fill in the bank]…”</li>
+<li>“Write an algorithm that does [fill in the blank].”</li>
+<li>“What problems should you solve with [fill in the blank]?”</li>
+<li>“How would you approach this problem given this dataset?”</li>
+</ul>
+<p>Thus, it’s a really good idea to look at resources that are already out there. These are included again at the end of the lesson, but we’re including them directly in the lesson because they’re <em>really</em> important to read over and use when you’re preparing for interviews. Read and listen through these resources - there will be a few quiz questions from these resources at the end of the lesson.</p>
+<ul>
+<li><a href="https://twitter.com/jensenharris/status/988967889330819072">Twitter Thread about what questions to ask</a>, from <a href="https://www.linkedin.com/in/jensenharris/">Jensen Harris</a></li>
+<li><a href="https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/">Questions I’m Asking in Interviews</a>, by <a href="https://jvns.ca/about/">Julia Evans</a></li>
+<li><a href="https://www.youtube.com/watch?v=aXUsrKPTBvY&amp;index=6&amp;list=PLqFaTIg4myu-dNobDHQZPrD2wH27PthCG%29">VIDEO: Live Breakdown of Common Data Science Interview Questions</a> &lt;- This one is almost an hour. Give yourself time to listen to this video.</li>
+</ul>
+<p>When you’re asked a question to which you don’t know the answer, <em>don’t make one up</em>. Rather, acknowledge that you don’t know the answer, but think critically about how you may go about solving the issue raised or question asked. Being able to think through a problem is an important skill for a data scientist, so don’t panic if there’s a question with which you’re less familiar.</p>
+<p>Finally, remember that it’s <strong>fair game for your interviewers to ask about anything on your resume</strong>. So, if there’s a project you worked on a while ago that’s listed, be sure you’re prepared to answer questions about or discuss it.</p>
+<p>Practice answering questions out loud. Practice coding. Practice explaining technical topics out loud. Be prepared to say “I don’t know.” This will all make the actual interview <em>much</em> easier.</p>
+</div>
+<div id="avoid-giving-a-salary-number" class="section level4" number="12.0.2.2">
+<h4><span class="header-section-number">12.0.2.2</span> Avoid Giving a Salary Number</h4>
+<p>Sometimes HR or others will ask you what salary you’re looking for. Never volunteer your current salary or what you’re looking to make. If this number you offer is lower than what they intended to offer you, you may be getting a lower salary than you would have otherwise. If you’re asked to give a salary number say that you’re interested in learning about the position, the company, and responsibilities of the job and would rather discuss salary later. If you’re asked again, you can always offer a very big range based on industry standards but state that you’re really most interested in making sure the fit is right for you and would rather consider the entire compensation package rather than salary alone.</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&amp;pageid=g409bf900b8_0_36" alt="Avoid giving a salary" /></p>
+</div>
+<div id="get-knowledge" class="section level4" number="12.0.2.3">
+<h4><span class="header-section-number">12.0.2.3</span> Get Knowledge</h4>
+<p>In addition to practicing your responses and practicing how to avoid giving a salary number if asked, you also need to gain even more <strong>knowledge about the company</strong> with which you’re interviewing. You probably learned a bit when deciding to apply to the job, but now is the time to go much deeper. Learn as much as you can about what the company does from their website. Search other websites (such as <a href="https://www.glassdoor.com/index.htm">Glassdoor</a>) to see what others have to say about the company and about working at the company (For example, information from hundreds of individuals who have interviewed for data science positions at Airbnb can be found <a href="https://www.glassdoor.com/Interview/Airbnb-Data-Scientist-Interview-Questions-EI_IE391850.0,6_KO7,21.htm">here</a>.)</p>
+<p>In addition to company knowledge about the company, you also want to <strong>know as much about the people you’ll be meeting with as possible.</strong> Check out their profiles on the company website, look at their Twitters, check their GitHub accounts, look for presentations they’ve given. Learn as much as you can about what each person does and have different questions ready for each individual. These questions can be about their experience at the company <em>or</em> about that individual’s work – if you listen to a presentation someone gave and have a question, you can ask that question!</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&amp;pageid=g409bf900b8_0_49" alt="Learn about the company &amp; people" /></p>
+</div>
+<div id="ask-questions" class="section level4" number="12.0.2.4">
+<h4><span class="header-section-number">12.0.2.4</span> Ask Questions</h4>
+<p>In your research about the company and its employees you should start to gather a list of questions that you want answers to on the day of the interview. These questions can discuss more technical aspects of the position, such as details of <strong>how work is done at the company</strong> (i.e.”How is code shared?” or “What languages are used by the team?” “When something goes wrong, how is it handled?”) and <strong>how projects are managed</strong> (i.e “Who assigns projects? How are they assigned?” or “How will my performance be evaluated?”). Alternatively, they could be questions about <strong>quality of life and work culture</strong> aimed at getting a better understanding of how much vacation time comes with the job, how often people work late or on the weekends, and whether or not working from home is an option.</p>
+<p>For a more complete list of questions one could ask at an interview, check out Julia Evans’ list <a href="https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/">here</a>.</p>
+</div>
+</div>
+<div id="the-day-of-the-interview" class="section level3" number="12.0.3">
+<h3><span class="header-section-number">12.0.3</span> The Day of the Interview</h3>
+<p>Once you’ve practiced answering questions and have a number of questions you’re interested in getting answered about the position and company, you’re almost ready for the big day! When it comes to the interview day, your goal should be to learn as much about them as they’re learning about you. Ultimately, the position should be a good fit for both of you.</p>
+<div id="dress" class="section level4" number="12.0.3.1">
+<h4><span class="header-section-number">12.0.3.1</span> Dress</h4>
+<p>Deciding what to wear for a data science interview is not as straightforward as it is for other positions, where it’s often expected interviewees wear a suit. For data science positions, you likely do not have to wear a suit. <em>That said</em>, it’s always better to be overdressed than underdressed, so if you’re unsure, wear something more formal rather than less.</p>
+<p>Ideally, you’d be able to ask HR (or the person you first chatted with at the company) how applicants typically dress for interviews at their company. They probably get that question frequently and will likely be very helpful. If they say jeans are ok for interviews, they probably mean it. It’s up to you at that point to then decide what to wear.</p>
+<p>Ultimately, you want to put your best foot forward, so if they say casual is fine, believe them, but maybe go one step above jeans. Slacks of some sort (or a skirt or dress, if you’re more comfortable) may be the safest bet. Clothing should be clean and ironed if necessary. If they say casual, you likely do not need a tie, unless that’s what you’re most comfortable in!</p>
+<p>At the end of the day, you want to be comfortable and look professional in whatever you wear. So, only wear clothing that you’re comfortable in and that makes you feel good!</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&amp;pageid=g409bf900b8_0_59" alt="Feel good in what you’re in" /></p>
+</div>
+<div id="one-on-one-interviews" class="section level4" number="12.0.3.2">
+<h4><span class="header-section-number">12.0.3.2</span> One-on-one Interviews</h4>
+<p>After the initial phone call(s) and once you’re interviewing in person, you’ll likely have one or more one-on-one interviews. In these interviews, the person interviewing you will likely explain a little about the company, the position, and/or themselves before trying to gauge your background, your technical capabilities, and fit for the position. They’ll ask you questions and should give you time to ask them questions as well. In your questions, you should demonstrate that you have knowledge of the company and have done your homework, but should also get answers to everything you still want to know about the company and position.</p>
+</div>
+<div id="technical-assessment" class="section level4" number="12.0.3.3">
+<h4><span class="header-section-number">12.0.3.3</span> Technical Assessment</h4>
+<p>While technical questions will be asked in one-on-one interviews, there should be some coding required during a data science interview. This may require live-coding where another person will sit with you and watch you code or it may be a take-home analysis. Regardless of the format, this is where you want to show off your technical skills! Live-coding can be intimidating, but do your best to relax and just complete the task at hand. As for take-home analyses, we’ll spend more time discussing the details of these in the next lesson. While these may seem daunting, it’s an important part of a data science interview. In fact, if the interview process doesn’t require you to code at all, that may be a <a href="http://hookedondata.org/Red-Flags-in-Data-Science-Interviews/">red flag</a> that the position is maybe not exactly what you thought it was.</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&amp;pageid=g409bf900b8_0_75" alt="Coding required" /></p>
+</div>
+<div id="communication" class="section level4" number="12.0.3.4">
+<h4><span class="header-section-number">12.0.3.4</span> Communication</h4>
+<p>In addition to learning about your background, interests, and technical skills, data science positions often require a lot of written and oral communication. As such, the interview may require you to generate a report or presentation using the results from the take-home analysis you did. Or, they may ask you to give a presentation on some of your past work. For this, prepare as much as possible. Practice your presentation if you’re given time to prepare at home. Proofread your report carefully before sending it back to the company. Know that this is an important part of their assessment of you and do your best to communicate your analysis and findings</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&amp;pageid=g409bf900b8_0_82" alt="Effective communication" /></p>
+</div>
+<div id="the-end-of-the-interview" class="section level4" number="12.0.3.5">
+<h4><span class="header-section-number">12.0.3.5</span> The End of the Interview</h4>
+<p>At the end of your interview day (or two days), you’ll likely be exhausted. Your brain will be mostly used up and you’ll be excited about the position (if all went well!) but ready to go home. This is all normal. But, <strong>one piece of information you’ll want before leaving is what the next steps are</strong>. You’ll want to know whether or not you should expect to hear from them within the next two days, the next week, or if you should expect it to be longer than that. <em>Get this information.</em> If they don’t tell you, it’s ok to ask! It will bring you piece of mind during the waiting after the interview!.</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&amp;pageid=g409bf900b8_0_88" alt="Next steps" /></p>
+</div>
+</div>
+<div id="after-the-interview" class="section level3" number="12.0.4">
+<h3><span class="header-section-number">12.0.4</span> After The Interview</h3>
+<p>So, you’ve had the interview and now you’re waiting to see if you’ll get an offer. During this time, you have more to do than just wait. This is a time for self-reflection. If they offer you a position, do you want it? Is this somewhere you want to work? Will this be a good fit? Are you excited about the position and company? These are all important questions to ask yourself about the position before an offer or a rejection comes.</p>
+<div id="rejection" class="section level4" number="12.0.4.1">
+<h4><span class="header-section-number">12.0.4.1</span> Rejection</h4>
+<p>While we’re on the topic, <strong>rejection is normal</strong>. If you get rejected from a position or from many positions, know that data science is incredibly competitive. Everyone gets rejections. They aren’t fun, especially if they come from a company and position that was really interesting and exciting to you, but know that they are normal. If you are emailed a rejection, handle it appropriately. It’s ok to express disappointment “I was excited at the prospect of working with you all so I’m sorry to hear that” but always <em>thank them for their time and consideration</em>.</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&amp;pageid=g409bf900b8_0_94" alt="Rejection" /></p>
+</div>
+<div id="the-offer" class="section level4" number="12.0.4.2">
+<h4><span class="header-section-number">12.0.4.2</span> The Offer</h4>
+<p>However, it’s not all gloom and doom! Sometimes, there’s a job offer at the end of the waiting game. In these cases, the offer may come by either phone or email. However it comes, always respond with excitement and thanking the individual for providing you with the offer. <strong>Never accept right away</strong>. If the offer comes on the phone verbally, always <strong>ask for the full offer in writing</strong>. And, after being given the full offer, <strong>always say that you need time to review it</strong>. This will give you time to think about it fully and in detail. Additionally, this will give you time to negotiate.</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&amp;pageid=g409bf900b8_0_100" alt="Job Offer" /></p>
+<p>If, after this conversation, you realize you’re missing some details in the offer (health insurance, start date, etc.) you can ask for those details to have all the possible information you may need before responding to the offer.</p>
+</div>
+<div id="negotiations" class="section level4" number="12.0.4.3">
+<h4><span class="header-section-number">12.0.4.3</span> Negotiations</h4>
+<p>Once you have all the information you need to make a decision, it’s time for negotiations. While some people enjoy this stage, many people don’t. So, if you’re uncomfortable negotiating, know that you’re not alone and then <strong>negotiate anyway</strong>.</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&amp;pageid=g409bf900b8_0_107" alt="Negotiate" /></p>
+<p>Tech companies anticipate negotiations. It is generally possible to get a 5-10% salary increase from the initial offer. Additionally, if stock options or a signing bonus are possibilities, these are also negotiable. Beyond money, there may be life benefits you’re interested in. Maybe you need to leave early on Fridays or want an additional week in vacation. These are all the types of things you <em>can</em> ask for during negotiations. That said, you should think hard about what you actually would want or need in order to accept their offer. If you ask for more salary and the ability to work from home once a week and they give both to you, there is an expectation that you’ll accept the offer. It would be in bad taste to come back with a new list of demands after they’ve already given you everything you initially asked for. Of course, you don’t have to accept at this point, but only negotiate for a position you’re actually considering accepting.</p>
+<p>At the end of the negotiations process, if you accept, you’ll have a new job at a new company! Congratulations! It’s a lot of work trying to get a job in data science and the road will often be filled with a lot of rejection. <em>But</em>, when it’s successful, you can end up in a position that is incredibly exciting and fulfilling!</p>
+</div>
+</div>
+<div id="summary-8" class="section level3" number="12.0.5">
+<h3><span class="header-section-number">12.0.5</span> Summary</h3>
+<p>In this lesson, we’ve covered a lot about interviewing for a data science position. Some of the tips discussed are general interviewing guidelines while other are specific to data science positions. However, despite all the information in this lesson, we’ve only touched on the tip of the iceberg. In order to learn more about interviews, check out and read the information in the links below. And, good luck in your job search!</p>
+</div>
+<div id="additional-resources-9" class="section level3" number="12.0.6">
+<h3><span class="header-section-number">12.0.6</span> Additional Resources</h3>
+<ul>
+<li><a href="http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/">Advice for Applying to Data Science Jobs</a></li>
+<li><a href="http://hookedondata.org/Red-Flags-in-Data-Science-Interviews/">Red Flags in Data Science Interviews</a></li>
+<li><a href="https://twitter.com/jensenharris/status/988967889330819072">Twitter Thread about what questions to ask</a></li>
+<li><a href="https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/">Questions I’m Asking in Interviews</a></li>
+<li><a href="https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/">Ten Rules for Negotiating a Job Offer</a></li>
+<li><a href="https://hbr.org/2014/04/15-rules-for-negotiating-a-job-offer">15 Rules for Negotiating a Job Offer</a></li>
+<li>One person’s experience on the data science job market -<a href="https://haseebq.com/farewell-app-academy-hello-airbnb-part-i/">Part 1</a> and <a href="https://haseebq.com/farewell-app-academy-hello-airbnb-part-ii/">Part 2</a></li>
+<li><a href="https://towardsdatascience.com/the-two-sides-of-getting-a-job-as-a-data-scientist-a4571acc58bc">Two Sides of Getting a Job as a Data Scientist</a></li>
+<li><a href="https://www.springboard.com/blog/data-science-interviews-lessons/">What We Learned Analyzing Hundreds of Data Science Interviews</a></li>
+<li><a href="https://www.youtube.com/watch?v=aXUsrKPTBvY&amp;index=6&amp;list=PLqFaTIg4myu-dNobDHQZPrD2wH27PthCG%29">VIDEO: Live Breakdown of Common Data Science Interview Questions</a></li>
+</ul>
+</div>
+<div id="slides-and-video-11" class="section level3" number="12.0.7">
+<h3><span class="header-section-number">12.0.7</span> Slides and Video</h3>
+<div class="figure">
+<img src="https://www.youtube.com/watch?v=Dlt-ikUoNh8" alt="" />
+<p class="caption">Data Science Interviews</p>
+</div>
+<ul>
+<li><a href="https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/edit?usp=sharing">Slides</a></li>
+</ul>
+
+</div>
+</div>
+<hr>
+<center> 
+  <div class="footer">
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="where-to-find-remote-data-science-jobs.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="practice-take-home-data-analysis.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
