@@ -10,41 +10,41 @@ As with every other platform we've discussed so far, you'll want to add a photo 
 
 To update your photo, log into your [Twitter account](www.twitter.com). If you haven't yet uploaded a photo, you can do so, by clicking on the camera icon and clicking on "Upload photo" from the drop-down menu. 
 
-{format: png}
+
 ![Upload photo](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/export/png?id=1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q&pageid=g3a45d4729b_0_0)
 
 Navigate to the file you want to upload on your computer. In the window that appears, position and size your photo. When you're satisfied, click "Apply."
 
-{format: png}
+
 ![Apply](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/export/png?id=1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q&pageid=g40039f2b2d_0_2)
 
 From here, click on the menu at the top right-hand of the screen and click "Profile" to navigate to your Twitter Profile. 
 
-{format: png}
+
 ![Profile](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/export/png?id=1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q&pageid=g40039f2b2d_0_9)
 
 Here, at the right, you can click on "Edit profile."
 
-{format: png}
+
 ![Edit profile](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/export/png?id=1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q&pageid=g40039f2b2d_0_15)
 
 This will open up a box where you can write a short bio about yourself. This should just be a few words about your interests! 
 
 Here, we've included a few Twitter bios as examples. [@BecomingDataSci](https://twitter.com/BecomingDataSci?lang=en) is the Twitter account for the same person whose LinkedIn profile we looked at in the LinkedIn lesson. The other two are from two of the authors of this course. You'll note that they aren't very long and just briefly describe the Twitter user. Note that these can be edited at any time and will change over time.
 
-{format: png}
+
 ![Example bios](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/export/png?id=1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q&pageid=g40039f2b2d_0_25)
 
 You'll also want to include a link to your personal website in the "Website" box.  Type the URL of your website there. 
 
 On these same three profiles whose bios we just looked at, you'll see that each has also helpfully provided their website URL within their individual Twitter profiles. 
 
-{format: png}
+
 ![Website links](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/export/png?id=1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q&pageid=g40039f2b2d_0_37)
 
 If you want to share your location, you can also include that under "Location," but this is not required. Once you've completed all the information you'd like your profile to include, click "Save changes" on the right-hand side.
 
-{format: png}
+
 ![Save changes](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/export/png?id=1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q&pageid=g40039f2b2d_0_32)
 
 ### Who & What To Follow
@@ -53,12 +53,12 @@ Once you've got an updated profile, you're ready to start following people. It's
 
 As you search for individuals to follow, you come across someone you think you'd like to hear from, you should click the "Follow" button on their profile.
 
-{format: png}
+
 ![Follow](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/export/png?id=1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q&pageid=g40039f2b2d_0_60)
 
 While you are *not* required to follow anyone,  as someone new to the field of data science and who uses R, we're providing a list of people you may want to follow:
 
-{format: png}
+
 ![Suggested people to follow on Twitter](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/export/png?id=1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q&pageid=g3f1c4ef3e3_0_0)
 
 It can also be helpful to look through who these people follow to find other people you may be interested in following.
@@ -87,7 +87,7 @@ When tweeting from your professional account, it is a *great* idea to tweet abou
 
 One example of this is shown here. Jeff Leek wrote a book about [How to be a Modern Scientist](https://leanpub.com/modernscientist). This book includes information about how to use Twitter as a professional, so feel free to check it out for more details. But, as for the tweet, Jeff included an image, linked to where the content is, and stated that he released the book. What a [great and informative tweet](https://twitter.com/jtleek/status/718494461672734721) about his work!
 
-{format: png}
+
 ![Self-promotion](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/export/png?id=1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q&pageid=g40039f2b2d_0_78)
 
 #### Tweeting to Promote Others
@@ -98,7 +98,7 @@ By tweeting about others' work, you'll have a record of all the things you find 
 
 For example, here we see a case where Jeff tweets about a talk that [@CMU_Stats](https://twitter.com/CMU_Stats) was giving at a conference. He explains what was being discussed, includes [@CMU_Stats](https://twitter.com/CMU_Stats)' Twitter handle, and includes a picture! 
 
-{format: png}
+
 ![Promoting others](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/export/png?id=1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q&pageid=g40039f2b2d_0_82)
 
 Additionally, Jeff uses the hashtag #JSM2018. This allows individuals following this hashtag on Twitter to easily find the tweet. **Using helpful hashtags are another great way for others to find your twitter and follow you, even when they don't know you personally!**
@@ -108,11 +108,11 @@ Additionally, Jeff uses the hashtag #JSM2018. This allows individuals following 
 
 When you're ready to start tweeting, you'll want to click the blue "Tweet" button from your profile. 
 
-{format: png}
+
 ![Tweet](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/export/png?id=1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q&pageid=g40039f2b2d_0_90)
 
 In the box that appears, you'll compose your tweet. You can add emojis, photos, GIFs, polls, and location to your tweets. The character limit on tweets is now 280 characters. This limit forces you to ensure your tweets are concise. It's good practice to convey a message clearly in a few short words. 
-{format: png}
+
 ![Compose new Tweet](https://docs.google.com/presentation/d/1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q/export/png?id=1iJ_ONxlP8SBZK6oAoeP7regVVmT5l9FIuZkMjAd-Y8Q&pageid=g40039f2b2d_0_95)
 
 As you generate tweets, you may have individuals comment on your tweets. Twitter can be a great place for quick discussions! However, here, we'll leave you with a reminder to keep your tweets professional from this account. Use your data science Twitter account as a professional social media account, which means that you never want to tweet anything inappropriate, rude, or unprofessional. 

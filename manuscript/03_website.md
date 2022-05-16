@@ -8,7 +8,7 @@ This will be a long lesson, but it will be worth it. Go through each step in RSt
 
 `blogdown` is an R package that helps create websites with R Markdown. There is a [whole book](https://bookdown.org/yihui/blogdown/) dedicated to helping users use this package, so if you want to learn more about `blogdown` beyond what is covered in this lesson - that book is a great place to start. 
 
-{format: png}
+
 ![blogdown](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_144)
 
 Simply though, `blogdown` allows users to generate **static websites**. This means that you will generate HTML files within blogdown that visitors to your website will be able to view. The content will appear the same to the viewer no matter who it is visiting your site. This is perfect for a personal website!
@@ -18,7 +18,7 @@ Simply though, `blogdown` allows users to generate **static websites**. This mea
 
 In an earlier course in this Course Set, you developed a basic website within RStudio Cloud. At the end of that lesson, you had a website that looked something like this:
 
-{format: png}
+
 ![basic personal website](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_164)
 
 It contained some basic information about you and had information about where to contact you; however, it was *pretty* basic and not very visually appealing. In this lesson, we'll improve both the content and look of your personal website.
@@ -37,24 +37,24 @@ blogdown::new_site(theme = "gcushen/hugo-academic")
 
 For this site, we're using the Hugo theme "Academic", specified as an argument within the `blogdown::new_site()` function. At the end of this lesson, you'll have a website that looks something like what you see here!
 
-{format: png}
+
 ![Hugo Academic](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_151)
 
 There are *many* other themes that can be used within the `blogdown` package. We've chosen to use this one because it does a good job displaying information about your skills and qualifications *as well as* your projects, which will be important when you are looking for jobs. 
 
 Once you run this code, an "Edit" window will pop up.
 
-{format: png}
+
 ![Edit Window](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_0)
 
 Replace the text you see in this document, with a brief introduction about yourself, something similar to what you see here. Click Save. Note that nothing here is permanent. You'll be able to edit all of this later!
 
-{format: png}
+
 ![Welcome text](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_21)
 
 A new tab will open up in your browser with a (somewhat ugly) preview of your website. We'll make this look better right away!
 
-{format: png}
+
 ![First website preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_26)
 
 Ok, so this doesn't exactly look like that website we were looking at before...what's going on?
@@ -63,7 +63,7 @@ Well, in order for the preview to appear correctly, we have to make a slight cha
 
 To do this, open up the `config.toml` file within the project directory.
 
-{format: png}
+
 ![open config.toml](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_31)
 
 Search for the line `baseurl = "/"`. After this line, add the following two lines of code:
@@ -74,7 +74,7 @@ canonifyurls = true
 ```
 Additionally, change title to include your name.
 
-{format: png}
+
 ![config.toml edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_340)
 
 Save these changes. The preview of your website should update automatically in that tab that appeared previously. However, if it doesn't, you'll want to run the following in the R Console:
@@ -88,7 +88,7 @@ When `blogdown::serve_site()` is run, every time you save a change to the files 
 
 Now that you've edited those two lines of code in `config.toml`, your preview should look something like this:
 
-{format: png}
+
 ![website preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_345)
 
 ### Website Content
@@ -106,17 +106,17 @@ In this file you'll want to edit the following sections:
 * `interests` : add a few interests here. They don't have to be the same as those included here
 * `name` & `organizations` : be sure to update your name and add any organizations you're involved with.
 
-{format: png}
+
 ![`content/author/admin/index.md` edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_36)
 
 Once you save this file, the changes should be visible on your website preview! You can scroll down to this section or click the "Home" section on the navigation bar at top to see the changes to your website.
 
-{format: png}
+
 ![Home preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_50)
 
 While we've got that same `_index.md` file open, let's just go ahead and update the rest of your Contact information now. You've already added your email, but you'll want to update your Twitter, and GitHub links. Scroll down to the section labeled "social." Change the `link` argument to the link to your twitter. Do the same for the github section. If you don't have a Google Scholar account to display, just comment out those lines.  
 
-{format: png}
+
 ![Contact icon edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f2f95d203_0_0)
 
 We only have two more things to do to finish up with this section - write a bio and add a picture. 
@@ -127,17 +127,17 @@ Your biography section should a little bit of information briefly describing you
 
 Here we're looking at the about section from [Nathan Yau's website](https://flowingdata.com/about-nathan/). In his about me section, Nathan briefly explains what he does followed by where to find some of his work. He finishes with some of his interests outside of work. If you want to see more of Nathan's work, check out [flowingdata.com](https://flowingdata.com/).
 
-{format: png}
+
 ![Nathan Yau](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g555823640f_0_30)
 
 Here we have another example from [Mona Chalabi](https://monachalabi.com/), a journalist who generates illustrations from data. Mona introduces what she does, describes where to find her work, and then provides some background information about her professional work.
 
-{format: png}
+
 ![Mona Chalabi](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g555823640f_0_41)
 
 Our final example comes from someone whose work you've seen throughout this course, [David Robinson](http://varianceexplained.org/about/). In his about me, he mentions his current position and interests, describes briefly some of his work, and provides a bit of background.
 
-{format: png}
+
 ![David Robinson](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g555823640f_0_54)
 
 These three examples should give you an idea of what to include in the "About Me" section of your website. Generally, consider including:
@@ -148,12 +148,12 @@ These three examples should give you an idea of what to include in the "About Me
 
 Having looked at a few other individuals' websites, write your biography text at the end of the `_index.md` file we've been working with so far. 
 
-{format: png}
+
 ![Bio section edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g555823640f_0_72)
 
 Once you save, these changes to the icons and bio displayed on your home page will be visible.
 
-{format: png}
+
 ![Homepage icon update preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f2f95d203_0_6)
 
 
@@ -161,17 +161,17 @@ Once you save, these changes to the icons and bio displayed on your home page wi
 
 While there is currently an avatar image on your site, you want this to be a picture of you! Within the same directory (`/cloud/project/content/author/admin`) upload a file containing a picture of you. 
 
-{format: png}
+
 ![Upload image](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_360)
 
 Once the file is uploaded, we'll have to go specify to your website that we want to use this file, and not `avatar.jpg`. To do so, navigate to `cloud/project/config/_default` and open the `params.toml` file. Look for the line that says `gravatar = false`. Under that line add the line `avatar = 'female.png'`, where `female.png` is replaced with the filename of the file you uploaded.
 
-{format: png}
+
 ![params.toml image edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_367)
 
 Once these changes are saved, the preview of your website should have your image on it!
 
-{format: png}
+
 ![*your* image preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_398)
 
 #### Contact Information
@@ -182,12 +182,12 @@ Update the email address to include your email address but remove the phone and 
 
 Finally, within the `contact_links`, comment out all the lines so that they are not displayed. If you change your mind in the future and want any of this information displayed in your contact section, you can uncomment any of these lines and update the links to your pages.
 
-{format: png}
+
 ![edits to `params.toml`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_54)
 
 By editing this text, the Contact section of your website will only display a form by which someone can email you to contact you. This is sufficient for now, but you can add additional information in the future, should you need to. Once these changes are saved, your preview will be edited and you can see what your Contact page looks like. 
 
-{format: png}
+
 ![contact information edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_68)
 
 #### Website Tabs
@@ -196,14 +196,14 @@ On the last preview, you see that there are currently six tabs at the top of the
 
 To start customizing these tabs, we'll want to be sure that your most up-to-date resume is available on your website! To get started on this, you'll need to upload your resume into the `cloud/project/static` directory. Here, our resume is saved as `resume.pdf`.
 
-{format: png}
+
 ![resume.pdf in Files](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_100)
 
 Now, we're ready to start tweaking the tabs available on our website! To do this, we'll still be making edits to a file we haven't yet worked with. Open `cloud/project/config/_default/menus.toml`.
 
 Navigate to the portion of the file shown here. Comment out the four lines related to "Publications" and the four lines related to "Tutorials". This will remove these links from the top of your website. The lines you should delete are highlighted here:
 
-{format: png}
+
 ![tabs to comment out](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_83)
 
 Then, make the following changes:
@@ -213,12 +213,12 @@ Then, make the following changes:
 3. __change the name to "Resume"__
 4. __Specify the filename of the resume you updated.__ Include *your* filename in the `url` line.
 
-{format: png}
+
 ![`menus.toml` tab edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_89)
 
 Now, once these changes are saved, you'll have five tabs on your website preview. Publications and Talks will have been removed, but Resume will have been added!
 
-{format: png}
+
 ![tabs preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_95)
 
 
@@ -230,32 +230,32 @@ Things are really coming along! We have all of our contact and necessary informa
 
 While the contact information looks great, there's information at the top of our website that doesn't need to be there (and that we've kind of been ignoring up to now). 
 
-{format: png}
+
 ![Unnecessary information](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_430)
 
 We'll remove this text by opening up `hero.md` within `/cloud/project/content/home`. 
 
-{format: png}
+
 ![open `hero.md`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_187)
 
 In this file, set `active = false`.
 
-{format: png}
+
 ![`hero.md` edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_435)
 
 Once the file looks as you see above, you're ready to save your changes and preview! The blue box with information about widgets will no longer be there!
 
-{format: png}
+
 ![`hero.md` preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_443)
 
 We'll repeat the same process for the demo widget. Open `demo.md` in `/cloud/project/content/home`. Set `active = false`. 
 
-{format: png}
+
 ![`demo.md` edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g555823640f_0_113)
 
 Once you save this file, you can see the changes in your preview. No more extra information at the top of your website! Things are really coming along!
 
-{format: png}
+
 ![`demo.md` preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g555823640f_0_120)
 
 #### Skills
@@ -264,7 +264,7 @@ With those changes, let's edit the skills section of the website. Navigate to `/
 
 This is where you highlight all of your job-pertinent skills! Here, we're suggesting you highlight your "R", "data visualization", and "Data Wrangling" skills. But, you could highlight more than three skills or three different skills! Think about what skills you want employers to know you have and include them here.
 
-{format: png}
+
 ![`skills.md` edits](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_215)
 
 To add the three skills you see here, edit the text in the `[[feature]]` section of the document to include the following:
@@ -295,7 +295,7 @@ Then, the icons displayed are specified in `icon` and `icon_pack`. Which icon to
 
 Once these changes are saved, you'll be able to see the edits on your website preview:
 
-{format: png}
+
 ![`skills.md` preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_449)
 
 #### Removing Content
@@ -306,33 +306,33 @@ We'll remove the "Publications," "Featured Publications," "Talks," "Experience",
 
 First, navigate to `/cloud/project/content/home` and open `publications.md`. In this document, where you see `active = true`, set that to be `active = false`. This will remove this section from your homepage. Save these changes.
 
-{format: png}
+
 ![Turn off Publications](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_252)
 
 In that same directory, open `featured.md`. Set `active = false` and save your changes.
 
-{format: png}
+
 ![Turn off Featured Publications](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f87806caa_0_12)
 
 In that same directory, open `talks.md`. Set `active = false` and save your changes.
 
-{format: png}
+
 ![Turn off Talks](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_263)
 
 
 In that same directory, open `experience.md`. Set `active = false` and save your changes.
 
-{format: png}
+
 ![Turn off Experience](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f87806caa_0_12)
 
 In that same directory, open `accomplishments.md`. Set `active = false` and save your changes.
 
-{format: png}
+
 ![Turn off Accomplishments](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g555823640f_0_133)
 
 Finally, to turn off Gallery go into `cloud/project/content/home/gallery`, open `index.md`. Set `active = false` and save your changes.
 
-{format: png}
+
 ![Turn off Gallery](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_268)
 
 Now, when you save and preview your website, you can scroll through to see that all these sections will have been removed. Your site will be minimal, but it's a great place to start! You can always add back in any of these sections later.
@@ -342,74 +342,74 @@ Now, when you save and preview your website, you can scroll through to see that 
 
 We opted not to turn off the posts section of your website. Now, we won't specify in this lesson what to specifically include in this section, but we will *encourage* you to write blog posts and include them in this section. For now, we'll delete the posts that are already in there, since they're not *your* blog posts and show you how to write blog posts in the future. 
 
-{format: png}
+
 ![Posts section](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_273)
 
 Navigate to `/cloud/project/content/post/getting-started`. In this directory, you'll see a few files. One of them will be `index.md` If you were to open this file, you'd see all the contents used to write that "Getting Started" post currently on your website. 
 
-{format: png}
+
 ![`getting-started.md`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_284)
 
 While there's lots of helpful information in this post, you didn't write it, so you'll want to delete this directory. The same goes for the `jupyter` directory. Select both directories and delete the contents.
 
-{format: png}
+
 ![delete `getting-started` and `jupyter` directory](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_289)
 
 Another file in there will be a file with a name similar to:  `2015-07-23-r-markdown.Rmd`. This will contain the text we included at the beginning of the lesson in the "Edit" box. You can leave this file for now. There will be time to edit and write new posts later!
 
 After these changes are saved, your Recent Posts section of your website should look like this:
 
-{format: png}
+
 ![Welcome post preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_295)
 
 The last thing we'll note is the following. When you *are* ready to write a blog post, you'll want to use the "New Post" Add-in. To find this, click on "Addins" in RStudio Cloud. Then select "New Post" from the drop-down menu.
 
-{format: png}
+
 ![New Post](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_196)
 
 This will open up a box where you'll enter the title, author, date, and other information about your post. You can specify whether or not you want this file to be an `.Rmd` or a Markdown file (if you want it to include R code, choose `.Rmd`). After entering all the necessary information and clicking "Done," the Add-in will create the file for you to edit it within the `/cloud/project/content/post` directory and name it in a consistent manner. This is where you will write your blog post!
 
-{format: png}
+
 ![New Post Information](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_201)
 
 ### Projects
 
 Aside from including blog posts, you'll also want to include information on projects you've worked on and completed in the projects section. By default, there are two projects included in `/cloud/project/content/project`. One is in the directory `internal-project`. The content for this post is included in`index.md`. The second is an `external-project` (meaning the content is hosted elsewhere on the Internet). The content here is again specified in the `index.md` file within this directory. We'll remove this content from the site for now, but it's good to note that it's possible to include external projects on your site. Delete both directories.
 
-{format: png}
+
 ![delete current projects](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g555823640f_0_149)
 
 
 Now, we'll create a new project using the "Addins" approach we reviewed previously for creating new posts. Click on "Addins" at the top of RStudio. From the drop-down menu, select "New Post." In the New Post box that appears, fill out the information as you see here: 
 
-{format: png}
+
 ![New Project](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g555823640f_0_157)
 
 Be sure that "Subdirectory" is project (not post!), and select "project" from the "Archetype" menu. Specify that you want an .Rmd document. Once information is complete, click "Done."
 
 A new file will appear within `/cloud/project/content/project` and this file will open up. You'll see that it's an empty RMarkdown document. It's up to you to add in the text and code you used to analyze the ATUS Survey data in your final project. 
 
-{format: png}
+
 ![Rmd document](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_277)
 
 
 The skeleton for your project will then be visible on the preview of your website in the Projects section!
 
-{format: png}
+
 ![Projects preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g555823640f_0_163)
 
 But, what are those tags above your project? We'll want to customize those as well!
 
 To do so, navigate to `/cloud/project/content/home` and open `projects.md`. Find the section of this file where you see `[[content.filter_button]]`. Leave the first filter alone, but edit the second filter to look for the tag "R" in your projects. The last one can be "Other" for now. Use the syntax you see here:
 
-{format: png}
+
 ![Tags edit](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_305)
 
 Note that these tags correspond to the tags specified in the YAML of your post. These filters will search for any projects with the specified tag. You can have more than three tags as you include more projects over time! 
 
 Once these changes are saved, the new tags will be visible on your preview!
 
-{format: png}
+
 ![Tags preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_310)
 
 #### Website Tailoring
@@ -418,17 +418,17 @@ Okay, we've done a lot, but there's one last thing we want to do. At this point,
 
 To do this we'll edit the `weight` argument. Return to `posts.md` within `/cloud/project/content/home`. Toward the top, change `weight = 60` to `weight = 65`. Save these changes.
 
-{format: png}
+
 ![Projects `weight`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_3)
 
 Then, within `projects.md` within `/cloud/project/content/home`, change `weight = 65` to `weight = 60`. Save these changes. 
 
-{format: png}
+
 ![Posts `weight`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_315)
 
 Recent posts will now be displayed *after* projects on your website:
 
-{format: png}
+
 ![website preview](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_321)
 
 
@@ -436,7 +436,7 @@ Recent posts will now be displayed *after* projects on your website:
 
 Your website is now ready for prime time. The only problem is it's only visible on *your* RStudio Cloud project. So, we have to **deploy** your website. There are a number of different ways to do this, but we're going to use the workflow with which we're most familiar: GitHub Pages. This is how your website is currently deployed. Your current website is hosted on GitHub at `username.github.com` and the file structure should look something like what you see here:
 
-{format: png}
+
 ![old website GitHub repo](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g3f121d3764_0_336)
 
 We're going to delete the current website and replace it with this updated website! To do so, within your current project on RStudio Cloud (where your new blogdown website files are), **go to the Terminal** and run the following...but replace `username` with *your* GitHub username:
@@ -447,34 +447,34 @@ git clone https://github.com/username/username.github.com.git
 
 This will clone your current website repo into the RStudio Cloud project where your new website files are.
 
-{format: png}
+
 ![cloned repo](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_24)
 
 Click on the directory of the repo where your old website contents are.
 
 Then, click on More and select "Show Hidden Files"
 
-{format: png}
+
 ![Show Hidden Files](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_29)
 
 Within this directory, you'll see two hidden files `.git` and `.nojekyll`. Do *NOT* delete these files, but select everything else, and delete the files from your old website.
 
-{format: png}
+
 ![Delete most of your old website files](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_68)
 
 Now, we'll need to add all the *new* files! But, you should *NOT* add every file you just generated. You only want to add the contents of `/cloud/projects/public`. What's great about `blogdown` is that every time `blogdown::serve_site()` runs and generates a new preview of your website, all the files needed to deploy your website are updated and added to `/cloud/projects/public`. Thus, everything you need to deploy your website is right there. 
 
-{format: png}
+
 ![Move new website files from `public`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_34)
 
 Move all the files from `/cloud/projects/public` to the repository you just cloned (`username.github.com`) by selecting "Move..." from the "More" drop-down menu.
 
-{format: png}
+
 ![Select destination directory](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_38)
 
 All of your new website files should be within the `username.github.com` directory.
 
-{format: png}
+
 ![new files within `username.github.com`](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_44)
 
 We're ready to push these changes to GitHub. To do so, change `username` in the code below to your GitHub username:
@@ -490,13 +490,13 @@ In this code, you're changing your directory to the version controlled directory
 
 On GitHub, these changes will all be visible! 
 
-{format: png}
+
 ![GitHub changes](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_56)
 
 And, when you go to `username.github.io`, you will be able to see all the changes you've made to make your website more professional! Awesome!
 
 
-{format: png}
+
 ![`blogdown` website!](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&pageid=g40f38df3d0_0_61)
 
 

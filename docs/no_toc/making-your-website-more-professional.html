@@ -319,14 +319,14 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div id="blogdown" class="section level3" number="4.0.1">
 <h3><span class="header-section-number">4.0.1</span> Blogdown</h3>
 <p><code>blogdown</code> is an R package that helps create websites with R Markdown. There is a <a href="https://bookdown.org/yihui/blogdown/">whole book</a> dedicated to helping users use this package, so if you want to learn more about <code>blogdown</code> beyond what is covered in this lesson - that book is a great place to start.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g40f38df3d0_0_144" alt="blogdown" /></p>
 <p>Simply though, <code>blogdown</code> allows users to generate <strong>static websites</strong>. This means that you will generate HTML files within blogdown that visitors to your website will be able to view. The content will appear the same to the viewer no matter who it is visiting your site. This is perfect for a personal website!</p>
 </div>
 <div id="getting-started" class="section level3" number="4.0.2">
 <h3><span class="header-section-number">4.0.2</span> Getting Started</h3>
 <p>In an earlier course in this Course Set, you developed a basic website within RStudio Cloud. At the end of that lesson, you had a website that looked something like this:</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_164" alt="basic personal website" /></p>
 <p>It contained some basic information about you and had information about where to contact you; however, it was <em>pretty</em> basic and not very visually appealing. In this lesson, we’ll improve both the content and look of your personal website.</p>
 <p>To get started, create a new project in RStudio Cloud! Once you’ve got a new project, you’ll want to run the following code <strong>in the R Console</strong> to install blogdown and start a new site. (Note: it may take a few minutes for this code to run and for all the dependencies to install.)</p>
@@ -338,35 +338,35 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb1-6"><a href="making-your-website-more-professional.html#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## use the academic theme</span></span>
 <span id="cb1-7"><a href="making-your-website-more-professional.html#cb1-7" aria-hidden="true" tabindex="-1"></a>blogdown<span class="sc">::</span><span class="fu">new_site</span>(<span class="at">theme =</span> <span class="st">&quot;gcushen/hugo-academic&quot;</span>)</span></code></pre></div>
 <p>For this site, we’re using the Hugo theme “Academic”, specified as an argument within the <code>blogdown::new_site()</code> function. At the end of this lesson, you’ll have a website that looks something like what you see here!</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g40f38df3d0_0_151" alt="Hugo Academic" /></p>
 <p>There are <em>many</em> other themes that can be used within the <code>blogdown</code> package. We’ve chosen to use this one because it does a good job displaying information about your skills and qualifications <em>as well as</em> your projects, which will be important when you are looking for jobs.</p>
 <p>Once you run this code, an “Edit” window will pop up.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_0" alt="Edit Window" /></p>
 <p>Replace the text you see in this document, with a brief introduction about yourself, something similar to what you see here. Click Save. Note that nothing here is permanent. You’ll be able to edit all of this later!</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_21" alt="Welcome text" /></p>
 <p>A new tab will open up in your browser with a (somewhat ugly) preview of your website. We’ll make this look better right away!</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_26" alt="First website preview" /></p>
 <p>Ok, so this doesn’t exactly look like that website we were looking at before…what’s going on?</p>
 <p>Well, in order for the preview to appear correctly, we have to make a slight change to how the website looks for links on the website.</p>
 <p>To do this, open up the <code>config.toml</code> file within the project directory.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_31" alt="open config.toml" /></p>
 <p>Search for the line <code>baseurl = "/"</code>. After this line, add the following two lines of code:</p>
 <pre><code>relativeurls = true
 canonifyurls = true</code></pre>
 <p>Additionally, change title to include your name.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_340" alt="config.toml edits" /></p>
 <p>Save these changes. The preview of your website should update automatically in that tab that appeared previously. However, if it doesn’t, you’ll want to run the following in the R Console:</p>
 <pre><code>## continually show updates to site
 blogdown::serve_site()</code></pre>
 <p>When <code>blogdown::serve_site()</code> is run, every time you save a change to the files of your website, the preview will update and you’ll be able to see what changes have been made and how they’ll appear on your website!</p>
 <p>Now that you’ve edited those two lines of code in <code>config.toml</code>, your preview should look something like this:</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_345" alt="website preview" /></p>
 </div>
 <div id="website-content" class="section level3" number="4.0.3">
@@ -381,13 +381,13 @@ blogdown::serve_site()</code></pre>
 * <code>email</code> : include your professional email here. Be sure it’s in quotes
 * <code>interests</code> : add a few interests here. They don’t have to be the same as those included here
 * <code>name</code> &amp; <code>organizations</code> : be sure to update your name and add any organizations you’re involved with.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_36" alt="content/author/admin/index.md edits" /></p>
 <p>Once you save this file, the changes should be visible on your website preview! You can scroll down to this section or click the “Home” section on the navigation bar at top to see the changes to your website.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_50" alt="Home preview" /></p>
 <p>While we’ve got that same <code>_index.md</code> file open, let’s just go ahead and update the rest of your Contact information now. You’ve already added your email, but you’ll want to update your Twitter, and GitHub links. Scroll down to the section labeled “social.” Change the <code>link</code> argument to the link to your twitter. Do the same for the github section. If you don’t have a Google Scholar account to display, just comment out those lines.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f2f95d203_0_0" alt="Contact icon edits" /></p>
 <p>We only have two more things to do to finish up with this section - write a bio and add a picture.</p>
 </div>
@@ -395,13 +395,13 @@ blogdown::serve_site()</code></pre>
 <h4><span class="header-section-number">4.0.3.2</span> Biography</h4>
 <p>Your biography section should a little bit of information briefly describing your current positions and data science interests! To see exactly what we mean, let’s look at a few examples from the websites from people currently working in data science.</p>
 <p>Here we’re looking at the about section from <a href="https://flowingdata.com/about-nathan/">Nathan Yau’s website</a>. In his about me section, Nathan briefly explains what he does followed by where to find some of his work. He finishes with some of his interests outside of work. If you want to see more of Nathan’s work, check out <a href="https://flowingdata.com/">flowingdata.com</a>.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g555823640f_0_30" alt="Nathan Yau" /></p>
 <p>Here we have another example from <a href="https://monachalabi.com/">Mona Chalabi</a>, a journalist who generates illustrations from data. Mona introduces what she does, describes where to find her work, and then provides some background information about her professional work.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g555823640f_0_41" alt="Mona Chalabi" /></p>
 <p>Our final example comes from someone whose work you’ve seen throughout this course, <a href="http://varianceexplained.org/about/">David Robinson</a>. In his about me, he mentions his current position and interests, describes briefly some of his work, and provides a bit of background.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g555823640f_0_54" alt="David Robinson" /></p>
 <p>These three examples should give you an idea of what to include in the “About Me” section of your website. Generally, consider including:</p>
 <ul>
@@ -410,22 +410,22 @@ blogdown::serve_site()</code></pre>
 <li>where to find projects you’ve worked on</li>
 </ul>
 <p>Having looked at a few other individuals’ websites, write your biography text at the end of the <code>_index.md</code> file we’ve been working with so far.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g555823640f_0_72" alt="Bio section edits" /></p>
 <p>Once you save, these changes to the icons and bio displayed on your home page will be visible.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f2f95d203_0_6" alt="Homepage icon update preview" /></p>
 </div>
 <div id="picture" class="section level4" number="4.0.3.3">
 <h4><span class="header-section-number">4.0.3.3</span> Picture</h4>
 <p>While there is currently an avatar image on your site, you want this to be a picture of you! Within the same directory (<code>/cloud/project/content/author/admin</code>) upload a file containing a picture of you.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_360" alt="Upload image" /></p>
 <p>Once the file is uploaded, we’ll have to go specify to your website that we want to use this file, and not <code>avatar.jpg</code>. To do so, navigate to <code>cloud/project/config/_default</code> and open the <code>params.toml</code> file. Look for the line that says <code>gravatar = false</code>. Under that line add the line <code>avatar = 'female.png'</code>, where <code>female.png</code> is replaced with the filename of the file you uploaded.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_367" alt="params.toml image edits" /></p>
 <p>Once these changes are saved, the preview of your website should have your image on it!</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_398" alt="your image preview" /></p>
 </div>
 <div id="contact-information" class="section level4" number="4.0.3.4">
@@ -433,21 +433,21 @@ blogdown::serve_site()</code></pre>
 <p>With the basic information for our website edited and a picture of ourselves now visible on the preview, it’s time to edit all our contact information. To do this, we’ll continue to make edits within the <code>params.toml</code> file.</p>
 <p>Update the email address to include your email address but remove the phone and address information, leaving just the empty quotation marks. Similarly, set <code>office hours = ""</code> and <code>appointment_url = ""</code>.</p>
 <p>Finally, within the <code>contact_links</code>, comment out all the lines so that they are not displayed. If you change your mind in the future and want any of this information displayed in your contact section, you can uncomment any of these lines and update the links to your pages.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_54" alt="edits to params.toml" /></p>
 <p>By editing this text, the Contact section of your website will only display a form by which someone can email you to contact you. This is sufficient for now, but you can add additional information in the future, should you need to. Once these changes are saved, your preview will be edited and you can see what your Contact page looks like.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_68" alt="contact information edits" /></p>
 </div>
 <div id="website-tabs" class="section level4" number="4.0.3.5">
 <h4><span class="header-section-number">4.0.3.5</span> Website Tabs</h4>
 <p>On the last preview, you see that there are currently six tabs at the top of the preview. However, we won’t need all of those tabs. We’re going to pare down these tabs to only include the most important information. <em>But</em>, in the future, should you want to add any of these back in, you’ll know how to do so.</p>
 <p>To start customizing these tabs, we’ll want to be sure that your most up-to-date resume is available on your website! To get started on this, you’ll need to upload your resume into the <code>cloud/project/static</code> directory. Here, our resume is saved as <code>resume.pdf</code>.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_100" alt="resume.pdf in Files" /></p>
 <p>Now, we’re ready to start tweaking the tabs available on our website! To do this, we’ll still be making edits to a file we haven’t yet worked with. Open <code>cloud/project/config/_default/menus.toml</code>.</p>
 <p>Navigate to the portion of the file shown here. Comment out the four lines related to “Publications” and the four lines related to “Tutorials”. This will remove these links from the top of your website. The lines you should delete are highlighted here:</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_83" alt="tabs to comment out" /></p>
 <p>Then, make the following changes:</p>
 <ol style="list-style-type: decimal">
@@ -456,10 +456,10 @@ blogdown::serve_site()</code></pre>
 <li><strong>change the name to “Resume”</strong></li>
 <li><strong>Specify the filename of the resume you updated.</strong> Include <em>your</em> filename in the <code>url</code> line.</li>
 </ol>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_89" alt="menus.toml tab edits" /></p>
 <p>Now, once these changes are saved, you’ll have five tabs on your website preview. Publications and Talks will have been removed, but Resume will have been added!</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_95" alt="tabs preview" /></p>
 </div>
 </div>
@@ -469,29 +469,29 @@ blogdown::serve_site()</code></pre>
 <div id="hero-widget" class="section level4" number="4.0.4.1">
 <h4><span class="header-section-number">4.0.4.1</span> Hero Widget</h4>
 <p>While the contact information looks great, there’s information at the top of our website that doesn’t need to be there (and that we’ve kind of been ignoring up to now).</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_430" alt="Unnecessary information" /></p>
 <p>We’ll remove this text by opening up <code>hero.md</code> within <code>/cloud/project/content/home</code>.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g40f38df3d0_0_187" alt="open hero.md" /></p>
 <p>In this file, set <code>active = false</code>.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_435" alt="hero.md edits" /></p>
 <p>Once the file looks as you see above, you’re ready to save your changes and preview! The blue box with information about widgets will no longer be there!</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_443" alt="hero.md preview" /></p>
 <p>We’ll repeat the same process for the demo widget. Open <code>demo.md</code> in <code>/cloud/project/content/home</code>. Set <code>active = false</code>.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g555823640f_0_113" alt="demo.md edits" /></p>
 <p>Once you save this file, you can see the changes in your preview. No more extra information at the top of your website! Things are really coming along!</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g555823640f_0_120" alt="demo.md preview" /></p>
 </div>
 <div id="skills-1" class="section level4" number="4.0.4.2">
 <h4><span class="header-section-number">4.0.4.2</span> Skills</h4>
 <p>With those changes, let’s edit the skills section of the website. Navigate to <code>/cloud/project/content/home</code> and open <code>skills.md</code></p>
 <p>This is where you highlight all of your job-pertinent skills! Here, we’re suggesting you highlight your “R”, “data visualization”, and “Data Wrangling” skills. But, you could highlight more than three skills or three different skills! Think about what skills you want employers to know you have and include them here.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_215" alt="skills.md edits" /></p>
 <p>To add the three skills you see here, edit the text in the <code>[[feature]]</code> section of the document to include the following:</p>
 <pre><code>[[feature]]
@@ -514,7 +514,7 @@ blogdown::serve_site()</code></pre>
 <p>Note that the text that will be displayed on your website underneath each icon is specified in <code>name</code>. We’ve removed the text from the description variable for each skill, but you could choose to include text here explaining the skill.</p>
 <p>Then, the icons displayed are specified in <code>icon</code> and <code>icon_pack</code>. Which icon to display on the website is defined in the <code>icon</code> argument and refers to the names of the icons found at <a href="https://fontawesome.com/icons">Font Awesome Brand</a>, <a href="https://fontawesome.com/icons">Font Awesome Standard</a>, and <a href="https://jpswalsh.github.io/academicons/">Academic Icons</a>. You can search here for other icons you’d like to use to highlight your skills. If you use an icon from <a href="https://fontawesome.com/icons">Font Awesome Brand</a>, you would then specify <code>fab</code> in the <code>icon_pack</code> variable. From <a href="https://fontawesome.com/icons">Font Awesome Standard</a>, you’d specify <code>fas</code>. And, from <a href="https://jpswalsh.github.io/academicons/">Academic Icons</a>, you’d specify <code>ai</code>.</p>
 <p>Once these changes are saved, you’ll be able to see the edits on your website preview:</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_449" alt="skills.md preview" /></p>
 </div>
 <div id="removing-content" class="section level4" number="4.0.4.3">
@@ -522,22 +522,22 @@ blogdown::serve_site()</code></pre>
 <p>While demonstrating your skills and interests are important on your website, at this point, it’s not important to include <em>all</em> of the sections included by default on this theme. So, at this point, we’re going to go in and turn a bunch of these sections “off.” We won’t delete the content. This way, in the future, if you’re interested in adding any of this information back in, you’ll be able to do so!</p>
 <p>We’ll remove the “Publications,” “Featured Publications,” “Talks,” “Experience”, “Accomplishments” and “Gallery” sections from your website in this section. The process will be very similar for each.</p>
 <p>First, navigate to <code>/cloud/project/content/home</code> and open <code>publications.md</code>. In this document, where you see <code>active = true</code>, set that to be <code>active = false</code>. This will remove this section from your homepage. Save these changes.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_252" alt="Turn off Publications" /></p>
 <p>In that same directory, open <code>featured.md</code>. Set <code>active = false</code> and save your changes.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f87806caa_0_12" alt="Turn off Featured Publications" /></p>
 <p>In that same directory, open <code>talks.md</code>. Set <code>active = false</code> and save your changes.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_263" alt="Turn off Talks" /></p>
 <p>In that same directory, open <code>experience.md</code>. Set <code>active = false</code> and save your changes.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f87806caa_0_12" alt="Turn off Experience" /></p>
 <p>In that same directory, open <code>accomplishments.md</code>. Set <code>active = false</code> and save your changes.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g555823640f_0_133" alt="Turn off Accomplishments" /></p>
 <p>Finally, to turn off Gallery go into <code>cloud/project/content/home/gallery</code>, open <code>index.md</code>. Set <code>active = false</code> and save your changes.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_268" alt="Turn off Gallery" /></p>
 <p>Now, when you save and preview your website, you can scroll through to see that all these sections will have been removed. Your site will be minimal, but it’s a great place to start! You can always add back in any of these sections later.</p>
 </div>
@@ -545,87 +545,87 @@ blogdown::serve_site()</code></pre>
 <div id="posts" class="section level3" number="4.0.5">
 <h3><span class="header-section-number">4.0.5</span> Posts</h3>
 <p>We opted not to turn off the posts section of your website. Now, we won’t specify in this lesson what to specifically include in this section, but we will <em>encourage</em> you to write blog posts and include them in this section. For now, we’ll delete the posts that are already in there, since they’re not <em>your</em> blog posts and show you how to write blog posts in the future.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_273" alt="Posts section" /></p>
 <p>Navigate to <code>/cloud/project/content/post/getting-started</code>. In this directory, you’ll see a few files. One of them will be <code>index.md</code> If you were to open this file, you’d see all the contents used to write that “Getting Started” post currently on your website.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_284" alt="getting-started.md" /></p>
 <p>While there’s lots of helpful information in this post, you didn’t write it, so you’ll want to delete this directory. The same goes for the <code>jupyter</code> directory. Select both directories and delete the contents.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_289" alt="delete getting-started and jupyter directory" /></p>
 <p>Another file in there will be a file with a name similar to: <code>2015-07-23-r-markdown.Rmd</code>. This will contain the text we included at the beginning of the lesson in the “Edit” box. You can leave this file for now. There will be time to edit and write new posts later!</p>
 <p>After these changes are saved, your Recent Posts section of your website should look like this:</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_295" alt="Welcome post preview" /></p>
 <p>The last thing we’ll note is the following. When you <em>are</em> ready to write a blog post, you’ll want to use the “New Post” Add-in. To find this, click on “Addins” in RStudio Cloud. Then select “New Post” from the drop-down menu.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g40f38df3d0_0_196" alt="New Post" /></p>
 <p>This will open up a box where you’ll enter the title, author, date, and other information about your post. You can specify whether or not you want this file to be an <code>.Rmd</code> or a Markdown file (if you want it to include R code, choose <code>.Rmd</code>). After entering all the necessary information and clicking “Done,” the Add-in will create the file for you to edit it within the <code>/cloud/project/content/post</code> directory and name it in a consistent manner. This is where you will write your blog post!</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g40f38df3d0_0_201" alt="New Post Information" /></p>
 </div>
 <div id="projects-1" class="section level3" number="4.0.6">
 <h3><span class="header-section-number">4.0.6</span> Projects</h3>
 <p>Aside from including blog posts, you’ll also want to include information on projects you’ve worked on and completed in the projects section. By default, there are two projects included in <code>/cloud/project/content/project</code>. One is in the directory <code>internal-project</code>. The content for this post is included in<code>index.md</code>. The second is an <code>external-project</code> (meaning the content is hosted elsewhere on the Internet). The content here is again specified in the <code>index.md</code> file within this directory. We’ll remove this content from the site for now, but it’s good to note that it’s possible to include external projects on your site. Delete both directories.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g555823640f_0_149" alt="delete current projects" /></p>
 <p>Now, we’ll create a new project using the “Addins” approach we reviewed previously for creating new posts. Click on “Addins” at the top of RStudio. From the drop-down menu, select “New Post.” In the New Post box that appears, fill out the information as you see here:</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g555823640f_0_157" alt="New Project" /></p>
 <p>Be sure that “Subdirectory” is project (not post!), and select “project” from the “Archetype” menu. Specify that you want an .Rmd document. Once information is complete, click “Done.”</p>
 <p>A new file will appear within <code>/cloud/project/content/project</code> and this file will open up. You’ll see that it’s an empty RMarkdown document. It’s up to you to add in the text and code you used to analyze the ATUS Survey data in your final project.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_277" alt="Rmd document" /></p>
 <p>The skeleton for your project will then be visible on the preview of your website in the Projects section!</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g555823640f_0_163" alt="Projects preview" /></p>
 <p>But, what are those tags above your project? We’ll want to customize those as well!</p>
 <p>To do so, navigate to <code>/cloud/project/content/home</code> and open <code>projects.md</code>. Find the section of this file where you see <code>[[content.filter_button]]</code>. Leave the first filter alone, but edit the second filter to look for the tag “R” in your projects. The last one can be “Other” for now. Use the syntax you see here:</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_305" alt="Tags edit" /></p>
 <p>Note that these tags correspond to the tags specified in the YAML of your post. These filters will search for any projects with the specified tag. You can have more than three tags as you include more projects over time!</p>
 <p>Once these changes are saved, the new tags will be visible on your preview!</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_310" alt="Tags preview" /></p>
 <div id="website-tailoring" class="section level4" number="4.0.6.1">
 <h4><span class="header-section-number">4.0.6.1</span> Website Tailoring</h4>
 <p>Okay, we’ve done a lot, but there’s one last thing we want to do. At this point, it’s more important that future employers see the projects you’ve worked on than the blog posts you’ve written. Thus, we want projects to show up before posts.</p>
 <p>To do this we’ll edit the <code>weight</code> argument. Return to <code>posts.md</code> within <code>/cloud/project/content/home</code>. Toward the top, change <code>weight = 60</code> to <code>weight = 65</code>. Save these changes.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g40f38df3d0_0_3" alt="Projects weight" /></p>
 <p>Then, within <code>projects.md</code> within <code>/cloud/project/content/home</code>, change <code>weight = 65</code> to <code>weight = 60</code>. Save these changes.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_315" alt="Posts weight" /></p>
 <p>Recent posts will now be displayed <em>after</em> projects on your website:</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_321" alt="website preview" /></p>
 </div>
 </div>
 <div id="deployment" class="section level3" number="4.0.7">
 <h3><span class="header-section-number">4.0.7</span> Deployment</h3>
 <p>Your website is now ready for prime time. The only problem is it’s only visible on <em>your</em> RStudio Cloud project. So, we have to <strong>deploy</strong> your website. There are a number of different ways to do this, but we’re going to use the workflow with which we’re most familiar: GitHub Pages. This is how your website is currently deployed. Your current website is hosted on GitHub at <code>username.github.com</code> and the file structure should look something like what you see here:</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g3f121d3764_0_336" alt="old website GitHub repo" /></p>
 <p>We’re going to delete the current website and replace it with this updated website! To do so, within your current project on RStudio Cloud (where your new blogdown website files are), <strong>go to the Terminal</strong> and run the following…but replace <code>username</code> with <em>your</em> GitHub username:</p>
 <pre><code>git clone https://github.com/username/username.github.com.git</code></pre>
 <p>This will clone your current website repo into the RStudio Cloud project where your new website files are.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g40f38df3d0_0_24" alt="cloned repo" /></p>
 <p>Click on the directory of the repo where your old website contents are.</p>
 <p>Then, click on More and select “Show Hidden Files”</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g40f38df3d0_0_29" alt="Show Hidden Files" /></p>
 <p>Within this directory, you’ll see two hidden files <code>.git</code> and <code>.nojekyll</code>. Do <em>NOT</em> delete these files, but select everything else, and delete the files from your old website.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g40f38df3d0_0_68" alt="Delete most of your old website files" /></p>
 <p>Now, we’ll need to add all the <em>new</em> files! But, you should <em>NOT</em> add every file you just generated. You only want to add the contents of <code>/cloud/projects/public</code>. What’s great about <code>blogdown</code> is that every time <code>blogdown::serve_site()</code> runs and generates a new preview of your website, all the files needed to deploy your website are updated and added to <code>/cloud/projects/public</code>. Thus, everything you need to deploy your website is right there.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g40f38df3d0_0_34" alt="Move new website files from public" /></p>
 <p>Move all the files from <code>/cloud/projects/public</code> to the repository you just cloned (<code>username.github.com</code>) by selecting “Move…” from the “More” drop-down menu.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g40f38df3d0_0_38" alt="Select destination directory" /></p>
 <p>All of your new website files should be within the <code>username.github.com</code> directory.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g40f38df3d0_0_44" alt="new files within username.github.com" /></p>
 <p>We’re ready to push these changes to GitHub. To do so, change <code>username</code> in the code below to your GitHub username:</p>
 <pre><code>cd username.github.com
@@ -634,10 +634,10 @@ git commit -m &quot;Rmd to blogdown website&quot;
 git push</code></pre>
 <p>In this code, you’re changing your directory to the version controlled directory you just cloned. You’re then staging the files using <code>git add -A</code>, which will stage all new, modified <em>and</em> deleted files. You’re then committing these changes and pushing to GitHub.</p>
 <p>On GitHub, these changes will all be visible!</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g40f38df3d0_0_56" alt="GitHub changes" /></p>
 <p>And, when you go to <code>username.github.io</code>, you will be able to see all the changes you’ve made to make your website more professional! Awesome!</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/export/png?id=1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70&amp;pageid=g40f38df3d0_0_61" alt="blogdown website!" /></p>
 </div>
 <div id="additional-resources-3" class="section level3" number="4.0.8">

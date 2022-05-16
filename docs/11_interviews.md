@@ -2,12 +2,12 @@
 
 After applying to jobs, there's a waiting period. The company has to look over the application materials they've received and decide who amongst their applicant pool they want to interview. After they decide if you're one of the people they've decided to interview, they'll reach out to you via email or phone call. During this phone call or in this email they'll likely describe their interview process and schedule the next step. If they don't explain the interview process on this initial call, you should ask.
 
-{format: png}
+
 ![Understand the next steps](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&pageid=g409bf900b8_0_16)
 
 Before moving on, it's important to note that much of this lesson is based on [this post](http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/) from [Emily Robinson](http://hookedondata.org/about/), a data scientist at DataCamp. And, if you want to learn even more about the information in this lesson, read her entire post as well as the information in the other links provided at the end of this lesson!
 
-{format: png}
+
 ![Emily Robinson's Post](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&pageid=g409bf900b8_0_0)
 
 ### Pre-Interview Phone Calls
@@ -31,7 +31,7 @@ With a schedule of who you'll be meeting with or at least some idea of the struc
 
 For personality questions, practice by **answering questions out loud**. It's always best to practice interviews the way they would actually happen. Writing the answers down or thinking about them is a good start, but it's best to actually say them out loud to get more comfortable. These questions range from "Tell me about yourself" and "How did you get interested in data science?" to "What's your greatest strength" and "How would you handle a conflict with a colleague?"
 
-{format: png}
+
 ![Practice out loud](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&pageid=g409bf900b8_0_22)
 
 As for technical questions, there are *many* different ways companies assess technical skills. They may explain a technical issue out loud and ask how you would solve it. They may give you a take-home analysis (we'll discuss these in detail in the next lesson). They may have you live-code, meaning they may ask you to code in front of them. They may ask you to explain a concept (such as regression) to them. These are all fair game. Hopefully, with some idea as to the structure of the interview, you'll have some idea as to what to expect.
@@ -62,7 +62,7 @@ Practice answering questions out loud. Practice coding. Practice explaining tech
 
 Sometimes HR or others will ask you what salary you're looking for. Never volunteer your current salary or what you're looking to make. If this number you offer is lower than what they intended to offer you, you may be getting a lower salary than you would have otherwise. If you're asked to give a salary number say that you're interested in learning about the position, the company, and responsibilities of the job and would rather discuss salary later. If you're asked again, you can always offer a very big range based on industry standards but state that you're really most interested in making sure the fit is right for you and would rather consider the entire compensation package rather than salary alone.
 
-{format: png}
+
 ![Avoid giving a salary](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&pageid=g409bf900b8_0_36)
 
 #### Get Knowledge
@@ -71,7 +71,7 @@ In addition to practicing your responses and practicing how to avoid giving a sa
 
 In addition to company knowledge about the company, you also want to **know as much about the people you'll be meeting with as possible.** Check out their profiles on the company website, look at their Twitters, check their GitHub accounts, look for presentations they've given. Learn as much as you can about what each person does and have different questions ready for each individual. These questions can be about their experience at the company *or* about that individual's work -- if you listen to a presentation someone gave and have a question, you can ask that question!
 
-{format: png}
+
 ![Learn about the company & people](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&pageid=g409bf900b8_0_49)
 
 #### Ask Questions
@@ -95,7 +95,7 @@ Ultimately, you want to put your best foot forward, so if they say casual is fin
 
 At the end of the day, you want to be comfortable and look professional in whatever you wear. So, only wear clothing that you're comfortable in and that makes you feel good!
 
-{format: png}
+
 ![Feel good in what you're in](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&pageid=g409bf900b8_0_59)
 
 #### One-on-one Interviews
@@ -107,21 +107,21 @@ After the initial phone call(s) and once you're interviewing in person, you'll l
 
 While technical questions will be asked in one-on-one interviews, there should be some coding required during a data science interview. This may require live-coding where another person will sit with you and watch you code or it may be a take-home analysis. Regardless of the format, this is where you want to show off your technical skills! Live-coding can be intimidating, but do your best to relax and just complete the task at hand. As for take-home analyses, we'll spend more time discussing the details of these in the next lesson. While these may seem daunting, it's an important part of a data science interview. In fact, if the interview process doesn't require you to code at all, that may be a [red flag](http://hookedondata.org/Red-Flags-in-Data-Science-Interviews/) that the position is maybe not exactly what you thought it was.
 
-{format: png}
+
 ![Coding required](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&pageid=g409bf900b8_0_75)
 
 #### Communication
 
 In addition to learning about your background, interests, and technical skills, data science positions often require a lot of written and oral communication. As such, the interview may require you to generate a report or presentation using the results from the take-home analysis you did. Or, they may ask you to give a presentation on some of your past work. For this, prepare as much as possible. Practice your presentation if you're given time to prepare at home. Proofread your report carefully before sending it back to the company. Know that this is an important part of their assessment of you and do your best to communicate your analysis and findings
 
-{format: png}
+
 ![Effective communication](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&pageid=g409bf900b8_0_82)
 
 #### The End of the Interview
 
 At the end of your interview day (or two days), you'll likely be exhausted. Your brain will be mostly used up and you'll be excited about the position (if all went well!) but ready to go home. This is all normal. But, **one piece of information you'll want before leaving is what the next steps are**. You'll want to know whether or not you should expect to hear from them within the next two days, the next week, or if you should expect it to be longer than that. *Get this information.* If they don't tell you, it's ok to ask! It will bring you piece of mind during the waiting after the interview!.
 
-{format: png}
+
 ![Next steps](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&pageid=g409bf900b8_0_88)
 
 ### After The Interview
@@ -132,14 +132,14 @@ So, you've had the interview and now you're waiting to see if you'll get an offe
 
 While we're on the topic, **rejection is normal**. If you get rejected from a position or from many positions, know that data science is incredibly competitive. Everyone gets rejections. They aren't fun, especially if they come from a company and position that was really interesting and exciting to you, but know that they are normal. If you are emailed a rejection, handle it appropriately. It's ok to express disappointment "I was excited at the prospect of working with you all so I'm sorry to hear that" but always *thank them for their time and consideration*.
 
-{format: png}
+
 ![Rejection](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&pageid=g409bf900b8_0_94)
 
 #### The Offer
 
 However, it's not all gloom and doom! Sometimes, there's a job offer at the end of the waiting game. In these cases, the offer may come by either phone or email. However it comes, always respond with excitement and thanking the individual for providing you with the offer. **Never accept right away**. If the offer comes on the phone verbally, always **ask for the full offer in writing**. And, after being given the full offer, **always say that you need time to review it**. This will give you time to think about it fully and in detail. Additionally, this will give you time to negotiate.
 
-{format: png}
+
 ![Job Offer](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&pageid=g409bf900b8_0_100)
 
 If, after this conversation, you realize you're missing some details in the offer (health insurance, start date, etc.) you can ask for those details to have all the possible information you may need before responding to the offer.
@@ -148,7 +148,7 @@ If, after this conversation, you realize you're missing some details in the offe
 
 Once you have all the information you need to make a decision, it's time for negotiations. While some people enjoy this stage, many people don't. So, if you're uncomfortable negotiating, know that you're not alone and then **negotiate anyway**.
 
-{format: png}
+
 ![Negotiate](https://docs.google.com/presentation/d/13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI/export/png?id=13GoiYDh5LhD2WUJ_xqxKHxUBktXX8Rw-hBxA4sE-_UI&pageid=g409bf900b8_0_107)
 
 Tech companies anticipate negotiations. It is generally possible to get a 5-10% salary increase from the initial offer. Additionally, if stock options or a signing bonus are possibilities, these are also negotiable. Beyond money, there may be life benefits you're interested in. Maybe you need to leave early on Fridays or want an additional week in vacation. These are all the types of things you *can* ask for during negotiations. That said, you should think hard about what you actually would want or need in order to accept their offer. If you ask for more salary and the ability to work from home once a week and they give both to you, there is an expectation that you'll accept the offer. It would be in bad taste to come back with a new list of demands after they've already given you everything you initially asked for. Of course, you don't have to accept at this point, but only negotiate for a position you're actually considering accepting.

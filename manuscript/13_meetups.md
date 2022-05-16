@@ -6,17 +6,17 @@ A lesson on attending data science meetups is included in this course since thes
 
 Data Science Meetups in your area will generally be searchable on [Meetup.com](https://www.meetup.com/) and more specifically at [https://www.meetup.com/topics/data-science/](https://www.meetup.com/topics/data-science/). Data Science meetups are happening worldwide!
 
-{format: png}
+
 ![Data Science Meetups](https://docs.google.com/presentation/d/10vEVkFVYiMKK6XP3NBzfed_PocaLc0sJigmJJKVNzHw/export/png?id=10vEVkFVYiMKK6XP3NBzfed_PocaLc0sJigmJJKVNzHw&pageid=g3a45d4729b_0_0)
 
 If you sign up for an account on the site, Meetup.com will suggest groups for you to join and from upcoming meetups to attend!
 
-{format: png}
+
 ![Suggested groups](https://docs.google.com/presentation/d/10vEVkFVYiMKK6XP3NBzfed_PocaLc0sJigmJJKVNzHw/export/png?id=10vEVkFVYiMKK6XP3NBzfed_PocaLc0sJigmJJKVNzHw&pageid=g409eeb1eb3_0_8)
 
 If you find a meeting you're interested in going to at a time when you're free, you can let the organizers know you're going. Note that if you say you're going and later decide you won't be able to make it, be sure to go back in and change your response. It's not fair to organizers to have people say they're going and not be able to make it.
 
-{format: png}
+
 ![Attend a meetup](https://docs.google.com/presentation/d/10vEVkFVYiMKK6XP3NBzfed_PocaLc0sJigmJJKVNzHw/export/png?id=10vEVkFVYiMKK6XP3NBzfed_PocaLc0sJigmJJKVNzHw&pageid=g409eeb1eb3_0_13)
 
 ### What to Expect
