@@ -258,6 +258,6 @@ Carry out a data science project on your own about a topic you care about or fin
 
 ### Slides and Video
 
-![Project Gallery](https://www.youtube.com/watch?v=BoR_E2G9yTo)
+[Automated Videos](https://www.youtube.com/watch?v=BoR_E2G9yTo)
 
 * [Slides](https://docs.google.com/presentation/d/1iE2IIefyB93TZkQWCZN5FORTj02SvCHZPMoqv6A8ngI/edit?usp=sharing)
