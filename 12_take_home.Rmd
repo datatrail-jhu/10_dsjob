@@ -202,6 +202,6 @@ In this lesson, we've introduced the take-home data analysis that is a part of m
 
 ### Slides and Video
 
-![Practice Take-Home Data Analysis](https://www.youtube.com/watch?v=ggIH94LvRu8)
+[Automated Videos](https://www.youtube.com/watch?v=ggIH94LvRu8)
 
 * [Slides](https://docs.google.com/presentation/d/1TfGSuh2J-BqXJvqXRf-7548Lzr72eoYGny5R-Bb4n9w/edit?usp=sharing)
