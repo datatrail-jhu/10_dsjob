@@ -223,6 +223,6 @@ In this lesson we've discussed the basic parts of job descriptions and walked th
 
 ### Slides and Video
 
-![Data Science Job Descriptions](https://www.youtube.com/watch?v=PWwNPR5iDSw)
+[Automated Videos](https://www.youtube.com/watch?v=PWwNPR5iDSw)
 
 * [Slides](https://docs.google.com/presentation/d/1VOu82HOB5ngB-Mmc0Y2s__QIs0U5nSM4P7kniiQVBCw/edit?usp=sharing)

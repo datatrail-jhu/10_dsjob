@@ -509,6 +509,6 @@ And, when you go to `username.github.io`, you will be able to see all the change
 
 ### Slides and Video
 
-![Making Your Website More Professional](https://www.youtube.com/watch?v=BlcPPkQEbWw)
+[Automated Videos](https://www.youtube.com/watch?v=BlcPPkQEbWw)
 
 * [Slides](https://docs.google.com/presentation/d/1mIrb5R60b20WdUb2wjHstb1W0fky-DUgu_rW6yP0C70/edit?usp=sharing)
